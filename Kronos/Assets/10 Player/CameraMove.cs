@@ -33,7 +33,7 @@ public class CameraMove : MonoBehaviour
 
         gameObject.transform.position = new Vector3(
             Player.transform.position.x - playerForward.x * planeRange,
-            Mathf.Sin(angle / 180f) * radius,
+            Player.transform.position.y + Mathf.Sin(angle / 180f) * radius ,
             Player.transform.position.z - playerForward.z * planeRange
             );
 
