@@ -15,11 +15,11 @@ C:/Users/윤성재/Desktop/Kronos/Kronos2/Kronos
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54099
+54515
 Successfully changed project path to: C:/Users/윤성재/Desktop/Kronos/Kronos2/Kronos
 C:/Users/윤성재/Desktop/Kronos/Kronos2/Kronos
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 24.50 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 24.31 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,420 +35,105 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001832 seconds.
+Registered in 0.001994 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 25.69 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 25.91 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.534 seconds
+- Completed reload, in  1.526 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000656 seconds.
+Registered in 0.000704 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.690 seconds
+- Completed reload, in  0.675 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1083 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 60.5 MB.
-System memory in use after: 60.5 MB.
+System memory in use after: 60.6 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1526.
-Total: 1.795000 ms (FindLiveObjects: 0.141700 ms CreateObjectMapping: 0.028700 ms MarkObjects: 1.543700 ms  DeleteObjects: 0.079700 ms)
+Total: 1.649700 ms (FindLiveObjects: 0.132200 ms CreateObjectMapping: 0.027000 ms MarkObjects: 1.421100 ms  DeleteObjects: 0.068500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/20 Map/LowPolyDungeons/Materials/Dungeons_Light.mat
-  artifactKey: Guid(c51eb1892fd0bc143bad021218d13877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Materials/Dungeons_Light.mat using Guid(c51eb1892fd0bc143bad021218d13877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b26c90b4f27989a5e93309b7a7fb35b') in 0.109438 seconds
-  Import took 0.111435 seconds .
+  path: Assets/00 Scenes
+  artifactKey: Guid(a7d9ac9d0315f2742a55275151a42bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00 Scenes using Guid(a7d9ac9d0315f2742a55275151a42bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18df41d323825a48d0b54e354f1b2dd6') in 0.007867 seconds
+  Import took 0.009753 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/20 Map/LowPolyDungeons
-  artifactKey: Guid(685076ede41952045a4b30c10d0a6de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons using Guid(685076ede41952045a4b30c10d0a6de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df036f6fa589afed374e19e4fbdab18f') in 0.006343 seconds
-  Import took 0.008317 seconds .
+  Time since last request: 19.738913 seconds.
+  path: Assets/00 Scenes/aicle.unity
+  artifactKey: Guid(ddda88e22abc9d049a8d794431065389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00 Scenes/aicle.unity using Guid(ddda88e22abc9d049a8d794431065389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3e5a2c5c94bdef039c080da6709986') in 0.014649 seconds
+  Import took 0.016918 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Materials/Dungeons_BG.mat
-  artifactKey: Guid(34efce60d118cd24fbb987b8529e819a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Materials/Dungeons_BG.mat using Guid(34efce60d118cd24fbb987b8529e819a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf47bf62813281b6f173d2da53adc457') in 0.023517 seconds
-  Import took 0.025221 seconds .
+  Time since last request: 5.066947 seconds.
+  path: Assets/00 Scenes/corridor.unity
+  artifactKey: Guid(ddda88e22abc9d049a8d794431065389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00 Scenes/corridor.unity using Guid(ddda88e22abc9d049a8d794431065389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0919131f5c6aa16c346368ffde981d') in 0.006938 seconds
+  Import took 0.008835 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/20 Map/StairMaterial.physicMaterial
-  artifactKey: Guid(b9c1dfe352715ae44a4273e900378c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/StairMaterial.physicMaterial using Guid(b9c1dfe352715ae44a4273e900378c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8dae1a170ba26cac6e2a06829759b4') in 0.011456 seconds
-  Import took 0.013183 seconds .
+  Time since last request: 9.393021 seconds.
+  path: Assets/00 Scenes/TestScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00 Scenes/TestScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f960fe3c771c77a96ba219d5669151') in 0.008371 seconds
+  Import took 0.011090 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Materials/Dungeons_MAIN.mat
-  artifactKey: Guid(d08a0d1aba6bbce4b815d4bd76548e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Materials/Dungeons_MAIN.mat using Guid(d08a0d1aba6bbce4b815d4bd76548e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808c74168d1b8503bbce716f13045fd3') in 0.026573 seconds
-  Import took 0.028836 seconds .
+  Time since last request: 4.680536 seconds.
+  path: Assets/00 Scenes/corridor.unity
+  artifactKey: Guid(ddda88e22abc9d049a8d794431065389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00 Scenes/corridor.unity using Guid(ddda88e22abc9d049a8d794431065389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db92dc4fa8caf13e123d354513df82d') in 0.003263 seconds
+  Import took 0.005138 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/20 Map/WallMaterial.physicMaterial
-  artifactKey: Guid(bc8eed1b4e00c6e4bae81bdba2b2cd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/WallMaterial.physicMaterial using Guid(bc8eed1b4e00c6e4bae81bdba2b2cd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edfe37b561a8c2c1840e682f08440cf9') in 0.006860 seconds
-  Import took 0.008806 seconds .
+  Time since last request: 0.000579 seconds.
+  path: Assets/00 Scenes/corridor.unity
+  artifactKey: Guid(ddda88e22abc9d049a8d794431065389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00 Scenes/corridor.unity using Guid(ddda88e22abc9d049a8d794431065389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db92dc4fa8caf13e123d354513df82d') in 0.002943 seconds
+  Import took 0.004774 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/20 Map
-  artifactKey: Guid(de7af090eaadf48478e3c87682c6af19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map using Guid(de7af090eaadf48478e3c87682c6af19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0885b3525ac7b4df9f88d7315764f7dc') in 0.006861 seconds
-  Import took 0.008902 seconds .
+  Time since last request: 1511.356479 seconds.
+  path: Assets/10 Player/PlayerMaterial.physicMaterial
+  artifactKey: Guid(c196d30e6c932484b859831f14b8875c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/10 Player/PlayerMaterial.physicMaterial using Guid(c196d30e6c932484b859831f14b8875c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f12677f6603d70f9561300f7125efb') in 0.032094 seconds
+  Import took 0.034292 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Materials
-  artifactKey: Guid(bac6fce06f1f8ea439f729351789a7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Materials using Guid(bac6fce06f1f8ea439f729351789a7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ece08902069fcf6411be6a87537167') in 0.007045 seconds
-  Import took 0.008759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.984020 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Props/Light_01.prefab
-  artifactKey: Guid(c25a5e308b3765f4789dcd9426ef1f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Props/Light_01.prefab using Guid(c25a5e308b3765f4789dcd9426ef1f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466fc5e70a828bfab2b11e4d27c7195e') in 0.026936 seconds
-  Import took 0.029005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.986739 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Weapons
-  artifactKey: Guid(569c196fc6fc889478edc9710f0261d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Weapons using Guid(569c196fc6fc889478edc9710f0261d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b60ce2b4fe2f0c169283bace29d824a1') in 0.006489 seconds
-  Import took 0.008526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.035280 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Weapons/BlacksmithHammer_01.prefab
-  artifactKey: Guid(5edc4be595607e14880d1a821b980461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Weapons/BlacksmithHammer_01.prefab using Guid(5edc4be595607e14880d1a821b980461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0e05da694b929fa2d9661c47e54542') in 0.023821 seconds
-  Import took 0.025853 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Weapons/Shield_04.prefab
-  artifactKey: Guid(3fb45e93e2eaa2b489065d2a6a4371b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Weapons/Shield_04.prefab using Guid(3fb45e93e2eaa2b489065d2a6a4371b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b756378c79f470c9e2694b4da891c3') in 0.019027 seconds
-  Import took 0.020676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Weapons/Weapon_03.prefab
-  artifactKey: Guid(e3a57f664f8068a4aadd6f5991fce783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Weapons/Weapon_03.prefab using Guid(e3a57f664f8068a4aadd6f5991fce783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9a18e6762ac022df242c2ae7c04956') in 0.023949 seconds
-  Import took 0.025642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Weapons/Shield_01.prefab
-  artifactKey: Guid(ffd3074190562184099611cd0c3b220d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Weapons/Shield_01.prefab using Guid(ffd3074190562184099611cd0c3b220d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0796ed55b8e17822b7d7b06888877f') in 0.024339 seconds
-  Import took 0.026165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Weapons/Shield_02.prefab
-  artifactKey: Guid(e4091868ff2573b40a7e3e3136fab87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Weapons/Shield_02.prefab using Guid(e4091868ff2573b40a7e3e3136fab87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e125ec7155385dd7b33abfabc4230a') in 0.026778 seconds
-  Import took 0.028460 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Weapons/Weapon_06.prefab
-  artifactKey: Guid(0b8b61c4ee4cdb944ae88edadf5a3df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Weapons/Weapon_06.prefab using Guid(0b8b61c4ee4cdb944ae88edadf5a3df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e8995ef8c737afa5b83a4da541c662') in 0.023802 seconds
-  Import took 0.025553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Weapons/Weapon_01.prefab
-  artifactKey: Guid(10f06e6c1e127614fbeabc2533bac486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Weapons/Weapon_01.prefab using Guid(10f06e6c1e127614fbeabc2533bac486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e013a22290db27e12802d3a9e6d2436f') in 0.025132 seconds
-  Import took 0.027102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Weapons/Weapon_02.prefab
-  artifactKey: Guid(c58e18c3e7101a149bce999a331d2c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Weapons/Weapon_02.prefab using Guid(c58e18c3e7101a149bce999a331d2c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf241ed87d84355ec5fa43957a6ed13') in 0.023754 seconds
-  Import took 0.025570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Weapons/Shield_03.prefab
-  artifactKey: Guid(0801becaab8e12245b097854c2d2d499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Weapons/Shield_03.prefab using Guid(0801becaab8e12245b097854c2d2d499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb25491e7574d0bfeb827cf896bf580') in 0.023723 seconds
-  Import took 0.025511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Weapons/Weapon_04.prefab
-  artifactKey: Guid(66ce283ec060da34e85aab983e04674d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Weapons/Weapon_04.prefab using Guid(66ce283ec060da34e85aab983e04674d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e139abfb8aa07d062e31979508302b') in 0.025382 seconds
-  Import took 0.027145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Weapons/Weapon_05.prefab
-  artifactKey: Guid(2a0b9f1f18d25e34489cf367b13a2bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Weapons/Weapon_05.prefab using Guid(2a0b9f1f18d25e34489cf367b13a2bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d96c1a0fd0e45dcdfc8dacc28a2d7f') in 0.026890 seconds
-  Import took 0.028628 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Weapons/Weapon_04.prefab
-  artifactKey: Guid(66ce283ec060da34e85aab983e04674d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Weapons/Weapon_04.prefab using Guid(66ce283ec060da34e85aab983e04674d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e139abfb8aa07d062e31979508302b') in 0.008570 seconds
-  Import took 0.010371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.080647 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Gold
-  artifactKey: Guid(869a8b866d0faa542bfd170860278b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Gold using Guid(869a8b866d0faa542bfd170860278b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f97694e253e3e8d11d21aea630c4d5') in 0.006215 seconds
-  Import took 0.008174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.042456 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Chest_01.prefab
-  artifactKey: Guid(51f7a22a45406964c8a6a01ce9c5bf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Chest_01.prefab using Guid(51f7a22a45406964c8a6a01ce9c5bf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea268a8930ce88ef190f18fc5da47ba5') in 0.029024 seconds
-  Import took 0.031079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Chest_03.prefab
-  artifactKey: Guid(65581937fc5b5f74c8774805bbd9cf92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Chest_03.prefab using Guid(65581937fc5b5f74c8774805bbd9cf92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4259cc043e3be13c720dc0e4bc3135') in 0.023824 seconds
-  Import took 0.025611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Coin_04.prefab
-  artifactKey: Guid(4349540e765ef284f9aecd0932ea6d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Coin_04.prefab using Guid(4349540e765ef284f9aecd0932ea6d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c1575cfcdbec70ad93318a0e03774e') in 0.018122 seconds
-  Import took 0.019870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Diamond_01.prefab
-  artifactKey: Guid(ef3a94d51636ad84cac71115711a0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Diamond_01.prefab using Guid(ef3a94d51636ad84cac71115711a0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98cd5a8b4195996e9e8d59dcb011a97e') in 0.019368 seconds
-  Import took 0.021156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Coin_02.prefab
-  artifactKey: Guid(93f65a902ba32e14cb4ea3272a978b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Coin_02.prefab using Guid(93f65a902ba32e14cb4ea3272a978b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d8e149379701b2cb7e1e01f686f7c6') in 0.023714 seconds
-  Import took 0.025555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Ring_01.prefab
-  artifactKey: Guid(01a709ed5519e884a914f857d168111a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Ring_01.prefab using Guid(01a709ed5519e884a914f857d168111a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb5dc4974a51bce68bdf198373b8536') in 0.023471 seconds
-  Import took 0.025340 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Crystal_04.prefab
-  artifactKey: Guid(c6859c6e96cc05f43a0ad898cb689f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Crystal_04.prefab using Guid(c6859c6e96cc05f43a0ad898cb689f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be28235e786db80126dfe008bda83797') in 0.022346 seconds
-  Import took 0.024427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Crystal_03.prefab
-  artifactKey: Guid(7f2ce93b5248a1a4fb41b5b8d004be92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Crystal_03.prefab using Guid(7f2ce93b5248a1a4fb41b5b8d004be92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4d4709a12ffdb49fdcf10a00075031') in 0.022681 seconds
-  Import took 0.024498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Wineglass_01.prefab
-  artifactKey: Guid(7f6ab31db00d0b347905a6495c69ae3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Wineglass_01.prefab using Guid(7f6ab31db00d0b347905a6495c69ae3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d296ed83e889b1293b9bc3aef1dfd5') in 0.024213 seconds
-  Import took 0.025921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Coin_05.prefab
-  artifactKey: Guid(f9ab237ab5a30e14d9ca238e3d2ec8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Coin_05.prefab using Guid(f9ab237ab5a30e14d9ca238e3d2ec8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed00a25cf58d582c1b14fe030987a603') in 0.023490 seconds
-  Import took 0.025255 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Key.prefab
-  artifactKey: Guid(da9f90ac9d94a8649aa9479c8b62b155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Key.prefab using Guid(da9f90ac9d94a8649aa9479c8b62b155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4dd56e0cec84aab2a8d191f32c3a07a') in 0.024148 seconds
-  Import took 0.025845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Crown_01.prefab
-  artifactKey: Guid(462744d4504c94f40890a6592a874f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Crown_01.prefab using Guid(462744d4504c94f40890a6592a874f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03febc180b0bf9b9161e2bde3455440b') in 0.026298 seconds
-  Import took 0.028054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Telescope_01.prefab
-  artifactKey: Guid(1f7e7e9cb4b8d8f4cbe0192b9e2f0cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Telescope_01.prefab using Guid(1f7e7e9cb4b8d8f4cbe0192b9e2f0cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd571213bfaa3ba610d07cc5332da043') in 0.023562 seconds
-  Import took 0.025299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Crystal_02.prefab
-  artifactKey: Guid(c88d4408ff672f145b9eb5ff9f99aed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Crystal_02.prefab using Guid(c88d4408ff672f145b9eb5ff9f99aed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a668ea2d70f05def3818f950967cdd6') in 0.026125 seconds
-  Import took 0.027971 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Crystal_06.prefab
-  artifactKey: Guid(ef36fe1544d74d74e9fc870a473eea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Crystal_06.prefab using Guid(ef36fe1544d74d74e9fc870a473eea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54db617fb229005a33eaa424307933c') in 0.024960 seconds
-  Import took 0.026791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Coin_03.prefab
-  artifactKey: Guid(beccfc1adb40c10488d48545838a63a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Coin_03.prefab using Guid(beccfc1adb40c10488d48545838a63a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423e6b503c6dca053e8ad82ee5b4f1b8') in 0.021971 seconds
-  Import took 0.023725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Coin_01.prefab
-  artifactKey: Guid(ccf0a486c3d6dd74bb736b126da85f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Coin_01.prefab using Guid(ccf0a486c3d6dd74bb736b126da85f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d41b320da04911e23cad083152e4cec') in 0.025561 seconds
-  Import took 0.027644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Crystal_05.prefab
-  artifactKey: Guid(6c800cd87e5ade3419c391c5c825b6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Crystal_05.prefab using Guid(6c800cd87e5ade3419c391c5c825b6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5bc18bc620073279d0c7319eaf8be49') in 0.023401 seconds
-  Import took 0.025149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Crystal_01.prefab
-  artifactKey: Guid(c0ed2a71608d12c47b4a8b698ddd42df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Crystal_01.prefab using Guid(c0ed2a71608d12c47b4a8b698ddd42df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '224ef1c3b48a840c8b70a01bf736252e') in 0.023143 seconds
-  Import took 0.024936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Diamond_02.prefab
-  artifactKey: Guid(7208fbcef2b46784daf83255ae345618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Diamond_02.prefab using Guid(7208fbcef2b46784daf83255ae345618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3642eb0a8b61c09202e7ba1f933ef6') in 0.023195 seconds
-  Import took 0.025049 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Chest_02.prefab
-  artifactKey: Guid(497567d2d3552b941897169aa1c15b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Chest_02.prefab using Guid(497567d2d3552b941897169aa1c15b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ed4c736437ad4b160e846354fedb69') in 0.028400 seconds
-  Import took 0.030404 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Diamond_03.prefab
-  artifactKey: Guid(bb49e5307babedb4bbdc0a8115c76b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Gold/Diamond_03.prefab using Guid(bb49e5307babedb4bbdc0a8115c76b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a4addf25d9d4e447df3735f08a76f1') in 0.025792 seconds
-  Import took 0.027506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.508428 seconds.
-  path: Assets/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_14.prefab
-  artifactKey: Guid(edf30fd4df9ef1b44a1cf42f06248129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_14.prefab using Guid(edf30fd4df9ef1b44a1cf42f06248129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec1663c0e633fb16c7b591339010b39') in 0.018543 seconds
-  Import took 0.020559 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 43.0 MB.
-System memory in use after: 43.1 MB.
-
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1566.
-Total: 1.982000 ms (FindLiveObjects: 0.147600 ms CreateObjectMapping: 0.026200 ms MarkObjects: 1.747900 ms  DeleteObjects: 0.059200 ms)
+  Time since last request: 4.701960 seconds.
+  path: Assets/00 Scenes/corridor.unity
+  artifactKey: Guid(ddda88e22abc9d049a8d794431065389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00 Scenes/corridor.unity using Guid(ddda88e22abc9d049a8d794431065389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a27afb302b6d7a4e2ca32cb205a9c1') in 0.003600 seconds
+  Import took 0.005502 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
