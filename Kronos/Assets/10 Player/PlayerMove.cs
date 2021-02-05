@@ -29,8 +29,11 @@ public class PlayerMove : MonoBehaviour
         MouseRotation();
         if(canMove)
             KeyboardMove();
+        PlayerMoveBase();
         Jump();
         Attack();
+        Defend();
+        Roll();
         
     }
 
@@ -86,6 +89,15 @@ public class PlayerMove : MonoBehaviour
         }
     }
 
+    void PlayerMoveBase()
+    {
+        // 입력 없으면 속도 감소
+        rigidbody.velocity = new Vector3(rigidbody.velocity.x * 0.97f,
+            rigidbody.velocity.y,
+            rigidbody.velocity.z * 0.97f);
+
+    }
+
     void MouseRotation()
         /*
          * 마우스 수평 움직임으로 캐릭터 회전
@@ -97,9 +109,12 @@ public class PlayerMove : MonoBehaviour
     }
 
     void KeyboardMove()
-    /*
-     * WASD 키로 캐릭터 (수평좌표) 움직임
-     */
+        /*
+         * WASD 키로 캐릭터 (수평좌표) 움직임
+         * 1 = 전진
+         * 2 = 좌, 3 = 우로 걷기
+         * 4 = 후진
+         */
     {
         // 전후 이동에 관한...
         float forceForward = 0f;
@@ -172,15 +187,15 @@ public class PlayerMove : MonoBehaviour
             rigidbody.AddForce(playerRight * speedRate * forceRight * Time.deltaTime);
         }
 
-
-        // 입력 없으면 속도 감소
-        rigidbody.velocity = new Vector3(rigidbody.velocity.x * 0.97f,
-            rigidbody.velocity.y,
-            rigidbody.velocity.z * 0.97f);
-        
     }
 
     void Jump()
+        /*
+         * space 키로 점프
+         * 10 = 점프 시작 -> 점프 업
+         * 11 = 점프 다운
+         * 12 = 착지
+         */
     {
         if(Input.GetKeyDown(KeyCode.Space) && canJump)
         {
@@ -197,6 +212,9 @@ public class PlayerMove : MonoBehaviour
     }
 
     void MoveWithAttack(Vector3 playerForward)
+        /*
+         * 공격 중 앞/뒤 방향키를 입력, 공격 중 움직이는 힘을 조절
+         */
     {
         // 공격 중 움직임을 더함
         if (Input.GetKey(KeyCode.W))
@@ -213,6 +231,10 @@ public class PlayerMove : MonoBehaviour
     }
 
     void Attack()
+        /*
+         * 좌클릭으로 기본공격
+         * act 20~22 : 각각 기본공격 1타~3타
+         */
     {
         if(animator.GetInteger("act") >=20 && animator.GetInteger("act") <= 22 && animator.GetCurrentAnimatorStateInfo(0).normalizedTime < 1f)
         {
@@ -282,4 +304,113 @@ public class PlayerMove : MonoBehaviour
             canMove = true;
         }
     }
+
+    void Defend()
+        /*
+         * 우클릭으로 방어
+         * 30 : 방어
+         */
+    {
+
+        // 우클릭 유지 = 방어 유지
+        if(Input.GetMouseButtonDown(1) && animator.GetInteger("act") <=5 )
+        {
+            animator.SetInteger("act", 30);
+            canMove = false;
+            canJump = false;
+            canAttack = false;
+        }
+
+        if(animator.GetInteger("act") == 30 && !Input.GetMouseButton(1))
+        {
+            animator.SetInteger("act", 0);
+            animator.Play("Idle_Battle");
+            canMove = true;
+            canJump = true;
+            canAttack = true;
+        }
+
+
+    }
+
+    void Roll()
+        /*
+         * Shift로 구르기
+         * 40 이상 70 미만
+         * (+1) : 앞으로, (+4) 왼쪽으로, (+9) 오른쪽으로, (+16) 뒤로
+         * 대각선은 두 숫자의 합
+         */
+    {
+        if(canMove && canJump && Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            Vector3 playerFront = gameObject.transform.forward;
+            Vector3 playerRight = gameObject.transform.right;
+            playerFront.y = 0;
+            playerRight.y = 0;
+            playerFront = playerFront.normalized;
+            playerRight = playerRight.normalized;
+
+            rigidbody.velocity = new Vector3(0, 0, 0);
+            float frontForce = 0;
+            float rightForce = 0;
+
+            int rollDir = 0;
+
+            // 입력에 따른 방향 계산
+            // 좌우
+            if(Input.GetKey(KeyCode.A))
+            {
+                rollDir += 4;
+                rightForce = -30000;
+            }
+            else if (Input.GetKey(KeyCode.D))
+            {
+                rollDir += 9;
+
+                rightForce = 30000;
+            }
+            // 전후
+            if (Input.GetKey(KeyCode.S))
+            {
+                rollDir += 16;
+                frontForce = -30000;
+            }
+            else if (Input.GetKey(KeyCode.W))
+            {
+                rollDir += 1;
+                frontForce = 30000;
+            }
+
+            if(frontForce != 0 && rightForce != 0)
+            {
+                frontForce /= Mathf.Sqrt(2);
+                rightForce /= Mathf.Sqrt(2);
+            }
+
+            // 애니메이션 및 물리 적용
+            if (!(frontForce == 0 && rightForce == 0))
+            {
+                canMove = false;
+                canAttack = false;
+                canJump = false;
+
+                animator.SetInteger("act", 40 + rollDir);
+                rigidbody.AddForce(playerFront * frontForce);
+                rigidbody.AddForce(playerRight * rightForce);
+            }
+
+        }
+
+        else if(animator.GetInteger("act") >= 40 && animator.GetInteger("act") <= 70
+            && animator.GetCurrentAnimatorStateInfo(0).IsName("Roll_end"))
+        {
+            canMove = true;
+            canAttack = true;
+            canJump = true;
+
+            animator.SetInteger("act", 0);
+        }
+
+    }
+
 }
