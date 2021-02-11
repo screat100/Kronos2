@@ -12,6 +12,9 @@ public class PlayerMove : MonoBehaviour
     bool canMove = true;
     bool canAttack = true;
 
+    //공격 관련
+    [System.NonSerialized]
+    public bool SwordSlashAttack;
     Animator animator;
 
     void Start()
