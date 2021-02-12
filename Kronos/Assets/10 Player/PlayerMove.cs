@@ -12,6 +12,13 @@ public class PlayerMove : MonoBehaviour
     bool canMove = true;
     bool canAttack = true;
 
+    // 쿨타임 관련
+    float rollCoolTime = 1.5f;
+    float remainRollCoolTime = 0f;
+    float remainQSkillCool = 0f;
+    float remainESkillCool = 0f;
+
+
     //공격 관련
     [System.NonSerialized]
     public bool SwordSlashAttack;
@@ -30,13 +37,25 @@ public class PlayerMove : MonoBehaviour
     void Update()
     {
         MouseRotation();
+
         if(canMove)
             KeyboardMove();
+
         PlayerMoveBase();
+
         Jump();
+
         Attack();
+
         Defend();
+
         Roll();
+
+        Interaction();
+
+        QSkill();
+
+        ESkill();
         
     }
 
@@ -222,14 +241,14 @@ public class PlayerMove : MonoBehaviour
         // 공격 중 움직임을 더함
         if (Input.GetKey(KeyCode.W))
         {
-            rigidbody.AddForce(playerForward * 7500);
+            rigidbody.AddForce(playerForward * 22500);
         }
 
         else if (Input.GetKey(KeyCode.S)) { }
 
         else
         {
-            rigidbody.AddForce(playerForward * 1500);
+            rigidbody.AddForce(playerForward * 7500);
         }
     }
 
@@ -344,7 +363,10 @@ public class PlayerMove : MonoBehaviour
          * 대각선은 두 숫자의 합
          */
     {
-        if(canMove && canJump && Input.GetKeyDown(KeyCode.LeftShift))
+        remainRollCoolTime -= Time.deltaTime;
+
+
+        if (canMove && canJump && Input.GetKeyDown(KeyCode.LeftShift) && remainRollCoolTime <= 0f)
         {
             Vector3 playerFront = gameObject.transform.forward;
             Vector3 playerRight = gameObject.transform.right;
@@ -400,6 +422,8 @@ public class PlayerMove : MonoBehaviour
                 animator.SetInteger("act", 40 + rollDir);
                 rigidbody.AddForce(playerFront * frontForce);
                 rigidbody.AddForce(playerRight * rightForce);
+
+                remainRollCoolTime = rollCoolTime;
             }
 
         }
@@ -415,5 +439,45 @@ public class PlayerMove : MonoBehaviour
         }
 
     }
+
+    void Interaction()
+        /*
+         * F키로 상호작용
+         */
+    {
+        if(Input.GetKeyDown(KeyCode.F))
+        {
+
+
+
+        }
+    }
+
+    void QSkill()
+    /*
+     * Q키로 스킬1 사용
+     */
+    {
+        if (Input.GetKeyDown(KeyCode.Q) && remainQSkillCool <= 0)
+        {
+
+
+
+        }
+    }
+
+    void ESkill()
+    /*
+     * E키로 스킬2 사용
+     */
+    {
+        if (Input.GetKeyDown(KeyCode.E) && remainESkillCool <= 0)
+        {
+
+
+
+        }
+    }
+
 
 }
