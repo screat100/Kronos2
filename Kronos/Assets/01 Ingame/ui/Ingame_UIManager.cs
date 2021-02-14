@@ -28,9 +28,9 @@ public class Ingame_UIManager : MonoBehaviour
         RemainTime_Slider.GetComponent<Image>().fillAmount = PlayerStatus.timeRemain / PlayerStatus.timeMax;
         RemainTime_text.GetComponent<Text>().text = remainTime.ToString();
 
-        HP_Slider.GetComponent<Image>().fillAmount = PlayerStatus.HP / PlayerStatus.HPMax;
+        //HP_Slider.GetComponent<Image>().fillAmount = PlayerStatus.HP / PlayerStatus.HPMax;
 
-        Stamina_Slider.GetComponent<Image>().fillAmount = PlayerStatus.Stamina / PlayerStatus.StaminaMax;
+        //Stamina_Slider.GetComponent<Image>().fillAmount = PlayerStatus.Stamina / PlayerStatus.StaminaMax;
 
 
     }
