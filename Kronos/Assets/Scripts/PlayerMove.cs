@@ -433,7 +433,7 @@ public class PlayerMove : MonoBehaviour
         }
 
         else if(animator.GetInteger("Input") >= 40 && animator.GetInteger("Input") <= 70
-            && animator.GetCurrentAnimatorStateInfo(0).IsName("Roll_end"))
+            && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.85f)
         {
             _playerState = PlayerState.Idle;
             animator.SetInteger("Input", 0);
