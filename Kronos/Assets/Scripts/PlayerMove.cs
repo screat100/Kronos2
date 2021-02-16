@@ -79,8 +79,6 @@ public class PlayerMove : MonoBehaviour
     }
 
 
-
-
     void PlayerMoveBase()
     {
         // 입력 없으면 속도 감소
@@ -188,6 +186,16 @@ public class PlayerMove : MonoBehaviour
 
     }
 
+    void OnWalkEvent()
+        /*
+         * KeyboardMove 애니메이션 중 호출하는 함수
+         * - 걷기 사운드 재생
+         */
+    {
+
+    }
+
+
     void Jump()
         /*
          * space 키로 점프
@@ -251,7 +259,7 @@ public class PlayerMove : MonoBehaviour
 
     void Attack()
         /*
-         * 좌클릭으로 기본공격
+         * 좌클릭 입력을 감지해 기본공격 애니메이션 및 움직임 재생
          * Input 20~22 : 각각 기본공격 1타~3타
          */
     {
@@ -327,6 +335,36 @@ public class PlayerMove : MonoBehaviour
             animator.SetInteger("Input", 0);
             _playerState = PlayerState.Idle;
         }
+    }
+
+    void OnAttack1Event()
+        /*
+         * 기본공격 1타 애니메이션에서 호출하는 함수
+         * - 공격 사운드 재생
+         * - 공격 이펙트 발생
+         */
+    {
+
+    }
+
+    void OnAttack2Event()
+        /*
+         * 기본공격 2타 애니메이션에서 호출하는 함수
+         * - 공격 사운드 재생
+         * - 공격 이펙트 발생
+         */
+    {
+
+    }
+
+    void OnAttack3Event()
+        /*
+         * 기본공격 3타 애니메이션에서 호출하는 함수
+         * - 공격 사운드 재생
+         * - 공격 이펙트 발생
+         */
+    {
+
     }
 
     void Defend()
@@ -432,14 +470,24 @@ public class PlayerMove : MonoBehaviour
 
         }
 
-        else if(animator.GetInteger("Input") >= 40 && animator.GetInteger("Input") <= 70
-            && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.85f)
-        {
-            _playerState = PlayerState.Idle;
-            animator.SetInteger("Input", 0);
-        }
 
     }
+
+    void OnRoll()
+    {
+
+    }
+
+    void RollEnd()
+        /*
+         * 구르기가 끝나면 애니메이션에서 호출하는 함수
+         */
+    {
+        _playerState = PlayerState.Idle;
+        animator.SetInteger("Input", 0);
+    }
+
+
 
     void Interaction()
         /*
