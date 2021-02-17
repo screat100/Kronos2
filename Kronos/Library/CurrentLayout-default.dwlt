@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Project
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -71,10 +71,10 @@ MonoBehaviour:
     y: 0
     width: 1102
     height: 947
-  m_MinSize: {x: 200, y: 321}
-  m_MaxSize: {x: 4001, y: 8021}
+  m_MinSize: {x: 201, y: 342}
+  m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 81
+  controlID: 39
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -97,7 +97,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -150,10 +150,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 708, y: 492}
+  m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 123
+  controlID: 184
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 124
+  controlID: 105
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -246,8 +246,8 @@ MonoBehaviour:
     y: 0
     width: 437
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -272,8 +272,8 @@ MonoBehaviour:
     y: 0
     width: 381
     height: 417
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -341,14 +341,14 @@ MonoBehaviour:
     - {fileID: 5660383787800641712, guid: b1a0b72edc0d80443b356a67e035087f, type: 2}
     - {fileID: -1336833611768341271, guid: b1a0b72edc0d80443b356a67e035087f, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.97663474
+    - e00: 0.757911
       e01: 0
       e02: 0
-      e03: 126.962524
+      e03: 248.94318
       e10: 0
-      e11: 0.97663474
+      e11: 0.757911
       e12: 0
-      e13: 177.67169
+      e13: 118.11165
       e20: 0
       e21: 0
       e22: 1
@@ -357,14 +357,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 1.0542343
+    - e00: 0.7616843
       e01: 0
       e02: 0
-      e03: 4.32428
+      e03: 158.52426
       e10: 0
-      e11: 1.0542343
+      e11: 0.7616843
       e12: 0
-      e13: 160.58035
+      e13: 171.5193
       e20: 0
       e21: 0
       e22: 1
@@ -560,36 +560,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources/Effect/Epic Toon FX/Models
+    - Assets/Scripts/Managers
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Resources/Effect/Epic Toon FX/Models
+  - Assets/Scripts/Managers
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Seongjae Yoon\Desktop\MonsterHunterSoldier\Kronos2\Kronos
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8c5c0000
-    m_LastClickedID: 23692
-    m_ExpandedIDs: 000000001a4600001c4600001e46000020460000224600002446000026460000284600002a4600002c460000ae490000125e000000ca9a3b
+    m_SelectedIDs: 7c460000
+    m_LastClickedID: 18044
+    m_ExpandedIDs: 0000000036460000384600003a4600003c4600003e460000404600004246000044460000464600008246000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Resources
-      m_OriginalName: Resources
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 17962
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_SearchString: 
@@ -603,7 +603,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001a4600001c4600001e46000020460000224600002446000026460000284600002a4600002c460000
+    m_ExpandedIDs: 0000000036460000384600003a4600003c4600003e46000040460000424600004446000046460000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -634,18 +634,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c62300002c5900001c3e00004a100000543e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Effect
-      m_OriginalName: Effect
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 18862
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_CreateAssetUtility:
@@ -892,9 +892,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 8c5c0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: f4f9ffff
+      m_ExpandedIDs: 2afbffff463d0000fa3e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
