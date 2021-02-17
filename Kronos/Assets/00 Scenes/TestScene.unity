@@ -7287,6 +7287,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2364272789760295204, guid: d5660faf22c82dc4d876cd407312d62d, type: 3}
   m_PrefabInstance: {fileID: 2035078707}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1333935398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1333935399}
+  m_Layer: 0
+  m_Name: '@Effect'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1333935399
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333935398}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.1023636, y: -1.5767117, z: 7.8985715}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1340126672
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8063,6 +8093,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 165bee02a7328d744acb1744db2e62c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attack1Effect: {fileID: 546435253646771656, guid: eb09ad9ea09363743bf906706f2cfcc4, type: 3}
+  attack2Effect: {fileID: 2837627796770272532, guid: 150b000c286053b49b57b8af70ad3191, type: 3}
+  attack3Effect: {fileID: 4660243928936211008, guid: a11e4d532319696459248597a0c1660e, type: 3}
   _playerState: 0
 --- !u!54 &1480337644
 Rigidbody:

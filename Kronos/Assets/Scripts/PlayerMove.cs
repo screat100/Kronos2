@@ -9,6 +9,15 @@ public class PlayerMove : MonoBehaviour
     private Rigidbody rigidbody;
     float maxSpeed = 5f;
 
+    [SerializeField]
+    GameObject attack1Effect;
+
+    [SerializeField]
+    GameObject attack2Effect;
+
+    [SerializeField]
+    GameObject attack3Effect;
+
     enum PlayerState
     {
         Die,
@@ -344,7 +353,17 @@ public class PlayerMove : MonoBehaviour
          * - 공격 이펙트 발생
          */
     {
+        GameObject attack1_effect = GameObject.Instantiate(attack1Effect);
 
+        Vector3 effectPos = gameObject.transform.position;
+        effectPos += 0.33f*gameObject.transform.up + 0.5f*gameObject.transform.right;
+        attack1_effect.transform.position = effectPos;
+
+        attack1_effect.transform.rotation = gameObject.transform.rotation;
+        attack1_effect.transform.Rotate(0, -100, 0);
+        attack1_effect.transform.parent = GameObject.Find("@Effect").transform;
+
+        Destroy(attack1_effect, 1f);
     }
 
     void OnAttack2Event()
@@ -354,7 +373,13 @@ public class PlayerMove : MonoBehaviour
          * - 공격 이펙트 발생
          */
     {
+        GameObject attack2_effect = GameObject.Instantiate(attack2Effect);
+        attack2_effect.transform.position = gameObject.transform.position + 0.66f*gameObject.transform.up;
+        attack2_effect.transform.rotation = gameObject.transform.rotation;
+        attack2_effect.transform.Rotate(90, 0, 0);
+        attack2_effect.transform.parent = GameObject.Find("@Effect").transform;
 
+        Destroy(attack2_effect, 1f);
     }
 
     void OnAttack3Event()
@@ -364,7 +389,16 @@ public class PlayerMove : MonoBehaviour
          * - 공격 이펙트 발생
          */
     {
+        GameObject attack3_effect = GameObject.Instantiate(attack3Effect);
 
+        Vector3 effectPos = gameObject.transform.position;
+        effectPos += 0.33f*gameObject.transform.right + 0.5f*gameObject.transform.up;
+        attack3_effect.transform.position = effectPos;
+
+        attack3_effect.transform.rotation = gameObject.transform.rotation;
+        attack3_effect.transform.parent = GameObject.Find("@Effect").transform;
+
+        Destroy(attack3_effect, 1f);
     }
 
     void Defend()
