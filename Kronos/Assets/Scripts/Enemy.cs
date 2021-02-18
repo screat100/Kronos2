@@ -4,67 +4,64 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [System.NonSerialized]
-    public bool SwordSlashHitCheck;
-    [System.NonSerialized]
-    public static bool SwordSlashAttack;
+
+    public int MonsterMaxHP = 100;
+    public int MonsterHP;
+    public float MonsterShield;
 
 
-    public float MonsterMaxHP = 100;
 
-    [System.NonSerialized]
-    public float MonsterHP;
-
-    GameObject player;
-    // Start is called before the first frame update
-    void Awake()
-    {
-        player = GameObject.FindGameObjectWithTag("Player");
-        MonsterHP = MonsterMaxHP; //초기 hp 설정
-    }
     void Start()
     {
-        
+        MonsterHP = MonsterMaxHP; //초기 hp 설정
     }
 
-    // Update is called once per frame
-    void Update()
+
+
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.transform.tag == "PlayerEffect")
+        {
+            float damage = other.GetComponent<PlayerDamage>().CalculatedDamage();
+            ApplyDamage(damage);
+            StartCoroutine(GameObject.Find("Player").GetComponent<PlayerMove>().AttackRigidy(0.05f));
+        }
     }
 
-    void OnTriggerStay(Collider col)
-    {
-        receiveDamage(col); //데미지 적용하는 함수
-    }
 
-    void receiveDamage(Collider obj)
+    public void ApplyDamage(float damage)
         /*
          * 몬스터가 받는 데미지 적용할 함수.
          */
     {
-         //기본 공격 데미지(데미지, 부딪힌대상)
-         SwordSlashDamage(20f,obj);
+        float guardRate = 50f * Mathf.Log(MonsterShield + 10) - 50f;
+        damage *= (guardRate / 100);
 
-        //다른 공격도 여기다 넣음됨
+        // 최종 피해량을 체력에 적용
+        MonsterHP -= (int)damage;
+        Debug.Log($"Monster was hitted : Damage = { (int)damage }");
+        Debug.Log($"Left Monster HP = { MonsterHP }");
 
+        // 사망 판정 검사
+        if (MonsterHP <= 0) { MonsterDie(); }
+        
     }
-    void SwordSlashDamage(float damage,Collider obj)
+
+    void MonsterDie()
         /*
-         * 기본공격 데미지 적용
+         * 사망판정
+         * - 애니메이션 재생
+         * - 사운드 재생
+         * - 콜라이전 및 리지드바디 비활성화
+         * - 일정시간 후 시체 삭제
+         * - 기타...?
          */
     {
-        SwordSlashAttack = player.GetComponent<PlayerMove>().SwordSlashAttack;
-        if (SwordSlashAttack && SwordSlashHitCheck&& obj.gameObject.CompareTag("Sword"))
-        {
-            MonsterHP -= damage;
-            SwordSlashHitCheck = false;
-            Debug.Log("Damage :" + damage + "//현재 몬스터 hp :" + MonsterHP);
-        }
+
+        Destroy(gameObject, 2f);
     }
 
-    public void SwordSlashHitCheck_true()
-    {
-        SwordSlashHitCheck = true;
-    }
+
+
+
 }

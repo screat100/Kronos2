@@ -11,9 +11,11 @@ GameObject:
   - component: {fileID: 546435253646581698}
   - component: {fileID: 546435253664895514}
   - component: {fileID: 546435253664497606}
+  - component: {fileID: 2054237434523118005}
+  - component: {fileID: 4822443235836159802}
   m_Layer: 0
-  m_Name: SwordSlashBlue
-  m_TagString: Untagged
+  m_Name: SwordSlash1
+  m_TagString: PlayerEffect
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3596,9 +3598,9 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     range: {x: 0, y: 1}
   CollisionModule:
-    enabled: 1
+    enabled: 0
     serializedVersion: 4
-    type: 0
+    type: 1
     collisionMode: 0
     colliderForce: 0
     multiplyColliderForceByParticleSize: 0
@@ -3779,13 +3781,13 @@ ParticleSystem:
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
-    collisionMessages: 0
+    collisionMessages: 1
     collidesWithDynamic: 1
     interiorCollisions: 1
   TriggerModule:
     enabled: 0
     serializedVersion: 2
-    inside: 1
+    inside: 2
     outside: 0
     enter: 0
     exit: 0
@@ -4802,3 +4804,29 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &2054237434523118005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546435253646771656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72a14aad1195fed4cae6ad4784d9466c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageRate: 100
+--- !u!65 &4822443235836159802
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546435253646771656}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7, y: 2, z: 0.5}
+  m_Center: {x: 0.5, y: 0.3, z: 0}

@@ -5615,6 +5615,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1943450966, guid: fa8d779dde1afc84ca813034c602d2dc, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4207036415216242820, guid: fa8d779dde1afc84ca813034c602d2dc, type: 3}
       propertyPath: m_Name
       value: GreenSlime
@@ -5663,7 +5667,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1943450966, guid: fa8d779dde1afc84ca813034c602d2dc, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fa8d779dde1afc84ca813034c602d2dc, type: 3}
 --- !u!4 &998717659 stripped
 Transform:
@@ -10406,6 +10411,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2364272789760295204, guid: d5660faf22c82dc4d876cd407312d62d, type: 3}
   m_PrefabInstance: {fileID: 1354799132}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1926263333 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4207036415216242820, guid: fa8d779dde1afc84ca813034c602d2dc, type: 3}
+  m_PrefabInstance: {fileID: 996411104}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1926263334
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926263333}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.66
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!4 &1926279299 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2080083236463441959, guid: 40d47deaca22b9e4cbe24ddd6fc02670, type: 3}

@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -71,10 +71,10 @@ MonoBehaviour:
     y: 0
     width: 1102
     height: 947
-  m_MinSize: {x: 201, y: 442}
+  m_MinSize: {x: 201, y: 342}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 39
+  controlID: 62
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -97,7 +97,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 104
+  controlID: 163
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -185,7 +185,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: AnimatorControllerTool
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -194,14 +194,14 @@ MonoBehaviour:
     y: 0
     width: 1102
     height: 456
-  m_MinSize: {x: 201, y: 221}
+  m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 17}
   - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -328,7 +328,7 @@ MonoBehaviour:
     x: 0
     y: 73
     width: 1101
-    height: 441
+    height: 435
   m_ViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
     m_KeySerializationHelper:
@@ -340,15 +340,16 @@ MonoBehaviour:
     - {fileID: 3945037613450676152, guid: b1a0b72edc0d80443b356a67e035087f, type: 2}
     - {fileID: 5660383787800641712, guid: b1a0b72edc0d80443b356a67e035087f, type: 2}
     - {fileID: -1336833611768341271, guid: b1a0b72edc0d80443b356a67e035087f, type: 2}
+    - {fileID: 1107040346203751106, guid: fb53b4d3a4f06844c90da7297e9082de, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.757911
+    - e00: 0.72594976
       e01: 0
       e02: 0
-      e03: 248.94318
+      e03: 363.08032
       e10: 0
-      e11: 0.757911
+      e11: 0.72594976
       e12: 0
-      e13: 118.11165
+      e13: 113.84209
       e20: 0
       e21: 0
       e22: 1
@@ -428,7 +429,7 @@ MonoBehaviour:
       e10: 0
       e11: 1.1142768
       e12: 0
-      e13: 30.614578
+      e13: 29.402954
       e20: 0
       e21: 0
       e22: 1
@@ -440,11 +441,11 @@ MonoBehaviour:
     - e00: 0.7518453
       e01: 0
       e02: 0
-      e03: -21.46222
+      e03: -21.46225
       e10: 0
       e11: 0.7518453
       e12: 0
-      e13: 64.42183
+      e13: 135.33215
       e20: 0
       e21: 0
       e22: 1
@@ -469,10 +470,26 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 0.64167947
+      e01: 0
+      e02: 0
+      e03: 16.045563
+      e10: 0
+      e11: 0.64167947
+      e12: 0
+      e13: 35.940628
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: b1a0b72edc0d80443b356a67e035087f, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: fb53b4d3a4f06844c90da7297e9082de, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 454352556782283644, guid: b1a0b72edc0d80443b356a67e035087f, type: 2}
+  - m_Target: {fileID: 1107040346203751106, guid: fb53b4d3a4f06844c90da7297e9082de, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -560,22 +577,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources/Effect/Player
+    - Assets/Resources/Enemy/Slime/Script
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Resources/Effect/Player
+  - Assets/Resources/Enemy/Slime/Script
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: "C:\\Users\\\uC724\uC131\uC7AC\\Desktop\\Kronos\\Kronos2\\Kronos"
+  m_LastProjectPath: C:\Users\Seongjae Yoon\Desktop\MonsterHunterSoldier\Kronos2\Kronos
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 503}
-    m_SelectedIDs: b6a10000
-    m_LastClickedID: 41398
-    m_ExpandedIDs: 00000000125900001459000016590000185900001a5900001c5900001e5900002059000022590000245900005259000066590000d8590000e6590000ea590000f4590000065a00001468000018680000
+    scrollPos: {x: 0, y: 839}
+    m_SelectedIDs: 1c770000
+    m_LastClickedID: 30492
+    m_ExpandedIDs: 00000000c45a0000c65a0000c85a0000ca5a0000cc5a0000ce5a0000d05a0000d25a0000d45a0000d65a0000d85a0000da5a0000dc5a0000de5a0000105b0000125b00002065000076650000bc6500008e6800001877000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -603,7 +620,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000125900001459000016590000185900001a5900001c5900001e590000205900002259000024590000
+    m_ExpandedIDs: 00000000c45a0000c65a0000c85a0000ca5a0000cc5a0000ce5a0000d05a0000d25a0000d45a0000d65a0000d85a0000da5a0000dc5a0000de5a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -628,24 +645,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: cc3dfeff
-    m_LastClickedInstanceID: -115252
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300002c5900001c3e00004a100000543e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Legacy
+      m_OriginalName: Legacy
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 26766
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_CreateAssetUtility:
@@ -784,9 +801,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.8799577, y: 0.33506197, z: 7.9973216}
+    m_Target: {x: 0.08810109, y: 2.7622166, z: 8.80703}
     speed: 2
-    m_Value: {x: -1.8799577, y: 0.33506197, z: 7.9973216}
+    m_Value: {x: 0.08810109, y: 2.7622166, z: 8.80703}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -833,13 +850,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.020133328, y: 0.65597755, z: 0.017516581, w: -0.7543181}
+    m_Target: {x: 0.03226206, y: 0.76068276, z: -0.03792371, w: 0.64722365}
     speed: 2
-    m_Value: {x: 0.02013318, y: 0.6559728, z: 0.017516455, w: -0.75431263}
+    m_Value: {x: 0.032261807, y: 0.7606768, z: -0.03792341, w: 0.6472186}
   m_Size:
-    m_Target: 0.607139
+    m_Target: 1.6378306
     speed: 2
-    m_Value: 0.607139
+    m_Value: 1.6378306
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -892,23 +909,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 7a87feffdae8ffff7c520000
+      m_SelectedIDs: ace6ffff
+      m_LastClickedID: -6484
+      m_ExpandedIDs: 8ee6ffff96e6ffff9ae6ffff9ee6fffface6ffff60e8ffff64530000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Slime
+        m_OriginalName: Slime
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -6538
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 11}
       m_SearchString: 

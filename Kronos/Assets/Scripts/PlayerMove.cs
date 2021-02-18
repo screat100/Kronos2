@@ -18,6 +18,8 @@ public class PlayerMove : MonoBehaviour
     [SerializeField]
     GameObject attack3Effect;
 
+    float rigidyTime = 0.0f;
+
     enum PlayerState
     {
         Die,
@@ -27,7 +29,8 @@ public class PlayerMove : MonoBehaviour
         Fall,
         Roll,
         Attack,
-        Defend
+        Defend,
+        Hit,
     }
 
     [SerializeField]
@@ -101,6 +104,10 @@ public class PlayerMove : MonoBehaviour
          * 마우스 수평 움직임으로 캐릭터 회전
          */
     {
+        // 공격중에는 수평 움직임 못하게 막음
+        if (_playerState == PlayerState.Attack)
+            return;
+
         float MouseX = Input.GetAxis("Mouse X");
 
         transform.Rotate(Vector3.up * MouseX);
@@ -247,23 +254,20 @@ public class PlayerMove : MonoBehaviour
 
     }
 
-    void MoveWithAttack(Vector3 playerForward)
-        /*
-         * 공격 중 앞/뒤 방향키를 입력, 공격 중 움직이는 힘을 조절
-         */
+    int MoveWithAttack()
+    /*
+     * 공격 중 앞/뒤 방향키를 입력, 공격 중 움직이는 힘을 조절
+     */
     {
         // 공격 중 움직임을 더함
         if (Input.GetKey(KeyCode.W))
-        {
-            rigidbody.AddForce(playerForward * 22500);
-        }
+            return 22500;
 
-        else if (Input.GetKey(KeyCode.S)) { }
+        else if (Input.GetKey(KeyCode.S))
+            return 0;
 
         else
-        {
-            rigidbody.AddForce(playerForward * 7500);
-        }
+            return 7500;
     }
 
     void Attack()
@@ -288,14 +292,11 @@ public class PlayerMove : MonoBehaviour
         if(Input.GetMouseButtonDown(0))
         {
             rigidbody.velocity = new Vector3(0, 0, 0);
-            Vector3 playerForward = gameObject.transform.forward;
-            playerForward.y = 0;
 
             if (animator.GetInteger("Input") <= 5)
             {
                 animator.SetInteger("Input", 20);
                 _playerState = PlayerState.Attack;
-                MoveWithAttack(playerForward);
             }
 
             else if (animator.GetInteger("Input") == 20
@@ -304,7 +305,6 @@ public class PlayerMove : MonoBehaviour
             {
                 animator.SetInteger("Input", 21);
                 _playerState = PlayerState.Attack;
-                MoveWithAttack(playerForward);
             }
 
             else if (animator.GetInteger("Input") == 21
@@ -313,11 +313,7 @@ public class PlayerMove : MonoBehaviour
             {
                 animator.SetInteger("Input", 22);
                 _playerState = PlayerState.Attack;
-                MoveWithAttack(playerForward);
             }
-
-
-
 
         }
 
@@ -349,56 +345,78 @@ public class PlayerMove : MonoBehaviour
     void OnAttack1Event()
         /*
          * 기본공격 1타 애니메이션에서 호출하는 함수
+         * - 기본공격 중 전후방 움직임에 대한 제어
          * - 공격 사운드 재생
          * - 공격 이펙트 발생
          */
     {
+        Vector3 playerForward = gameObject.transform.forward;
+        playerForward.y = 0;
+        int movePower = MoveWithAttack();
+        rigidbody.AddForce(playerForward * movePower);
+                    
+
         GameObject attack1_effect = GameObject.Instantiate(attack1Effect);
 
         Vector3 effectPos = gameObject.transform.position;
-        effectPos += 0.33f*gameObject.transform.up + 0.5f*gameObject.transform.right;
+        effectPos += 0.33f * gameObject.transform.up + 0.5f * gameObject.transform.right + playerForward * movePower / 22500;
         attack1_effect.transform.position = effectPos;
 
         attack1_effect.transform.rotation = gameObject.transform.rotation;
         attack1_effect.transform.Rotate(0, -100, 0);
         attack1_effect.transform.parent = GameObject.Find("@Effect").transform;
 
-        Destroy(attack1_effect, 1f);
+        Destroy(attack1_effect, 0.75f*attack1_effect.GetComponent<ParticleSystem>().main.duration);
+
+
     }
 
     void OnAttack2Event()
         /*
          * 기본공격 2타 애니메이션에서 호출하는 함수
+         * - 기본공격 중 전후방 움직임에 대한 제어
          * - 공격 사운드 재생
          * - 공격 이펙트 발생
          */
     {
+        Vector3 playerForward = gameObject.transform.forward;
+        playerForward.y = 0;
+        int movePower = MoveWithAttack();
+        rigidbody.AddForce(playerForward * movePower);
+
         GameObject attack2_effect = GameObject.Instantiate(attack2Effect);
-        attack2_effect.transform.position = gameObject.transform.position + 0.66f*gameObject.transform.up;
+        attack2_effect.transform.position = gameObject.transform.position + 0.66f*gameObject.transform.up + playerForward * movePower / 22500;
         attack2_effect.transform.rotation = gameObject.transform.rotation;
         attack2_effect.transform.Rotate(90, 0, 0);
         attack2_effect.transform.parent = GameObject.Find("@Effect").transform;
 
-        Destroy(attack2_effect, 1f);
+        Destroy(attack2_effect, 0.75f * attack2_effect.GetComponent<ParticleSystem>().main.duration);
     }
 
     void OnAttack3Event()
         /*
          * 기본공격 3타 애니메이션에서 호출하는 함수
+         * - 기본공격 중 전후방 움직임에 대한 제어
          * - 공격 사운드 재생
          * - 공격 이펙트 발생
          */
     {
+        
+        Vector3 playerForward = gameObject.transform.forward;
+        playerForward.y = 0;
+        int movePower = MoveWithAttack();
+        rigidbody.AddForce(playerForward * movePower);
+
         GameObject attack3_effect = GameObject.Instantiate(attack3Effect);
 
         Vector3 effectPos = gameObject.transform.position;
-        effectPos += 0.33f*gameObject.transform.right + 0.5f*gameObject.transform.up;
+        effectPos += 0.33f*gameObject.transform.right + 0.5f*gameObject.transform.up + playerForward * movePower / 22500;
         attack3_effect.transform.position = effectPos;
 
         attack3_effect.transform.rotation = gameObject.transform.rotation;
         attack3_effect.transform.parent = GameObject.Find("@Effect").transform;
 
-        Destroy(attack3_effect, 1f);
+        Destroy(attack3_effect, 0.75f * attack3_effect.GetComponent<ParticleSystem>().main.duration);
     }
 
     void Defend()
@@ -562,5 +580,52 @@ public class PlayerMove : MonoBehaviour
         }
     }
 
+
+
+    public IEnumerator AttackRigidy(float time)
+        /*
+         * 공격에 대한 역경직 적용
+         * - time : 역경직을 적용할 시간
+         */
+    {
+        animator.speed = 0.0f;
+        Debug.Log("역경직");
+        yield return new WaitForSeconds(time);
+        animator.speed = 1.0f;
+    }
+
+    public IEnumerator HitRigidy(float time, float damage)
+        /*
+         * 피격에 대한 경직/모션/데미지 적용
+         * - time : 경직 적용 시간
+         * - damage : 피격 데미지
+         */
+    {
+        // 회피율
+        int avoidance = Random.Range(0, 100);
+        if (avoidance < PlayerStatus.avoidanceRate)
+        {
+            Debug.Log("회피!");
+            yield break;
+        }
+
+        // 방어율
+        float guardRate = 50f * Mathf.Log(PlayerStatus.shield + 10) - 50f;
+        damage *= (guardRate / 100);
+
+        // 체력 감소 적용
+        PlayerStatus.HP -= (int)damage;
+
+
+        // 경직 모션 적용
+        _playerState = PlayerState.Hit;
+        animator.SetInteger("Input", 100);
+
+        // 경직 적용 및 회복
+        yield return new WaitForSeconds(time);
+
+        _playerState = PlayerState.Idle;
+        animator.SetInteger("Input", 0);
+    }
 
 }
