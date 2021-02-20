@@ -18,7 +18,18 @@ public class PlayerMove : MonoBehaviour
     [SerializeField]
     GameObject attack3Effect;
 
-    float rigidyTime = 0.0f;
+    [SerializeField]
+    GameObject defendEffect;
+
+    [SerializeField]
+    GameObject paryingEffect;
+
+
+    //방어에 관련된 변수
+    float parryingTime;
+
+
+
 
     enum PlayerState
     {
@@ -438,26 +449,46 @@ public class PlayerMove : MonoBehaviour
          * 30 : 방어
          */
     {
-
         if (_playerState != PlayerState.Idle
             && _playerState != PlayerState.Walk
             && _playerState != PlayerState.Defend)
             return;
 
-        // 우클릭 유지 = 방어 유지
-        if (Input.GetMouseButtonDown(1) && animator.GetInteger("Input") <=5 )
+        // 우클릭 시작
+        if (Input.GetMouseButtonDown(1)
+            && animator.GetInteger("Input") >= 0 && animator.GetInteger("Input") <=5 
+            && PlayerStatus.Stamina > 10)
         {
             animator.SetInteger("Input", 30);
             _playerState = PlayerState.Defend;
-        }
+            gameObject.GetComponent<PlayerStatusManager>().isDefending = true;
+            gameObject.GetComponent<PlayerStatusManager>().noDefendTime = 0f;
 
-        if(animator.GetInteger("Input") == 30 && !Input.GetMouseButton(1))
+            PlayerStatus.Stamina -= 10;
+            parryingTime = 0.5f;
+        }
+        
+        // 우클릭 유지 종료
+        if((animator.GetInteger("Input") == 30 && !Input.GetMouseButton(1)) || PlayerStatus.Stamina <= 0)
         {
+            gameObject.GetComponent<PlayerStatusManager>().isDefending = false;
             animator.SetInteger("Input", 0);
             _playerState = PlayerState.Idle;
             animator.Play("Idle_Battle");
+            parryingTime = 0f;
+            if(PlayerStatus.Stamina <= 0)
+                PlayerStatus.Stamina = 0f;
+        }
+
+        // 우클릭 유지
+        else if (animator.GetInteger("Input") == 30)
+        {
+            parryingTime -= Time.deltaTime;
+            PlayerStatus.Stamina -= Time.deltaTime * 20;
         }
     }
+
+
 
     void Roll()
         /*
@@ -650,10 +681,34 @@ public class PlayerMove : MonoBehaviour
                 Vector3.Dot(hitPointVector, gameObject.transform.forward) / Vector3.Magnitude(hitPointVector) / Vector3.Magnitude(gameObject.transform.forward));
             angleBetHitpAndForward *= Mathf.Rad2Deg;
 
+
             // 방어 범위는 총 120도
             if (angleBetHitpAndForward <= 60 && angleBetHitpAndForward >= -60)
             {
-                Debug.Log("Defend Success");
+                // 방어 성공
+                rigidbody.AddForce(-gameObject.transform.forward * 10000f);
+
+                // 패링 성공
+                if(parryingTime >= 0)
+                {
+                    // 패링 이펙트
+                    GameObject _parryingEffect = GameObject.Instantiate(paryingEffect);
+                    _parryingEffect.transform.parent = GameObject.Find("@Effect").transform;
+                    _parryingEffect.transform.position = hitPoint;
+                    _parryingEffect.transform.rotation = gameObject.transform.rotation;
+                    Destroy(_parryingEffect, _parryingEffect.GetComponent<ParticleSystem>().main.duration);
+                }
+
+                else
+                {
+                    // 방어 이펙트
+                    GameObject _defendEffect = GameObject.Instantiate(defendEffect);
+                    _defendEffect.transform.parent = GameObject.Find("@Effect").transform;
+                    _defendEffect.transform.position = hitPoint;
+                    _defendEffect.transform.rotation = gameObject.transform.rotation;
+                    Destroy(_defendEffect, _defendEffect.GetComponent<ParticleSystem>().main.duration);
+                }
+
                 return;
             }
 
@@ -669,15 +724,15 @@ public class PlayerMove : MonoBehaviour
             return;
         }
 
-        // 경직 적용
-        StartCoroutine(DamagedRigidy(time));
-
-        float damage = _enemyEffect.CalculatedDamage();
-
         // 방어율
+        float damage = _enemyEffect.CalculatedDamage();
         float guardRate = 50f * Mathf.Log(PlayerStatus.shield + 10) - 50f;
         damage *= (guardRate / 100);
 
+        // 경직 적용
+        StartCoroutine(DamagedRigidy(time));
+
+       
         // 체력 감소 적용
         PlayerStatus.HP -= (int)damage;
         Debug.Log($"PlayerHP = {PlayerStatus.HP}");

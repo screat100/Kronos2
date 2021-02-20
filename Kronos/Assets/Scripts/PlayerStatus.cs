@@ -9,8 +9,8 @@ public static class PlayerStatus
 
     static public int HPMax;
     static public int HP;
-    static public int StaminaMax;
-    static public int Stamina;
+    static public float StaminaMax;
+    static public float Stamina;
 
     static public int attack;
     static public int shield;

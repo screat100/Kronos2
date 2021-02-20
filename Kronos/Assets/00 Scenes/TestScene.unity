@@ -4075,6 +4075,7 @@ GameObject:
   - component: {fileID: 732691694}
   - component: {fileID: 732691693}
   - component: {fileID: 732691692}
+  - component: {fileID: 732691696}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -4163,6 +4164,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &732691696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732691691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff85edb97b780b241a15e304248bc158, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RemainTime_Slider: {fileID: 1197901474}
+  RemainTime_text: {fileID: 294803541}
+  HP_Slider: {fileID: 1160074507}
+  Stamina_Slider: {fileID: 1502781945}
+  SandGlass_Slider: {fileID: 1316141733}
+  SandGlass_text: {fileID: 2133909890}
 --- !u!4 &752249030 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2080083236463441959, guid: 40d47deaca22b9e4cbe24ddd6fc02670, type: 3}
@@ -8105,6 +8124,8 @@ MonoBehaviour:
   attack1Effect: {fileID: 546435253646771656, guid: eb09ad9ea09363743bf906706f2cfcc4, type: 3}
   attack2Effect: {fileID: 2837627796770272532, guid: 150b000c286053b49b57b8af70ad3191, type: 3}
   attack3Effect: {fileID: 4660243928936211008, guid: a11e4d532319696459248597a0c1660e, type: 3}
+  defendEffect: {fileID: 180838, guid: bfbeddd8307f4e441aa8ae4537bf45ad, type: 3}
+  paryingEffect: {fileID: 151354, guid: 666381b24c234194882b77851e943ef1, type: 3}
   _playerState: 0
 --- !u!54 &1480337644
 Rigidbody:
