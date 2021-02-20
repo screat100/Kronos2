@@ -15,24 +15,33 @@ public class GreenSlime : MonoBehaviour
     bool L_dir = true;
     bool dir_lock = false;
 
-    //Status -> 0:idle, 1:Walk, 2:Attack, 3:Dead
-    int Status = 0;
+    //Status -> 0:Patrol, 1:Chase, 2:Attack, 3:Dead, 4:GetHit
+    public enum EnemyState
+    {
+        Patrol,
+        Chase,
+        Attack,
+        Die,
+        GetHit,
+    }
+    [System.NonSerialized]
+    public EnemyState _enemyState;
     bool Detect = false;
 
+    Animator animator;
 
     // 이펙트
     [SerializeField]
     GameObject attackEffect;
 
-
-
     void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        
     }
     void Start()
     {
+        animator = gameObject.GetComponent<Animator>();
+        _enemyState = EnemyState.Patrol; //기본 상태 idle
         MonsterHP = gameObject.GetComponent<Enemy>().MonsterHP; //hp 설정
     }
 
@@ -43,6 +52,7 @@ public class GreenSlime : MonoBehaviour
         Animation(); // 상태별 애니메이션 실행
         StartCoroutine(Select_dir());// 순찰 방향 결정 
     }
+
     IEnumerator Select_dir()
     {
         if (!dir_lock)
@@ -57,15 +67,18 @@ public class GreenSlime : MonoBehaviour
             {
                 L_dir = false;
             }
-            gameObject.GetComponent<Animator>().SetBool("Sense", false);
+            animator.SetBool("Sense", false);
             yield return new WaitForSeconds(4f);
-            gameObject.GetComponent<Animator>().SetBool("Sense", true);
+            animator.SetBool("Sense", true);
             dir_lock = false;
         }
     }
     private void Animation()
     {
-        gameObject.GetComponent<Animator>().SetInteger("Status", Status);
+        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("GetHit"))
+        {
+            animator.SetInteger("Status", (int)_enemyState);
+        }
     }
 
 
@@ -108,7 +121,7 @@ public class GreenSlime : MonoBehaviour
              */
             if (L_dir)
             {
-                Status = 0;
+                _enemyState = EnemyState.Patrol;
                 Vector3 target = gameObject.transform.position + Vector3.left;
 
                 gameObject.transform.LookAt(target);
@@ -116,7 +129,7 @@ public class GreenSlime : MonoBehaviour
             }
             else
             {
-                Status = 0;
+                _enemyState = EnemyState.Patrol;
                 Vector3 target = gameObject.transform.position + Vector3.right;
 
                 gameObject.transform.LookAt(target);
@@ -133,7 +146,7 @@ public class GreenSlime : MonoBehaviour
         if (MonsterHP > 0&&Detect)
         {
             //걷기 status: 1
-            Status = 1;
+            _enemyState = EnemyState.Chase;
             Vector3 target = player.transform.position;
             target.y = gameObject.transform.position.y;
 
@@ -153,9 +166,7 @@ public class GreenSlime : MonoBehaviour
             if (hit.collider.gameObject == player)
             {
                 //공격 status: 2
-                Status = 2;
-
-
+                _enemyState = EnemyState.Attack;
 
                 return true;
             }
@@ -167,12 +178,27 @@ public class GreenSlime : MonoBehaviour
         if (MonsterHP <= 0)
         {
             //죽음 status: 3
-            Status = 3;
+            _enemyState = EnemyState.Die;
             return false;
         }
         return true;
     }
   
+    public bool GetHit()
+    {
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("GetHit"))
+        {
+            StartCoroutine(GetHitdelay(0.2f));
+            Detect = true;
+            return true;
+        }
+        return false;
+    }
+    IEnumerator GetHitdelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        _enemyState = EnemyState.Chase;
+    }
     void OnSlimeAttackEvent()
     {
         // 공격 이펙트

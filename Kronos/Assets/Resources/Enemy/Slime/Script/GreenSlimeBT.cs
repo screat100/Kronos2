@@ -108,3 +108,16 @@ public class Patrol : Node
         return _Enemy.Patrol();
     }
 }
+
+public class GetHit : Node
+{
+    public GreenSlime Enemy
+    {
+        set { _Enemy = value; }
+    }
+    private GreenSlime _Enemy;
+    public override bool Invoke()
+    {
+        return _Enemy.GetHit();
+    }
+}
