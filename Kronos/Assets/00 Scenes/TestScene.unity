@@ -5615,6 +5615,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1750013033, guid: fa8d779dde1afc84ca813034c602d2dc, type: 3}
+      propertyPath: attackEffect
+      value: 
+      objectReference: {fileID: 3385446754328267631, guid: 8335da8b1de56f94e9a4cd8f7d21cfb0, type: 3}
     - target: {fileID: 1943450966, guid: fa8d779dde1afc84ca813034c602d2dc, type: 3}
       propertyPath: m_Enabled
       value: 0

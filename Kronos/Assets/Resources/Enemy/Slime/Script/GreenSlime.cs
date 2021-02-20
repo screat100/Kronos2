@@ -19,6 +19,13 @@ public class GreenSlime : MonoBehaviour
     int Status = 0;
     bool Detect = false;
 
+
+    // 이펙트
+    [SerializeField]
+    GameObject attackEffect;
+
+
+
     void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -147,6 +154,9 @@ public class GreenSlime : MonoBehaviour
             {
                 //공격 status: 2
                 Status = 2;
+
+
+
                 return true;
             }
         }
@@ -163,4 +173,25 @@ public class GreenSlime : MonoBehaviour
         return true;
     }
   
+    void OnSlimeAttackEvent()
+    {
+        // 공격 이펙트
+        GameObject _GreenSlimeAttackEffect = GameObject.Instantiate(attackEffect);
+        _GreenSlimeAttackEffect.transform.parent = GameObject.Find("@Effect").transform;
+
+        Vector3 effectPos = gameObject.transform.position + gameObject.transform.up * 0.33f + gameObject.transform.forward * 0.25f;
+        _GreenSlimeAttackEffect.transform.position = effectPos;
+
+
+        _GreenSlimeAttackEffect.transform.rotation = gameObject.transform.rotation;
+        _GreenSlimeAttackEffect.transform.Rotate(0, 180, 0);
+
+
+        Destroy(_GreenSlimeAttackEffect, _GreenSlimeAttackEffect.GetComponent<ParticleSystem>().main.duration);
+
+        // 공격 사운드
+
+    }
+
+
 }

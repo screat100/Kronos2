@@ -22,9 +22,23 @@ public class Enemy : MonoBehaviour
     {
         if (other.transform.tag == "PlayerEffect")
         {
-            float damage = other.GetComponent<PlayerDamage>().CalculatedDamage();
+            // 이펙트에 달려있는 스크립트
+            PlayerEffect _playerEffect = other.GetComponent<PlayerEffect>();
+
+            // 데미지 계산 및 적용
+            float damage = _playerEffect.CalculatedDamage();
             ApplyDamage(damage);
+
+            // 플레이어에 역경직 적용
             StartCoroutine(GameObject.Find("Player").GetComponent<PlayerMove>().AttackRigidy(0.05f));
+
+            // 피격 모션
+
+            // 피격 이펙트
+            _playerEffect.HitEffect(other.ClosestPoint(gameObject.transform.position));
+
+            // 피격 사운드
+            // 뭐가있지?...
         }
     }
 

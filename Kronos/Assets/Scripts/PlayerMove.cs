@@ -58,10 +58,6 @@ public class PlayerMove : MonoBehaviour
         // InputManager에 함수 등록
     }
 
-    private void FixedUpdate()
-    {
-    }
-
     void Update()
     {
         KeyboardMove();
@@ -90,6 +86,27 @@ public class PlayerMove : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (_playerState == PlayerState.Die)
+            return;
+
+
+        if(other.transform.tag == "EnemyEffect")
+        {
+            // 이펙트에 달려있는 스크립트
+            EnemyEffect _enemyEffect = other.GetComponent<EnemyEffect>();
+
+            // 이펙트의 좌표
+            Vector3 hitPoint = other.transform.position;
+
+            // 데미지 계산 및 적용
+            Damaged(0.25f, hitPoint, _enemyEffect); //경직시간은 임의로 설정하였음... 추후 수정 바람
+
+        }
+    }
+
+
 
     void PlayerMoveBase()
     {
@@ -104,10 +121,6 @@ public class PlayerMove : MonoBehaviour
          * 마우스 수평 움직임으로 캐릭터 회전
          */
     {
-        // 공격중에는 수평 움직임 못하게 막음
-        if (_playerState == PlayerState.Attack)
-            return;
-
         float MouseX = Input.GetAxis("Mouse X");
 
         transform.Rotate(Vector3.up * MouseX);
@@ -594,28 +607,14 @@ public class PlayerMove : MonoBehaviour
         animator.speed = 1.0f;
     }
 
-    public IEnumerator HitRigidy(float time, float damage)
+    IEnumerator DamagedRigidy(float time)
         /*
-         * 피격에 대한 경직/모션/데미지 적용
-         * - time : 경직 적용 시간
-         * - damage : 피격 데미지
+         * 피격시 경직 적용
          */
     {
-        // 회피율
-        int avoidance = Random.Range(0, 100);
-        if (avoidance < PlayerStatus.avoidanceRate)
-        {
-            Debug.Log("회피!");
+        if(_playerState == PlayerState.Die)
             yield break;
-        }
-
-        // 방어율
-        float guardRate = 50f * Mathf.Log(PlayerStatus.shield + 10) - 50f;
-        damage *= (guardRate / 100);
-
-        // 체력 감소 적용
-        PlayerStatus.HP -= (int)damage;
-
+        
 
         // 경직 모션 적용
         _playerState = PlayerState.Hit;
@@ -626,6 +625,69 @@ public class PlayerMove : MonoBehaviour
 
         _playerState = PlayerState.Idle;
         animator.SetInteger("Input", 0);
+    }
+
+    public void Damaged(float time, Vector3 hitPoint, EnemyEffect _enemyEffect)
+        /*
+         * 피격에 대한 경직/모션/데미지 적용
+         * - time : 경직 적용 시간
+         * - damage : 피격 데미지
+         */
+    {
+
+        // 구르기 중 피격하지 않음
+        if (_playerState == PlayerState.Roll)
+            return;
+
+        // 방어에 대한 적용
+        else if (_playerState == PlayerState.Defend)
+        {
+            // 충돌지점과 플레이어 사이의 벡터
+            Vector3 hitPointVector = (hitPoint - gameObject.transform.position).normalized;
+
+            // right와 두 벡터 사이의 각도를 구함
+            float angleBetHitpAndForward = Mathf.Acos(
+                Vector3.Dot(hitPointVector, gameObject.transform.forward) / Vector3.Magnitude(hitPointVector) / Vector3.Magnitude(gameObject.transform.forward));
+            angleBetHitpAndForward *= Mathf.Rad2Deg;
+
+            // 방어 범위는 총 120도
+            if (angleBetHitpAndForward <= 60 && angleBetHitpAndForward >= -60)
+            {
+                Debug.Log("Defend Success");
+                return;
+            }
+
+            Debug.Log("Defend Failed");
+        }
+
+
+        // 회피율
+        int avoidance = Random.Range(0, 100);
+        if (avoidance < PlayerStatus.avoidanceRate)
+        {
+            Debug.Log("회피!");
+            return;
+        }
+
+        // 경직 적용
+        StartCoroutine(DamagedRigidy(time));
+
+        float damage = _enemyEffect.CalculatedDamage();
+
+        // 방어율
+        float guardRate = 50f * Mathf.Log(PlayerStatus.shield + 10) - 50f;
+        damage *= (guardRate / 100);
+
+        // 체력 감소 적용
+        PlayerStatus.HP -= (int)damage;
+        Debug.Log($"PlayerHP = {PlayerStatus.HP}");
+
+        // 사망판정 검사
+        if(PlayerStatus.HP <= 0)
+        {
+            _playerState = PlayerState.Die;
+            animator.SetInteger("Input", -999);
+        }
     }
 
 }

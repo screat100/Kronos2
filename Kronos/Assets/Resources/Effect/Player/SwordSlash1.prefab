@@ -4817,6 +4817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageRate: 100
+  hitEffect: {fileID: 3106826520198292710, guid: b625833af7fed164bbcbedc8c09c356c, type: 3}
 --- !u!65 &4822443235836159802
 BoxCollider:
   m_ObjectHideFlags: 0
