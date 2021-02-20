@@ -6,6 +6,7 @@ public class CameraMove : MonoBehaviour
 {
     public GameObject Player;
 
+
     [SerializeField]
     float radius = 6f;
 
@@ -17,6 +18,7 @@ public class CameraMove : MonoBehaviour
 
     private void LateUpdate()
     {
+
         // 상하 각도
         angleY -= 15f*Input.GetAxis("Mouse Y");
 

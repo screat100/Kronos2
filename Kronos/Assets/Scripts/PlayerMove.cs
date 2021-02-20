@@ -132,8 +132,10 @@ public class PlayerMove : MonoBehaviour
          * 마우스 수평 움직임으로 캐릭터 회전
          */
     {
-        float MouseX = Input.GetAxis("Mouse X");
+        if (_playerState == PlayerState.Die)
+            return;
 
+        float MouseX = Input.GetAxis("Mouse X");
         transform.Rotate(Vector3.up * MouseX);
     }
 
@@ -145,10 +147,11 @@ public class PlayerMove : MonoBehaviour
          * 4 = 후진
          */
     {
-        if (_playerState != PlayerState.Idle
+        if ((_playerState != PlayerState.Idle
             && _playerState != PlayerState.Walk
             && _playerState != PlayerState.Jump
             && _playerState != PlayerState.Fall)
+            ||(_playerState==PlayerState.Die))
             return;
 
 
@@ -244,6 +247,9 @@ public class PlayerMove : MonoBehaviour
          * 12 = 착지
          */
     {
+        if (_playerState == PlayerState.Die)
+            return;
+
         // 추락
         if (rigidbody.velocity.y < -0.5f)
         {
@@ -301,9 +307,9 @@ public class PlayerMove : MonoBehaviour
          */
     {
 
-        if (_playerState != PlayerState.Idle
+        if ((_playerState != PlayerState.Idle
             && _playerState != PlayerState.Walk
-            && _playerState != PlayerState.Attack)
+            && _playerState != PlayerState.Attack) || _playerState==PlayerState.Die)
             return;
 
 
@@ -449,9 +455,9 @@ public class PlayerMove : MonoBehaviour
          * 30 : 방어
          */
     {
-        if (_playerState != PlayerState.Idle
+        if ((_playerState != PlayerState.Idle
             && _playerState != PlayerState.Walk
-            && _playerState != PlayerState.Defend)
+            && _playerState != PlayerState.Defend) || _playerState == PlayerState.Die)
             return;
 
         // 우클릭 시작
@@ -646,13 +652,15 @@ public class PlayerMove : MonoBehaviour
         if(_playerState == PlayerState.Die)
             yield break;
         
-
         // 경직 모션 적용
         _playerState = PlayerState.Hit;
         animator.SetInteger("Input", 100);
 
         // 경직 적용 및 회복
         yield return new WaitForSeconds(time);
+
+        if (_playerState == PlayerState.Die)
+            yield break;
 
         _playerState = PlayerState.Idle;
         animator.SetInteger("Input", 0);
@@ -667,7 +675,8 @@ public class PlayerMove : MonoBehaviour
     {
 
         // 구르기 중 피격하지 않음
-        if (_playerState == PlayerState.Roll)
+        if (_playerState == PlayerState.Roll
+            || _playerState == PlayerState.Die)
             return;
 
         // 방어에 대한 적용
@@ -740,6 +749,7 @@ public class PlayerMove : MonoBehaviour
         // 사망판정 검사
         if(PlayerStatus.HP <= 0)
         {
+            Debug.Log("You Die");
             _playerState = PlayerState.Die;
             animator.SetInteger("Input", -999);
         }
