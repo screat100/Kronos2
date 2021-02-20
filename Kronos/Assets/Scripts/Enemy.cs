@@ -33,7 +33,8 @@ public class Enemy : MonoBehaviour
             StartCoroutine(GameObject.Find("Player").GetComponent<PlayerMove>().AttackRigidy(0.05f));
 
             // 피격 모션
-
+            gameObject.GetComponent<Animator>().Play("GetHit");
+            //gameObject.GetComponent<GreenSlime>()._enemyState = GreenSlime.EnemyState.GetHit; // 에네미 상태변경
             // 피격 이펙트
             _playerEffect.HitEffect(other.ClosestPoint(gameObject.transform.position));
 

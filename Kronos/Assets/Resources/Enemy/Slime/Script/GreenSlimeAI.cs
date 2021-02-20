@@ -12,6 +12,8 @@ public class GreenSlimeAI : MonoBehaviour
     private Sequence seqMove = new Sequence();
     private Sequence seqPatrol = new Sequence();
 
+    private Sequence seqGetHit = new Sequence();
+
     private Sequence seqDead = new Sequence();
 
 
@@ -20,6 +22,8 @@ public class GreenSlimeAI : MonoBehaviour
     private Attack m_Attack = new Attack();
     private MonsterMove m_MonsterMove = new MonsterMove();
     private Patrol m_Patrol = new Patrol();
+
+    private GetHit m_GetHit = new GetHit();
 
     private GreenSlime m_Slime;
     private IEnumerator behaviorProcess;
@@ -37,17 +41,19 @@ public class GreenSlimeAI : MonoBehaviour
         m_Attack.Enemy = m_Slime;
         m_MonsterMove.Enemy = m_Slime;
         m_Patrol.Enemy = m_Slime;
+        m_GetHit.Enemy = m_Slime;
 
         seqDead.AddChild(m_Dead);
 
         selectPattern.AddChild(seqMove);
         selectPattern.AddChild(seqAttack);
         selectPattern.AddChild(seqPatrol);
+        selectPattern.AddChild(seqGetHit);
 
         seqMove.AddChild(m_MonsterMove);
         seqAttack.AddChild(m_Attack);
         seqPatrol.AddChild(m_Patrol);
-        
+        seqGetHit.AddChild(m_GetHit);
 
         behaviorProcess = BehaviorProcess();
         StartCoroutine(behaviorProcess);
