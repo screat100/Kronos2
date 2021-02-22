@@ -15,6 +15,9 @@ public class PlayerStatusManager : MonoBehaviour
         PlayerStatus.init();
         timeFlowOn = true;
         isDefending = false;
+
+        // 세이브 파일에서 데이터 불러옴
+        PlayerStatus.Load();
     }
 
     private void Update()
@@ -32,6 +35,7 @@ public class PlayerStatusManager : MonoBehaviour
             }
         }
     }
+    
 
 
 }

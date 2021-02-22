@@ -1102,7 +1102,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 204858078}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1358,6 +1359,554 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40d47deaca22b9e4cbe24ddd6fc02670, type: 3}
+--- !u!1 &204858077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 204858078}
+  - component: {fileID: 204858079}
+  m_Layer: 0
+  m_Name: '@SandGlass'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &204858078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204858077}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.08810109, y: 2.7622166, z: 8.80703}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 166624731}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &204858079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204858077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1f22e8046c95ed44835dd964e2e9c2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  abilities:
+  - type: 0
+    name: "\uC2DC\uAC04 \uC218\uAC70"
+    tier: 0
+    cost: 1
+    maxLevel: 9999999
+    desc: "\uCD5C\uB300 \uD50C\uB808\uC774\uC2DC\uAC04 10\uCD08 \uC99D\uAC00 "
+    note: 
+    level: 0
+  - type: 0
+    name: "\uD798"
+    tier: 0
+    cost: 1
+    maxLevel: 9999999
+    desc: "\uACF5\uACA9\uB825 1 \uC99D\uAC00"
+    note: 
+    level: 0
+  - type: 0
+    name: "\uAC11\uC8FC"
+    tier: 0
+    cost: 1
+    maxLevel: 9999999
+    desc: "\uCCB4\uB825 1 \uC99D\uAC00"
+    note: 
+    level: 0
+  - type: 1
+    name: "\uACF5\uACA9\uB825"
+    tier: 0
+    cost: 3
+    maxLevel: 20
+    desc: "\uACF5\uACA9\uB825 5 \uC99D\uAC00 "
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
+  - type: 0
+    name: 
+    tier: 0
+    cost: 0
+    maxLevel: 0
+    desc: 
+    note: 
+    level: 0
 --- !u!1001 &209432244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8155,6 +8704,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72606fd024f2c7c4dbaa64f22fb23daa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefending: 0
+  noDefendTime: 0
 --- !u!4 &1488942216 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2080083236463441959, guid: 40d47deaca22b9e4cbe24ddd6fc02670, type: 3}
