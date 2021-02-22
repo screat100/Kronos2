@@ -15,11 +15,11 @@ C:/Users/윤성재/Desktop/Kronos/Kronos2/Kronos
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61055
+51120
 Successfully changed project path to: C:/Users/윤성재/Desktop/Kronos/Kronos2/Kronos
 C:/Users/윤성재/Desktop/Kronos/Kronos2/Kronos
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.97 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 42.03 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,337 +35,240 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001815 seconds.
+Registered in 0.001789 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.03 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 45.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.519 seconds
+- Completed reload, in  1.681 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000711 seconds.
+Registered in 0.000816 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001EC733CFA30 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001F9FA015040 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC737E5010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-000001F84008C030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC737E5010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001F84008C030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC71F0D230 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001F9FDF6E230 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC722AB020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001F9FDEE6020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC71F0D230 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001F9FDF6E230 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC722AB020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001F9FDEE6020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC71F0D230 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001F9FDF6E230 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC7232CE30 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001F9FE7CAE30 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC73114030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-000001F9F9DE9040 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC725C3D70 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001F9F964D010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC737FEC20 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001F9FEBF6040 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC72438020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001F9F96EE020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.684 seconds
+- Completed reload, in  0.832 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 76.1 MB.
 System memory in use after: 76.1 MB.
 
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1682.
-Total: 1.719100 ms (FindLiveObjects: 0.142900 ms CreateObjectMapping: 0.030700 ms MarkObjects: 1.481300 ms  DeleteObjects: 0.063200 ms)
+Total: 1.851500 ms (FindLiveObjects: 0.173000 ms CreateObjectMapping: 0.032500 ms MarkObjects: 1.569300 ms  DeleteObjects: 0.075500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Resources/Effect/Player/SwordSlash1.prefab
-  artifactKey: Guid(eb09ad9ea09363743bf906706f2cfcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Player/SwordSlash1.prefab using Guid(eb09ad9ea09363743bf906706f2cfcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f08783bac8d9860fe22ce4ad405ce04') in 0.050944 seconds
-  Import took 0.053893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Resources/Effect/Player/SwordSlash2.prefab
-  artifactKey: Guid(150b000c286053b49b57b8af70ad3191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Player/SwordSlash2.prefab using Guid(150b000c286053b49b57b8af70ad3191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1fe4eb37d38c16b99786f77ae6fe11') in 0.009049 seconds
-  Import took 0.011669 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Resources/Effect/Player/SwordHitBlue.prefab
-  artifactKey: Guid(b625833af7fed164bbcbedc8c09c356c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Player/SwordHitBlue.prefab using Guid(b625833af7fed164bbcbedc8c09c356c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976388aeace168d7676feef3074cdf8c') in 0.008617 seconds
-  Import took 0.011348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Resources/Effect/Player/DefendSuccess.prefab
-  artifactKey: Guid(bfbeddd8307f4e441aa8ae4537bf45ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Player/DefendSuccess.prefab using Guid(bfbeddd8307f4e441aa8ae4537bf45ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a9f1f272b3f2823e94c08bc8382b70') in 0.008291 seconds
-  Import took 0.010432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Resources/10 Player/PlayerMaterial.physicMaterial
-  artifactKey: Guid(c196d30e6c932484b859831f14b8875c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/10 Player/PlayerMaterial.physicMaterial using Guid(c196d30e6c932484b859831f14b8875c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f998eef6c10c143b1a784ca45b4d112') in 0.009517 seconds
-  Import took 0.012209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Resources/Effect/Player/DefendParrying.prefab
-  artifactKey: Guid(666381b24c234194882b77851e943ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Player/DefendParrying.prefab using Guid(666381b24c234194882b77851e943ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38dddf5b28b7b5a7afa7a8417adfe746') in 0.008924 seconds
-  Import took 0.011050 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Resources/Effect/Player/SwordSlash3.prefab
-  artifactKey: Guid(a11e4d532319696459248597a0c1660e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Player/SwordSlash3.prefab using Guid(a11e4d532319696459248597a0c1660e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95c96ec7def47b490213399ea69cda6') in 0.011060 seconds
-  Import took 0.013730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.485245 seconds.
-  path: Assets/Resources/10 Player/PlayerAnimatorController.controller
-  artifactKey: Guid(b1a0b72edc0d80443b356a67e035087f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/10 Player/PlayerAnimatorController.controller using Guid(b1a0b72edc0d80443b356a67e035087f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f798214f15bce6d9573a706ee7075e7') in 0.028169 seconds
-  Import took 0.031729 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51.2 MB.
-System memory in use after: 51.3 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1683.
-Total: 2.007200 ms (FindLiveObjects: 0.160400 ms CreateObjectMapping: 0.029400 ms MarkObjects: 1.804400 ms  DeleteObjects: 0.011700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.836520 seconds.
-  path: Assets/Resources/ModularAnimalKnightsPBR/Animation/Die.fbx
-  artifactKey: Guid(83c04b49ec42cbc48bae2b85c9bc40ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ModularAnimalKnightsPBR/Animation/Die.fbx using Guid(83c04b49ec42cbc48bae2b85c9bc40ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0164025a94585c9fb6b46154185f01a2') in 0.146740 seconds
-  Import took 0.149539 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/Resources/ModularAnimalKnightsPBR/Animation/Idle_Normal.fbx
-  artifactKey: Guid(71e025727ca0dc5499adb08f31672886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ModularAnimalKnightsPBR/Animation/Idle_Normal.fbx using Guid(71e025727ca0dc5499adb08f31672886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca64f6d43745f2d0225287b59bdec6f0') in 0.038063 seconds
-  Import took 0.040292 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Resources/ModularAnimalKnightsPBR/Animation/DashBackward.fbx
-  artifactKey: Guid(40c22d64a80931b4b9450b46d37a659d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ModularAnimalKnightsPBR/Animation/DashBackward.fbx using Guid(40c22d64a80931b4b9450b46d37a659d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff2164d846d1e38d72df36a086a6d46') in 0.040326 seconds
-  Import took 0.042963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Resources/ModularAnimalKnightsPBR/Animation/JumpAttack.fbx
-  artifactKey: Guid(7ab019fce9e97814793a05a935b9b2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ModularAnimalKnightsPBR/Animation/JumpAttack.fbx using Guid(7ab019fce9e97814793a05a935b9b2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b6d72793e5911c6ba44cb888674de4') in 0.035454 seconds
-  Import took 0.037616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Resources/ModularAnimalKnightsPBR/Animation/JumpDown.fbx
-  artifactKey: Guid(78bbb62331d2ad549ac9a265aa264829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ModularAnimalKnightsPBR/Animation/JumpDown.fbx using Guid(78bbb62331d2ad549ac9a265aa264829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce920ddbeced71204ccd8c2444ddff7') in 0.030923 seconds
-  Import took 0.033108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Resources/ModularAnimalKnightsPBR/Animation/JumpUp.fbx
-  artifactKey: Guid(97cb851e073ace44eb8c24ee4542aa05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ModularAnimalKnightsPBR/Animation/JumpUp.fbx using Guid(97cb851e073ace44eb8c24ee4542aa05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f986c32fc625ff9c708144c12e2e4f78') in 0.035845 seconds
-  Import took 0.038100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Resources/ModularAnimalKnightsPBR/Animation/DashRight.fbx
-  artifactKey: Guid(f2ecad22c76d41e4bbf6fcbb267f6067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ModularAnimalKnightsPBR/Animation/DashRight.fbx using Guid(f2ecad22c76d41e4bbf6fcbb267f6067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a80360e9e9b55511a4ab197d7482e1') in 0.037745 seconds
-  Import took 0.040132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Resources/ModularAnimalKnightsPBR/Animation/JumpEnd.fbx
-  artifactKey: Guid(23bc07d02762ebe4da64d0c56c7e9c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ModularAnimalKnightsPBR/Animation/JumpEnd.fbx using Guid(23bc07d02762ebe4da64d0c56c7e9c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac61ce5edbc49d7ba770467c2cc8747a') in 0.030907 seconds
-  Import took 0.033612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Resources/ModularAnimalKnightsPBR/Animation/DashLeft.fbx
-  artifactKey: Guid(45653f36ab8c9214aad0bda9778eb145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ModularAnimalKnightsPBR/Animation/DashLeft.fbx using Guid(45653f36ab8c9214aad0bda9778eb145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7458a8fc57b00479200198ccd14d848d') in 0.035854 seconds
-  Import took 0.038138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Resources/ModularAnimalKnightsPBR/Animation/DefendGetHit.fbx
-  artifactKey: Guid(89f0c3ed718ffa34d85dde9004aecc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ModularAnimalKnightsPBR/Animation/DefendGetHit.fbx using Guid(89f0c3ed718ffa34d85dde9004aecc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc51f563430e62d8fc00ea0e3a249827') in 0.041475 seconds
-  Import took 0.043666 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Resources/ModularAnimalKnightsPBR/Animation/DashForward.fbx
-  artifactKey: Guid(a1c595f7b742e174cbd81d7061b3bd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ModularAnimalKnightsPBR/Animation/DashForward.fbx using Guid(a1c595f7b742e174cbd81d7061b3bd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31749314ff7ab220b28a7e62bee5d6c') in 0.038930 seconds
-  Import took 0.041104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Resources/ModularAnimalKnightsPBR/Animation/Dizzy.fbx
-  artifactKey: Guid(759a2d8259da5fa4996c08563e3908b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ModularAnimalKnightsPBR/Animation/Dizzy.fbx using Guid(759a2d8259da5fa4996c08563e3908b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241ae963760565d1acbd29cb5c30a1e2') in 0.034178 seconds
-  Import took 0.036675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Resources/ModularAnimalKnightsPBR/Animation/Interaction.fbx
-  artifactKey: Guid(300c006e7ca1dcd40853317edb46c519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ModularAnimalKnightsPBR/Animation/Interaction.fbx using Guid(300c006e7ca1dcd40853317edb46c519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197e42fcff4ecf66d03403a9c86b4fca') in 0.037930 seconds
-  Import took 0.040470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Resources/ModularAnimalKnightsPBR/Animation/GetHit.fbx
-  artifactKey: Guid(ecd54097783b98a439603d4fd1dd32b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ModularAnimalKnightsPBR/Animation/GetHit.fbx using Guid(ecd54097783b98a439603d4fd1dd32b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba7793a11ef630afcc0d45289dc378e') in 0.031451 seconds
-  Import took 0.033716 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Resources/ModularAnimalKnightsPBR/Animation/Defend.fbx
-  artifactKey: Guid(e49df721fd639c8489efb41c87f78d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ModularAnimalKnightsPBR/Animation/Defend.fbx using Guid(e49df721fd639c8489efb41c87f78d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97392efa4642739e533dd8b9ece5dd6b') in 0.028832 seconds
-  Import took 0.031381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Resources/ModularAnimalKnightsPBR/Animation/DIeRecover.fbx
-  artifactKey: Guid(11582210a54894b4aa4f1163c8fdf556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ModularAnimalKnightsPBR/Animation/DIeRecover.fbx using Guid(11582210a54894b4aa4f1163c8fdf556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31271a4a5d2423c5d0231be5a9cb875') in 0.036077 seconds
-  Import took 0.038375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Resources/ModularAnimalKnightsPBR/Animation/Defend.fbx
-  artifactKey: Guid(e49df721fd639c8489efb41c87f78d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ModularAnimalKnightsPBR/Animation/Defend.fbx using Guid(e49df721fd639c8489efb41c87f78d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97392efa4642739e533dd8b9ece5dd6b') in 0.031060 seconds
-  Import took 0.033580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Resources/ModularAnimalKnightsPBR/Animation/Idle_Battle.fbx
-  artifactKey: Guid(a7721f107fa269b48b6d1321480f436e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ModularAnimalKnightsPBR/Animation/Idle_Battle.fbx using Guid(a7721f107fa269b48b6d1321480f436e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f926dfe48c4981ceddd49a52c454c9') in 0.036332 seconds
-  Import took 0.038682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Resources/ModularAnimalKnightsPBR/Animation/JumpStart.fbx
-  artifactKey: Guid(35b9d151d65b0b54bb7cb30a7014d802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ModularAnimalKnightsPBR/Animation/JumpStart.fbx using Guid(35b9d151d65b0b54bb7cb30a7014d802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37103ad800593a9d3cf31e3f20b4ece8') in 0.031874 seconds
-  Import took 0.034418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Resources/ModularAnimalKnightsPBR/Animation/DrinkPotion.fbx
-  artifactKey: Guid(3bf8b3cd8586e6445b72a45c63b21c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ModularAnimalKnightsPBR/Animation/DrinkPotion.fbx using Guid(3bf8b3cd8586e6445b72a45c63b21c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1374d4e054d20e71e463a07813f6cadd') in 0.040861 seconds
-  Import took 0.043066 seconds .
+  path: Assets/Scripts/PlayerStatus.cs
+  artifactKey: Guid(95000e40140dce748bbbbb4a6497a759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerStatus.cs using Guid(95000e40140dce748bbbbb4a6497a759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749b3063940f30d2fcbdaf5ad879bb76') in 0.037057 seconds
+  Import took 0.039544 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001015 seconds.
+Registered in 0.001017 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001EC748DF880 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001F9F9EFBC20 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC6D558010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-000001F9F9DA9020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC74A0E600 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001F9FDF8E020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC6D5BC010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001F9F9DA9020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC6DA9D9C0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001F8402E8070 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC73F53010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001F9FDF8E020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC747EF010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001F8404E1010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC6D558010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001F9F9DA9020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC746A9520 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001F9FE08C410 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC7492E990 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-000001F840FB6030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC756B4920 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001F840FB6030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC74D10920 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001F9FEBF6040 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC725AC7A0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001F9F96EE020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.686 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1194 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.7 MB.
+System memory in use after: 74.8 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1684.
+Total: 1.427400 ms (FindLiveObjects: 0.159400 ms CreateObjectMapping: 0.031500 ms MarkObjects: 1.226200 ms  DeleteObjects: 0.009600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000918 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F9FE512D80 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F84205A060 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F840711020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F84086B010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8425C8710 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8415D0810 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F842501D60 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F84086B010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8420D89A0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8417FDB00 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F964D010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FEBF6040 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F841D8DB90 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.704 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1194 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.7 MB.
+System memory in use after: 74.8 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1686.
+Total: 1.740400 ms (FindLiveObjects: 0.158300 ms CreateObjectMapping: 0.028100 ms MarkObjects: 1.538900 ms  DeleteObjects: 0.013900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2745.079977 seconds.
+  path: Assets/Scripts/PlayerStatusManager.cs
+  artifactKey: Guid(72606fd024f2c7c4dbaa64f22fb23daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerStatusManager.cs using Guid(72606fd024f2c7c4dbaa64f22fb23daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014db9de8da3bb0dbcf779c2a90e9f0b') in 0.010386 seconds
+  Import took 0.012765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001172 seconds.
+  path: Assets/Scripts/PlayerStatusManager.cs
+  artifactKey: Guid(72606fd024f2c7c4dbaa64f22fb23daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerStatusManager.cs using Guid(72606fd024f2c7c4dbaa64f22fb23daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014db9de8da3bb0dbcf779c2a90e9f0b') in 0.003257 seconds
+  Import took 0.005254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.201210 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(84b3b62e054ab5540a7c72e98fa949d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(84b3b62e054ab5540a7c72e98fa949d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71db0cb5117036d7a769db5ea8f8e903') in 0.007760 seconds
+  Import took 0.009939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.118155 seconds.
+  path: Assets/Scripts/PlayerSandGlass.cs
+  artifactKey: Guid(f1f22e8046c95ed44835dd964e2e9c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerSandGlass.cs using Guid(f1f22e8046c95ed44835dd964e2e9c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4b3da7391cc3ebc300da21c0fdbd0f') in 0.008031 seconds
+  Import took 0.010274 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000936 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F841726B60 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F840A7F040 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F841CFDC30 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8400D81C0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F84087BDC0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F841ADC010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F841510010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F840A7F040 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F841D8DB90 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F842040A90 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F841ED18B0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F840595020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FDFD0420 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -373,456 +276,48 @@ RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.688 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1194 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.3 MB.
-System memory in use after: 89.4 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1696.
-Total: 1.393300 ms (FindLiveObjects: 0.135400 ms CreateObjectMapping: 0.032500 ms MarkObjects: 1.209300 ms  DeleteObjects: 0.015100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001090 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001EC9768D9B0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC725BC7B0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC738BD010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC73BA3010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC6DEC6FF0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC738BD010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC74885E60 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC725BC7B0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC753EF2F0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC7492E990 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC7492E990 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC71F8AE30 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC6DA48030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.706 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1194 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.4 MB.
-System memory in use after: 89.5 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1698.
-Total: 1.525500 ms (FindLiveObjects: 0.179600 ms CreateObjectMapping: 0.031200 ms MarkObjects: 1.302600 ms  DeleteObjects: 0.011200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001031 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001EC976BA410 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC753CD520 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC7617BD80 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC753CD520 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC7248C020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC75965B40 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC74885E60 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC753CD520 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC7266B7B0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC75A34DE0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC977F67F0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC75E8B010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC727CAEF0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.695 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1194 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.4 MB.
-System memory in use after: 89.5 MB.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.7 MB.
+System memory in use after: 74.8 MB.
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1700.
-Total: 1.515900 ms (FindLiveObjects: 0.175400 ms CreateObjectMapping: 0.033300 ms MarkObjects: 1.294600 ms  DeleteObjects: 0.011300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 352.275806 seconds.
-  path: Assets/Resources/10 Player/PlayerAnimatorController.controller
-  artifactKey: Guid(b1a0b72edc0d80443b356a67e035087f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/10 Player/PlayerAnimatorController.controller using Guid(b1a0b72edc0d80443b356a67e035087f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd521f12e6581931ccf096f7297190718') in 0.035016 seconds
-  Import took 0.039416 seconds .
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1689.
+Total: 1.545100 ms (FindLiveObjects: 0.179200 ms CreateObjectMapping: 0.033200 ms MarkObjects: 1.321200 ms  DeleteObjects: 0.010600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001000 seconds.
+Registered in 0.000915 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001EC735FA0B0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001F84189FE20 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC6D558010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-000001FA208B69C0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC732D5060 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001FA20A60910 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC725180C0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001FA208B69C0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC6D9A4D20 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001F841BAD070 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC72419040 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001F8415D0810 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC750E9990 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001F841AF2090 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC71DB3010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001FA208B69C0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC72140E10 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001F8414BBF80 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC74043440 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-000001F8417FDB00 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC756B4920 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001F9F964D010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC7492E990 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001F842098960 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC752E8BB0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001F842C13010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.670 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1194 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.4 MB.
-System memory in use after: 89.5 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1702.
-Total: 1.726500 ms (FindLiveObjects: 0.185900 ms CreateObjectMapping: 0.031700 ms MarkObjects: 1.495000 ms  DeleteObjects: 0.012700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 125.121728 seconds.
-  path: Assets/Resources/10 Player/PlayerAnimatorController.controller
-  artifactKey: Guid(b1a0b72edc0d80443b356a67e035087f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/10 Player/PlayerAnimatorController.controller using Guid(b1a0b72edc0d80443b356a67e035087f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f759d7f47b12b62b76d12643cb10fc60') in 0.032760 seconds
-  Import took 0.037011 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001167 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001EC74B13030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC74917E30 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC97824BD0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC71E0B010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC7248C020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC75965B40 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC75A0D020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC71E0B010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC74BD9010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC74043440 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC977F67F0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC7535EF50 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC72315640 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.735 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1194 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.4 MB.
-System memory in use after: 89.5 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1704.
-Total: 1.576200 ms (FindLiveObjects: 0.166500 ms CreateObjectMapping: 0.028400 ms MarkObjects: 1.366500 ms  DeleteObjects: 0.013600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000985 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001EAA5DF6AF0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC74F51020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC97824BD0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC71E0B010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC7248C020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC748A8020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC74A50010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC71E0B010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC753EF2F0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC74043440 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC977F67F0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC723310F0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC73EB5060 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.658 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1194 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.4 MB.
-System memory in use after: 89.5 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1706.
-Total: 1.456300 ms (FindLiveObjects: 0.185100 ms CreateObjectMapping: 0.033500 ms MarkObjects: 1.226400 ms  DeleteObjects: 0.010200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001002 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001EC75A67100 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC72325660 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC97824BD0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC6D58C010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC74C2E0C0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC72419040 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC75298690 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC75CCD020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC7266B7B0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC74043440 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC756B4920 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC977F0910 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC74FF5020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.678 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1194 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.4 MB.
-System memory in use after: 89.5 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1708.
-Total: 1.942700 ms (FindLiveObjects: 0.232300 ms CreateObjectMapping: 0.032300 ms MarkObjects: 1.663300 ms  DeleteObjects: 0.013000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000984 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001EC97645B40 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC6D558010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC97824BD0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC725180C0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC6DF29020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC748A8020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC74D78010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC749EA050 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC7266B7B0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC74043440 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC75431660 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC761E3AB0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC73EB5060 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.677 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1194 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.4 MB.
-System memory in use after: 89.5 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1710.
-Total: 1.473100 ms (FindLiveObjects: 0.158400 ms CreateObjectMapping: 0.029800 ms MarkObjects: 1.270700 ms  DeleteObjects: 0.013000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001082 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001EC986A80B0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC72325660 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC97824BD0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC71E0B010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC75BDCFC0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC72419040 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC761C0BB0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC71E0B010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC99BB5010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC9963C010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC75A67100 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC723310F0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC6DA6D590 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.709 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1194 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.4 MB.
-System memory in use after: 89.5 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1712.
-Total: 1.779800 ms (FindLiveObjects: 0.191900 ms CreateObjectMapping: 0.028200 ms MarkObjects: 1.541000 ms  DeleteObjects: 0.016600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001013 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001EC986A80B0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC725BC7B0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC73B76080 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC74C80020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC98C51030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC97824BD0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC761C0BB0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC71E0B010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC99BB5010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC97816020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC75D02020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC75488460 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC6DFD7010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -832,43 +327,108 @@ Mono: successfully reloaded assembly
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1194 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.4 MB.
-System memory in use after: 89.5 MB.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.7 MB.
+System memory in use after: 74.8 MB.
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1714.
-Total: 1.909500 ms (FindLiveObjects: 0.174600 ms CreateObjectMapping: 0.035000 ms MarkObjects: 1.684600 ms  DeleteObjects: 0.014100 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1691.
+Total: 1.453900 ms (FindLiveObjects: 0.146800 ms CreateObjectMapping: 0.031900 ms MarkObjects: 1.263100 ms  DeleteObjects: 0.011200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 205.999624 seconds.
+  path: Assets/Scripts/PlayerSandGlass.cs
+  artifactKey: Guid(f1f22e8046c95ed44835dd964e2e9c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerSandGlass.cs using Guid(f1f22e8046c95ed44835dd964e2e9c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35eb5b4bc3bd1028e9b3f7c47567154') in 0.007383 seconds
+  Import took 0.009653 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001025 seconds.
+Registered in 0.001011 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001EC753A9210 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001F9F95A0330 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC6D558010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-000001F9F9EA2010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC73A02020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001F840B57020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC97E6C020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001F84171CD30 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC754C2E30 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001FA2084BF70 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC75B1EE80 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001F9FE45D020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC7618DC80 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001F841AF2090 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC75CCD020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001F9F9EA2010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC99107820 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001F840AF1010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC74043440 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-000001F8417FDB00 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC756B4920 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001F9F964D010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC721E1020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001F842098960 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC753CD520 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001F841D5B010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.697 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.7 MB.
+System memory in use after: 74.8 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1693.
+Total: 1.713000 ms (FindLiveObjects: 0.182100 ms CreateObjectMapping: 0.029600 ms MarkObjects: 1.479900 ms  DeleteObjects: 0.020300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 940.675137 seconds.
+  path: Assets/Scripts/PlayerSandGlass.cs
+  artifactKey: Guid(f1f22e8046c95ed44835dd964e2e9c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerSandGlass.cs using Guid(f1f22e8046c95ed44835dd964e2e9c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e50a1ebe2e4a15cac928a201a2e76d') in 0.005288 seconds
+  Import took 0.007659 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000909 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001FA206DFA00 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F84205A060 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F840501030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA208C2BB0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA21235DC0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F842287020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F842110F50 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F841221040 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8420D89A0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8417AB030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8417AB030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F841C8F860 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F840D20010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
@@ -877,64 +437,456 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.674 seconds
+- Completed reload, in  0.715 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1194 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.4 MB.
-System memory in use after: 89.5 MB.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.7 MB.
+System memory in use after: 74.8 MB.
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1716.
-Total: 1.535300 ms (FindLiveObjects: 0.162100 ms CreateObjectMapping: 0.027700 ms MarkObjects: 1.329900 ms  DeleteObjects: 0.014100 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1695.
+Total: 1.999300 ms (FindLiveObjects: 0.158200 ms CreateObjectMapping: 0.030000 ms MarkObjects: 1.790600 ms  DeleteObjects: 0.019300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001324 seconds.
+Registered in 0.001008 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001EC75A6B110 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001F841F919B0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC74917E30 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-000001F84187C660 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC6DF5B020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001F840B57020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC725180C0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001F840417010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC75FC6D90 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001FA21235DC0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC75965B40 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001F9FE2DC020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC749CA030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001F842110F50 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC75FBA020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001F84187C660 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC7474CEE0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001F840AF1010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC74043440 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-000001F841533EF0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC756B4920 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001F841533EF0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC721E1020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001F841C8F860 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EC72588020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001F8413A7EA0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.789 seconds
+- Completed reload, in  0.759 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1194 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.4 MB.
-System memory in use after: 89.5 MB.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.8 MB.
+System memory in use after: 74.9 MB.
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1718.
-Total: 1.556800 ms (FindLiveObjects: 0.162400 ms CreateObjectMapping: 0.028300 ms MarkObjects: 1.354100 ms  DeleteObjects: 0.010800 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1697.
+Total: 1.500000 ms (FindLiveObjects: 0.172400 ms CreateObjectMapping: 0.029000 ms MarkObjects: 1.286600 ms  DeleteObjects: 0.011000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001341 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001FA206DFA00 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F9EA2010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F841398170 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA208C2BB0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FE527020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F841B9F020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F842A63040 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA20841010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA22801010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8417FDB00 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA206E4570 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FDECDFC0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8423BE010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.725 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.8 MB.
+System memory in use after: 74.9 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1699.
+Total: 1.485600 ms (FindLiveObjects: 0.165700 ms CreateObjectMapping: 0.028500 ms MarkObjects: 1.278800 ms  DeleteObjects: 0.011600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001009 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F842A8B070 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8400D81C0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F979E010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F842DB0010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FE527020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA22196B00 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA20D4A010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8400D81C0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F840AF1010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F840A83970 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F840A83970 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FDECDFC0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA21573020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.731 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.8 MB.
+System memory in use after: 74.9 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1701.
+Total: 1.613300 ms (FindLiveObjects: 0.181300 ms CreateObjectMapping: 0.027700 ms MarkObjects: 1.391000 ms  DeleteObjects: 0.012300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000991 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F841CBE010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F84162DE10 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA21583030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F840417010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA20719FD0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F841B9F020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8404E1010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F841221040 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FE3B4030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8417FDB00 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FE784020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FDECDFC0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8425C8710 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.685 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.8 MB.
+System memory in use after: 74.9 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1703.
+Total: 1.585200 ms (FindLiveObjects: 0.141900 ms CreateObjectMapping: 0.027000 ms MarkObjects: 1.402700 ms  DeleteObjects: 0.012000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001047 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F841CBE010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F84162DE10 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA21583030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F841A08030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA20719FD0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F841B9F020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8404E1010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F841221040 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F840AF1010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8417FDB00 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8417FDB00 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FDECDFC0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F840F22010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.684 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.8 MB.
+System memory in use after: 74.9 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1705.
+Total: 1.920100 ms (FindLiveObjects: 0.281800 ms CreateObjectMapping: 0.039400 ms MarkObjects: 1.582600 ms  DeleteObjects: 0.014700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001418 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F840ABB060 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F84205A060 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA22195030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F84079B030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA21889AB0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA22195030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F840A83050 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA20841010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FDFE0430 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F841136020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA206E4570 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F851A9FEF0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8427EDD50 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.693 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.8 MB.
+System memory in use after: 74.9 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1707.
+Total: 1.501600 ms (FindLiveObjects: 0.165900 ms CreateObjectMapping: 0.028100 ms MarkObjects: 1.293600 ms  DeleteObjects: 0.012900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000935 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F840ABB060 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F84205A060 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA22195030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F84079B030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F841FE00B0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA22195030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA20A74300 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA20841010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA218B9AE0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FE783010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FE783010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8425A3020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA206000C0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.708 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.8 MB.
+System memory in use after: 74.9 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1709.
+Total: 1.556100 ms (FindLiveObjects: 0.173600 ms CreateObjectMapping: 0.029100 ms MarkObjects: 1.339900 ms  DeleteObjects: 0.012700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000842 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001FA219CDD90 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F9EA2010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA20D6A050 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F840417010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA22BE0820 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F841F35B80 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F840A83050 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA20841010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FDD64040 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F841136020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA206E4570 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA20A68020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F9BC2040 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.712 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.8 MB.
+System memory in use after: 74.9 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1711.
+Total: 1.505500 ms (FindLiveObjects: 0.179200 ms CreateObjectMapping: 0.029400 ms MarkObjects: 1.284100 ms  DeleteObjects: 0.012000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000965 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001FA219CDD90 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F84162DE10 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA20D6A050 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F840417010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA22BE0820 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F841F35B80 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8404E1010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA20841010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F840AF1010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F841136020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA206E4570 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8425A3020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F9BC2040 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.681 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.8 MB.
+System memory in use after: 74.9 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1713.
+Total: 1.781400 ms (FindLiveObjects: 0.169500 ms CreateObjectMapping: 0.032600 ms MarkObjects: 1.565200 ms  DeleteObjects: 0.013000 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
