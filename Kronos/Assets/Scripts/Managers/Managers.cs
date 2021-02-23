@@ -11,7 +11,6 @@ public class Managers : MonoBehaviour
     InputManager _input = new InputManager();
     public static InputManager Input { get { return Instance._input; } }
 
-
     void Start()
     {
         Init();
