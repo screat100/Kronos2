@@ -33,7 +33,7 @@ public class Ingame_UIManager : MonoBehaviour
         Stamina_Slider.GetComponent<Image>().fillAmount = PlayerStatus.Stamina / PlayerStatus.StaminaMax;
 
         SandGlass_Slider.GetComponent<Image>().fillAmount = PlayerStatus.exp / PlayerStatus.expMax;
-        SandGlass_text.GetComponent<Text>().text = ((int)PlayerStatus.exp).ToString();
+        SandGlass_text.GetComponent<Text>().text = ((int)PlayerStatus.level).ToString();
 
     }
 }
