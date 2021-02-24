@@ -2,51 +2,69 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
-public class Ability
-{
-    public enum AbilityType
-    {
-        none,
-        attack,
-        health,
-        skillUpgrade,
-        sharp,
-        shield,
-        utility,
-    }
-
-    public AbilityType type;
-    public string name;
-    public int tier;
-    public int cost;
-    public int maxLevel;
-    public string desc;
-    public string note;
-
-    public int level;
-}
-
 public class PlayerSandGlass : MonoBehaviour
 {
 
-    [SerializeField]
-    public List<Ability> abilities = new List<Ability>();
+    // abilities[i]["header"] : CSV 파일 내에 "header" 열에 있는 i번째 행의 값을 가져온다.
+    List<Dictionary<string, object>> abilities;
 
-    public void Init()
+    enum dataHeader
     {
-        for(int i=0; i<33; i++)
-        {
-            abilities[i].level = 0;
-        }
+        tier,
+        type,
+        name,
+        desc,
+        cost,
+        maxLevel,
+        memo,
+        level,
     }
 
-    public void DataLoad()
+    private void Start()
     {
-        // 데이터가 없다면
-        Init();
+        abilities = CSVReader.Read("abilities");
 
-        // 있다면...
+
+
+        var writer = new CsvFileWriter(Application.dataPath + "/Resources/abilities2.csv");
+
+        List<string> columns = new List<string>();
+
+        foreach (dataHeader h in System.Enum.GetValues(typeof(dataHeader)))
+        {
+            string temp = h.ToString();
+            columns.Add(temp);
+        }
+
+        writer.WriteRow(columns);
+        columns.Clear();
+
+        for (int i = 0; i < abilities.Count; i++)
+        {
+            columns.Clear();
+
+            foreach (dataHeader h in System.Enum.GetValues(typeof(dataHeader)))
+            {
+                string header = h.ToString();
+                string temp = abilities[i][header].ToString();
+                Debug.Log($"temp = {temp}");
+                columns.Add(temp);
+            }
+            writer.WriteRow(columns);
+            columns.Clear();
+        }
+
+
+        writer.Dispose();
+
+
+    }
+
+
+
+
+    public void DataSave()
+    {
     }
 
 
