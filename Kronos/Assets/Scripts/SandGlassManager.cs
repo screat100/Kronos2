@@ -15,12 +15,16 @@ public class SandGlassManager : PlayerSandGlass
 
     void Start()
     {
+
+        PlayerStatus.GainExp(5000);
+        Debug.Log(PlayerStatus.remainPoint);
         InitList();
     }
 
     void InitList()
         /*
-         * ui상의 리스트들을 배치
+         * ui상에 능력 리스트들을 배치
+         * - 각 능력 리스트 내 텍스트들 작성
          */
     {
         RenewSumLevelOfType();
@@ -28,12 +32,12 @@ public class SandGlassManager : PlayerSandGlass
         for(int i=0; i<abilities.Count; i++)
         {
             GameObject SandGlass_list = GameObject.Instantiate(AbilityList);
-            SandGlass_list.transform.parent = ScrollViewContent.transform;
+            SandGlass_list.transform.SetParent(ScrollViewContent.transform);
             SandGlass_list.name = "SandGlass_list" + i.ToString();
 
 
-            Text[] dataText = SandGlass_list.GetComponentsInChildren<Text>();
             //순서대로 type, tier, name, desc, level
+            Text[] dataText = SandGlass_list.GetComponentsInChildren<Text>();
 
             string type = abilities[i]["type"].ToString();
             string type_kor;
@@ -80,32 +84,66 @@ public class SandGlassManager : PlayerSandGlass
             dataText[3].text = abilities_text[i]["desc"].ToString();
             dataText[4].text = abilities[i]["level"].ToString();
 
-            // 버튼 활성화 조건 체크
-            Transform button = SandGlass_list.transform.Find("Button");
+            // 각 버튼에 onClick Listener 추가
+            GameObject button = SandGlass_list.transform.Find("Button").gameObject;
+
+            int temp = i; // i로 parameter를 넣으면 오류 발생 (# Closure Problem)
+            button.gameObject.GetComponent<Button>().onClick.AddListener(() => { AbilityLevelUp(temp); });
+        }
+
+        CheckButtonActivateCrieta();
+    }
+
+    bool CheckButtonActivateCrieta()
+        /*
+         * 모든 능력들의 버튼 활성화 조건을 체크
+         * - 보유한 모래시계 수가 해당 능력의 비용 이상이고
+         * - 각 티어별 해금 조건을 충족했으며
+         * - 현재 보유한 능력 레벨이 마스터레벨 미만
+         */
+    {
+        for(int i=0; i<abilities.Count; i++)
+        {
+            // 1. 이름으로 Child Object를 찾는다
+            Transform temp = ScrollViewContent.transform.Find("SandGlass_list" + i.ToString()).transform;
+
+            // 2. 해당 object의 child 버튼을 찾는다
+            GameObject button = temp.Find("Button").gameObject;
+
+            // 3. 기본적으로 interact를 끈다.
             button.GetComponent<Button>().interactable = false;
 
-            int tier = int.Parse(dataText[1].text);
+            // 조건 검사를 위한 변수들
+            bool costCheck = false;
+            bool tierCheck = false;
+            bool masterCheck = false;
 
-            switch(tier)
+            // 4. 비용조건 체크
+            if(PlayerStatus.remainPoint >= int.Parse(abilities[i]["cost"].ToString()))
+                costCheck = true;
+            
+            // 5. 티어 조건 체크
+            int tier = int.Parse(abilities[i]["tier"].ToString());
+            switch (tier)
             {
                 case 0:
-                    button.GetComponent<Button>().interactable = true;
+                    tierCheck = true;
                     break;
 
                 case 1:
                     // 1티어 : '시간 수거' 능력 10레벨 이상
-                    if(int.Parse(abilities[0]["level"].ToString()) >= 10)
+                    if (int.Parse(abilities[0]["level"].ToString()) >= 10)
                     {
-                        button.GetComponent<Button>().interactable = true;
+                        tierCheck = true;
                     }
                     break;
 
                 case 2:
                     // 2티어 : 동일계열 능력 레벨 합 10 이상
                     int index = 10;
-                    foreach(typeOfAbility t in System.Enum.GetValues(typeof(typeOfAbility)))
+                    foreach (typeOfAbility t in System.Enum.GetValues(typeof(typeOfAbility)))
                     {
-                        if(t.ToString() == abilities[i]["type"].ToString())
+                        if (t.ToString() == abilities[i]["type"].ToString())
                         {
                             index = (int)t;
                             break;
@@ -114,7 +152,7 @@ public class SandGlassManager : PlayerSandGlass
 
                     if (SumLevelOfType[index] >= 10)
                     {
-                        button.GetComponent<Button>().interactable = true;
+                        tierCheck = true;
                     }
                     break;
 
@@ -125,27 +163,32 @@ public class SandGlassManager : PlayerSandGlass
                     break;
             }
 
-            // 각 버튼에 onClick Listener 추가
-            //button.GetComponent<Button>().onClick.AddListener(delegate { AbilityLevelUp(i); });
-            button.GetComponent<Button>().onClick.AddListener(() => { AbilityLevelUp(i); });
+            // 6. 마스터레벨 조건 체크
+            int masterLevel = int.Parse(abilities[i]["maxLevel"].ToString());
+            int nowLevel = int.Parse(abilities[i]["level"].ToString());
+            if(nowLevel < masterLevel)
+            {
+                masterCheck = true;
+            }
 
-            Debug.Log($"index = {i}");
-
+            // 7. 세 조건 모두 통과시 활성화
+            if (costCheck && tierCheck && masterCheck)
+                button.GetComponent<Button>().interactable = true;
         }
+
+
+        return true;
     }
+
 
     void AbilityLevelUp(int index)
     {
-        index -= 39;
         Debug.Log($"index = {index}");
 
         int cost = int.Parse(abilities[index]["cost"].ToString());
-
-        //if (cost > PlayerStatus.remainPoint)
-        //    return;
-        
-
         PlayerStatus.remainPoint -= cost;
+        Debug.Log(PlayerStatus.remainPoint);
+
         int level = int.Parse(abilities[index]["level"].ToString());
         level++;
         abilities[index]["level"] = level;
@@ -157,6 +200,7 @@ public class SandGlassManager : PlayerSandGlass
         GameObject.Find("SandGlass_list" + index.ToString()).transform.Find("data_level").GetComponent<Text>().text = level.ToString();
 
         // 버튼 활성화 조건 재체크
+        CheckButtonActivateCrieta();
 
     }
 

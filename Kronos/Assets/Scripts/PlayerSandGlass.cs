@@ -80,7 +80,6 @@ public class PlayerSandGlass : MonoBehaviour
             {
                 string header = h.ToString();
                 string temp = abilities[i][header].ToString();
-                Debug.Log($"temp = {temp}");
                 columns.Add(temp);
             }
             writer.WriteRow(columns);
@@ -88,14 +87,20 @@ public class PlayerSandGlass : MonoBehaviour
         }
 
         writer.Dispose();
+        Debug.Log("data saved");
     }
 
     protected void RenewSumLevelOfType()
         /*
-         * 각 계열 능력들의 스킬 합을 구하는 메소드
+         * 각 계열 능력들의 스킬 합을 구해서 저장
          */
     {
-        for(int i=0; i<abilities.Count; i++)
+        for(int i=0; i<SumLevelOfType.Length; i++)
+        {
+            SumLevelOfType[i] = 0;
+        }
+
+        for (int i=0; i<abilities.Count; i++)
         {
             switch(abilities[i]["type"].ToString()) 
             {
