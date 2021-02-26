@@ -84,8 +84,10 @@ public class SandGlassManager : PlayerSandGlass
             dataText[3].text = abilities_text[i]["desc"].ToString();
             dataText[4].text = abilities[i]["level"].ToString();
 
-            // 각 버튼에 onClick Listener 추가
+            // 각 버튼에 onClick Listener 추가 및 코스트 반영
             GameObject button = SandGlass_list.transform.Find("Button").gameObject;
+            button.transform.Find("Text").GetComponent<Text>().text = abilities[i]["cost"].ToString();
+
 
             int temp = i; // i로 parameter를 넣으면 오류 발생 (# Closure Problem)
             button.gameObject.GetComponent<Button>().onClick.AddListener(() => { AbilityLevelUp(temp); });

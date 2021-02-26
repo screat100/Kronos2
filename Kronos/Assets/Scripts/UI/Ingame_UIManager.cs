@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,6 +15,7 @@ public class Ingame_UIManager : MonoBehaviour
 
     public GameObject SandGlass_Slider;
     public GameObject SandGlass_text;
+
 
 
     void Start()
@@ -34,6 +36,7 @@ public class Ingame_UIManager : MonoBehaviour
 
         SandGlass_Slider.GetComponent<Image>().fillAmount = PlayerStatus.exp / PlayerStatus.expMax;
         SandGlass_text.GetComponent<Text>().text = ((int)PlayerStatus.level).ToString();
-
     }
+
+
 }
