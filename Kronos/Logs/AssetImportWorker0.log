@@ -1,308 +1,83 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 18363.1379; Version 1909; 64bit' Language: 'ko' Physical Memory: 16302 MB
+OS: 'Windows 10 Education; OS build 18363.1379; Version 1909; 64bit' Language: 'ko' Physical Memory: 16335 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
+C:\Program Files\2020.2.2f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Seongjae Yoon/Desktop/MonsterHunterSoldier/Kronos2/Kronos
+C:/Users/윤성재/Desktop/Kronos/Kronos2/Kronos
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61754
-Successfully changed project path to: C:/Users/Seongjae Yoon/Desktop/MonsterHunterSoldier/Kronos2/Kronos
-C:/Users/Seongjae Yoon/Desktop/MonsterHunterSoldier/Kronos2/Kronos
+55868
+Successfully changed project path to: C:/Users/윤성재/Desktop/Kronos/Kronos2/Kronos
+C:/Users/윤성재/Desktop/Kronos/Kronos2/Kronos
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 33.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 40.10 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Seongjae Yoon/Desktop/MonsterHunterSoldier/Kronos2/Kronos/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/윤성재/Desktop/Kronos/Kronos2/Kronos/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2080 Ti (ID=0x1e07)
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
     Vendor:   
-    VRAM:     11048 MB
+    VRAM:     6052 MB
     Driver:   27.21.14.5671
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Mono path[0] = 'C:/Program Files/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001582 seconds.
+Register platform support module: C:/Program Files/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001981 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 36.61 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 41.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.818 seconds
+- Completed reload, in  1.544 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000724 seconds.
+Registered in 0.000794 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.638 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.8 MB.
-System memory in use after: 73.8 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1688.
-Total: 2.463600 ms (FindLiveObjects: 0.185800 ms CreateObjectMapping: 0.071500 ms MarkObjects: 2.110300 ms  DeleteObjects: 0.094100 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Resources/HSBombaram3.0_Regular.ttf
-  artifactKey: Guid(d637c2e77b8c73a4db94a80ad838ce85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/HSBombaram3.0_Regular.ttf using Guid(d637c2e77b8c73a4db94a80ad838ce85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76100d3f58c52f14ef979dfd49fc857') in 0.134147 seconds
-  Import took 0.136879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 180.674288 seconds.
-  path: Assets/Resources/UI/ability/ability_tap_sandglass_tapButton.png
-  artifactKey: Guid(9fd076f29ba9cf146948dc4b80832077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/ability/ability_tap_sandglass_tapButton.png using Guid(9fd076f29ba9cf146948dc4b80832077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c662ee6f2091daa080ccdc2baa8728c') in 0.070423 seconds
-  Import took 0.072610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.954213 seconds.
-  path: Assets/Resources/UI/ability/ability_tap_sandglass_tapButton.png
-  artifactKey: Guid(9fd076f29ba9cf146948dc4b80832077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/ability/ability_tap_sandglass_tapButton.png using Guid(9fd076f29ba9cf146948dc4b80832077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fea46754bcd2757e61537c6060125d4') in 0.028437 seconds
-  Import took 0.030353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.035917 seconds.
-  path: Assets/Resources/UI/ability/ability_tap_sandglass_tapButton.png
-  artifactKey: Guid(9fd076f29ba9cf146948dc4b80832077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/ability/ability_tap_sandglass_tapButton.png using Guid(9fd076f29ba9cf146948dc4b80832077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fea46754bcd2757e61537c6060125d4') in 0.013775 seconds
-  Import took 0.016133 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000704 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.598 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1200 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.8 MB.
-System memory in use after: 76.0 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1738.
-Total: 2.861400 ms (FindLiveObjects: 0.238100 ms CreateObjectMapping: 0.076700 ms MarkObjects: 2.522600 ms  DeleteObjects: 0.022300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 4929.919255 seconds.
-  path: Assets/Resources/UI/SandGlass/SandGlass_List.prefab
-  artifactKey: Guid(a554a049deb14734885bcbff2de3364e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/SandGlass/SandGlass_List.prefab using Guid(a554a049deb14734885bcbff2de3364e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeaf03296c3a36fbd1a40b69ba819fa5') in 0.065442 seconds
-  Import took 0.068529 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.727848 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(a7d9ac9d0315f2742a55275151a42bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(a7d9ac9d0315f2742a55275151a42bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ce6508413e9a121eb05f47694c05cb') in 0.007463 seconds
-  Import took 0.009798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001297 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(a7d9ac9d0315f2742a55275151a42bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(a7d9ac9d0315f2742a55275151a42bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ce6508413e9a121eb05f47694c05cb') in 0.002885 seconds
-  Import took 0.005456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.114428 seconds.
-  path: Assets/Resources/UI/Ingame
-  artifactKey: Guid(a7cc88d67e5e2624cad6dee98e526886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Ingame using Guid(a7cc88d67e5e2624cad6dee98e526886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afba267afe0577e329355ed3613f1c8b') in 0.006968 seconds
-  Import took 0.009964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000602 seconds.
-  path: Assets/Resources/UI/Ingame
-  artifactKey: Guid(a7cc88d67e5e2624cad6dee98e526886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Ingame using Guid(a7cc88d67e5e2624cad6dee98e526886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afba267afe0577e329355ed3613f1c8b') in 0.002766 seconds
-  Import took 0.004929 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000843 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.619 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1200 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.9 MB.
-System memory in use after: 76.1 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1742.
-Total: 1.417300 ms (FindLiveObjects: 0.132000 ms CreateObjectMapping: 0.029400 ms MarkObjects: 1.224400 ms  DeleteObjects: 0.030700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000915 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.682 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1200 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.0 MB.
-System memory in use after: 76.1 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1744.
-Total: 2.264900 ms (FindLiveObjects: 0.355600 ms CreateObjectMapping: 0.095500 ms MarkObjects: 1.798700 ms  DeleteObjects: 0.013600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2286.707651 seconds.
-  path: Assets/Resources/UI/ability/close.png
-  artifactKey: Guid(1a8d6aef1cfd96545a6caf7e6561b203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/ability/close.png using Guid(1a8d6aef1cfd96545a6caf7e6561b203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a894df176cef8549ffdee2bebbf6fa7') in 0.053471 seconds
-  Import took 0.055598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.047851 seconds.
-  path: Assets/Resources/UI/ability/close.png
-  artifactKey: Guid(1a8d6aef1cfd96545a6caf7e6561b203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/ability/close.png using Guid(1a8d6aef1cfd96545a6caf7e6561b203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bde9ae5a7d56e6498b3fca1786c2aeb') in 0.029812 seconds
-  Import took 0.031765 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000698 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.611 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1200 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.0 MB.
-System memory in use after: 76.1 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1749.
-Total: 1.353700 ms (FindLiveObjects: 0.129400 ms CreateObjectMapping: 0.029300 ms MarkObjects: 1.184300 ms  DeleteObjects: 0.010000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000715 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.597 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1200 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.0 MB.
-System memory in use after: 76.1 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1751.
-Total: 1.833800 ms (FindLiveObjects: 0.140100 ms CreateObjectMapping: 0.038300 ms MarkObjects: 1.641900 ms  DeleteObjects: 0.012600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000831 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.610 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1200 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.0 MB.
-System memory in use after: 76.1 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1753.
-Total: 1.272500 ms (FindLiveObjects: 0.117300 ms CreateObjectMapping: 0.030400 ms MarkObjects: 1.114500 ms  DeleteObjects: 0.009600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000825 seconds.
-Begin MonoManager ReloadAssembly
+Symbol file data-000002108CA2A040 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108C86A020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108C86A020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108B735620 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108B8B5020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108B735620 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108B8B5020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108B735620 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108C86A020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108CD33030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108BA947B0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108BA947B0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108B9B1020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -310,609 +85,254 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.700 seconds
+- Completed reload, in  0.705 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1200 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.0 MB.
-System memory in use after: 76.1 MB.
+Unloading 1237 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.4 MB.
+System memory in use after: 76.5 MB.
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1755.
-Total: 1.317500 ms (FindLiveObjects: 0.137600 ms CreateObjectMapping: 0.035500 ms MarkObjects: 1.133700 ms  DeleteObjects: 0.010000 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1690.
+Total: 1.807500 ms (FindLiveObjects: 0.169300 ms CreateObjectMapping: 0.030800 ms MarkObjects: 1.540900 ms  DeleteObjects: 0.065400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7438.647571 seconds.
-  path: Assets/Scripts/Managers
-  artifactKey: Guid(68c49a033ef93e147b94d07457094d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Managers using Guid(68c49a033ef93e147b94d07457094d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912b4707ea9a7b23375796f1458a7f84') in 0.009118 seconds
-  Import took 0.011582 seconds .
+  path: Assets/Resources/UI
+  artifactKey: Guid(b8376d67d38079b45bc32db77af1d65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI using Guid(b8376d67d38079b45bc32db77af1d65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4434d6f5ed51555475489d88b6c87c2d') in 0.009025 seconds
+  Import took 0.011430 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002404 seconds.
-  path: Assets/Scripts/Managers
-  artifactKey: Guid(68c49a033ef93e147b94d07457094d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Managers using Guid(68c49a033ef93e147b94d07457094d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912b4707ea9a7b23375796f1458a7f84') in 0.002937 seconds
-  Import took 0.005135 seconds .
+  Time since last request: 1.212955 seconds.
+  path: Assets/Resources/UI/inventory
+  artifactKey: Guid(0bce9992217dcdb4a809d983c2af3855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/inventory using Guid(0bce9992217dcdb4a809d983c2af3855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b593f45fd53399940176c6ed9d09f22') in 0.006765 seconds
+  Import took 0.009089 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.248794 seconds.
-  path: Assets/Scripts/Managers/UIManager.cs
-  artifactKey: Guid(9aff5a8d75fcdb543868ad95ac2388fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Managers/UIManager.cs using Guid(9aff5a8d75fcdb543868ad95ac2388fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a49499193d430dd8f5367fda6c92616') in 0.012765 seconds
-  Import took 0.015080 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000804 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.688 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1201 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.0 MB.
-System memory in use after: 76.1 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1758.
-Total: 1.354400 ms (FindLiveObjects: 0.125600 ms CreateObjectMapping: 0.032500 ms MarkObjects: 1.186200 ms  DeleteObjects: 0.009400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000862 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.677 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1201 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.0 MB.
-System memory in use after: 76.1 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1760.
-Total: 1.615600 ms (FindLiveObjects: 0.143700 ms CreateObjectMapping: 0.039900 ms MarkObjects: 1.418600 ms  DeleteObjects: 0.012500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000681 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.694 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1201 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.0 MB.
-System memory in use after: 76.1 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1762.
-Total: 1.422700 ms (FindLiveObjects: 0.133000 ms CreateObjectMapping: 0.038600 ms MarkObjects: 1.239700 ms  DeleteObjects: 0.010200 ms)
+  Time since last request: 0.007561 seconds.
+  path: Assets/Resources/UI/inventory
+  artifactKey: Guid(0bce9992217dcdb4a809d983c2af3855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/inventory using Guid(0bce9992217dcdb4a809d983c2af3855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b593f45fd53399940176c6ed9d09f22') in 0.002831 seconds
+  Import took 0.005305 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 204.223379 seconds.
-  path: Assets/Scripts/UI
-  artifactKey: Guid(c38e204720de3a945b50fdbe98bba6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI using Guid(c38e204720de3a945b50fdbe98bba6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd549fbddedb8d4645dc68c1eec2b74') in 0.008146 seconds
-  Import took 0.010469 seconds .
+  Time since last request: 84.703074 seconds.
+  path: Assets/Resources/UI/inventory/skillSlot_bg.png
+  artifactKey: Guid(25257e4d03a7d6e4eae6d36a84591502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/inventory/skillSlot_bg.png using Guid(25257e4d03a7d6e4eae6d36a84591502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046259041367d532ea3b265626851be3') in 0.103884 seconds
+  Import took 0.106173 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.623748 seconds.
-  path: Assets/Scripts/UI/MyInformation.cs
-  artifactKey: Guid(84146a2640e51f840951eb7f4cca99a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI/MyInformation.cs using Guid(84146a2640e51f840951eb7f4cca99a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85daaf31c213322c5c03d78cdb0977f') in 0.007155 seconds
-  Import took 0.009365 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000766 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.97 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.700 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.2 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1765.
-Total: 1.334400 ms (FindLiveObjects: 0.145500 ms CreateObjectMapping: 0.035200 ms MarkObjects: 1.143300 ms  DeleteObjects: 0.009600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000725 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.680 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.2 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1767.
-Total: 1.500400 ms (FindLiveObjects: 0.126700 ms CreateObjectMapping: 0.033400 ms MarkObjects: 1.329300 ms  DeleteObjects: 0.010200 ms)
+  Time since last request: 0.297142 seconds.
+  path: Assets/Resources/UI/inventory/inventory_tap_skill.png
+  artifactKey: Guid(092cd5d30c43d4d4da93e0a8c48dc274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/inventory/inventory_tap_skill.png using Guid(092cd5d30c43d4d4da93e0a8c48dc274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ab483602fd5943967c7ecf239580ee') in 0.017345 seconds
+  Import took 0.019579 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 268.984090 seconds.
-  path: Assets/Scripts/UI/MyInformation.cs
-  artifactKey: Guid(84146a2640e51f840951eb7f4cca99a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI/MyInformation.cs using Guid(84146a2640e51f840951eb7f4cca99a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6654f52b97c7a5660471625ef9ca3d7') in 0.004959 seconds
-  Import took 0.006973 seconds .
+  Time since last request: 2.278751 seconds.
+  path: Assets/Resources/UI/inventory/inventory_tap_skill.png
+  artifactKey: Guid(092cd5d30c43d4d4da93e0a8c48dc274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/inventory/inventory_tap_skill.png using Guid(092cd5d30c43d4d4da93e0a8c48dc274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8797cc86cd0d5e7173294575d2285cc') in 0.046530 seconds
+  Import took 0.048843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 265.008334 seconds.
+  path: Assets/Resources/UI/inventory/inventory_bg.png
+  artifactKey: Guid(00489898cced41f45b96673fc430b931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/inventory/inventory_bg.png using Guid(00489898cced41f45b96673fc430b931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40127d42a44cdd62c5a024a1424e0cd5') in 0.018740 seconds
+  Import took 0.021126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.475970 seconds.
+  path: Assets/Resources/UI/inventory/inventory_bg.png
+  artifactKey: Guid(00489898cced41f45b96673fc430b931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/inventory/inventory_bg.png using Guid(00489898cced41f45b96673fc430b931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4fa13ea977aee8e41da3a24cb0390da') in 0.014619 seconds
+  Import took 0.017042 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000925 seconds.
+Registered in 0.000987 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-00000210872603D0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108BFA2010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108BFA2010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108761D020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108B8B5020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108BFA2010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108B9C9040 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108BFA2010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021086D090C0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021086E45C00 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108BA947B0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EDF1FF840 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108D52BDF0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.696 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.2 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1769.
-Total: 1.281100 ms (FindLiveObjects: 0.139300 ms CreateObjectMapping: 0.033300 ms MarkObjects: 1.098200 ms  DeleteObjects: 0.009600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000868 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.688 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.2 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1771.
-Total: 1.307900 ms (FindLiveObjects: 0.127200 ms CreateObjectMapping: 0.033000 ms MarkObjects: 1.137000 ms  DeleteObjects: 0.009800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000763 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.687 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.2 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1773.
-Total: 1.422500 ms (FindLiveObjects: 0.134800 ms CreateObjectMapping: 0.035700 ms MarkObjects: 1.241100 ms  DeleteObjects: 0.010100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000833 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.597 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.2 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1775.
-Total: 1.480900 ms (FindLiveObjects: 0.138600 ms CreateObjectMapping: 0.033800 ms MarkObjects: 1.296400 ms  DeleteObjects: 0.011300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000764 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.698 seconds
+- Completed reload, in  0.670 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.2 MB.
+System memory in use before: 78.1 MB.
+System memory in use after: 78.2 MB.
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1777.
-Total: 1.383700 ms (FindLiveObjects: 0.151800 ms CreateObjectMapping: 0.036500 ms MarkObjects: 1.183600 ms  DeleteObjects: 0.010800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000743 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.672 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.2 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1779.
-Total: 1.357100 ms (FindLiveObjects: 0.137600 ms CreateObjectMapping: 0.034700 ms MarkObjects: 1.174200 ms  DeleteObjects: 0.009900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000962 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 4.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.634 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.2 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1781.
-Total: 1.433100 ms (FindLiveObjects: 0.156600 ms CreateObjectMapping: 0.039600 ms MarkObjects: 1.219700 ms  DeleteObjects: 0.015800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000844 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.716 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.2 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1783.
-Total: 1.329300 ms (FindLiveObjects: 0.151200 ms CreateObjectMapping: 0.035200 ms MarkObjects: 1.132800 ms  DeleteObjects: 0.009300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000770 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.693 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.2 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1785.
-Total: 1.517500 ms (FindLiveObjects: 0.144400 ms CreateObjectMapping: 0.040400 ms MarkObjects: 1.320100 ms  DeleteObjects: 0.011600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000832 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.586 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.2 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1787.
-Total: 1.261100 ms (FindLiveObjects: 0.123000 ms CreateObjectMapping: 0.032600 ms MarkObjects: 1.095600 ms  DeleteObjects: 0.009400 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1702.
+Total: 1.683900 ms (FindLiveObjects: 0.163900 ms CreateObjectMapping: 0.027100 ms MarkObjects: 1.479800 ms  DeleteObjects: 0.011800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3425.207254 seconds.
-  path: Assets/Resources/UI/SandGlass/SandGlass_List.prefab
-  artifactKey: Guid(a554a049deb14734885bcbff2de3364e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/SandGlass/SandGlass_List.prefab using Guid(a554a049deb14734885bcbff2de3364e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec61db5b5a55b6c2c8f0d9938fd85b1') in 0.040467 seconds
-  Import took 0.042957 seconds .
+  Time since last request: 2663.502048 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(84b3b62e054ab5540a7c72e98fa949d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(84b3b62e054ab5540a7c72e98fa949d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71db0cb5117036d7a769db5ea8f8e903') in 0.008950 seconds
+  Import took 0.011378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.638107 seconds.
+  path: Assets/Scripts/UI
+  artifactKey: Guid(c38e204720de3a945b50fdbe98bba6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI using Guid(c38e204720de3a945b50fdbe98bba6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef9f73a0e58dcd578038fb3e4994cd6') in 0.002760 seconds
+  Import took 0.005066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.530326 seconds.
+  path: Assets/Scripts/UI/Inventory.cs
+  artifactKey: Guid(be89c3bd18bbd5c48bb0ad568cf576af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/Inventory.cs using Guid(be89c3bd18bbd5c48bb0ad568cf576af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2553e93f495230722a6bb118c3603c6d') in 0.015998 seconds
+  Import took 0.018627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001299 seconds.
+  path: Assets/Scripts/UI/Inventory.cs
+  artifactKey: Guid(be89c3bd18bbd5c48bb0ad568cf576af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/Inventory.cs using Guid(be89c3bd18bbd5c48bb0ad568cf576af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2553e93f495230722a6bb118c3603c6d') in 0.003071 seconds
+  Import took 0.005313 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000816 seconds.
+Registered in 0.000854 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002108F1B8240 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108CEB9020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108CEB9020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108CBBC030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B2F80080 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108CEB9020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108BFB6030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108D0CB020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021086D090C0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108761D020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108761D020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B4065D50 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108B82C020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.692 seconds
+- Completed reload, in  0.679 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.2 MB.
+Unloading 1203 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.1 MB.
+System memory in use after: 78.2 MB.
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1789.
-Total: 1.377700 ms (FindLiveObjects: 0.120100 ms CreateObjectMapping: 0.030700 ms MarkObjects: 1.217100 ms  DeleteObjects: 0.009000 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1705.
+Total: 1.605400 ms (FindLiveObjects: 0.173200 ms CreateObjectMapping: 0.028600 ms MarkObjects: 1.390800 ms  DeleteObjects: 0.012000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.725118 seconds.
+  path: Assets/Scripts/UI/MyInformation.cs
+  artifactKey: Guid(84146a2640e51f840951eb7f4cca99a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/MyInformation.cs using Guid(84146a2640e51f840951eb7f4cca99a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c408b50de31672b87eadbe7c0ad6dcb6') in 0.009409 seconds
+  Import took 0.011808 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000848 seconds.
+Registered in 0.001117 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002108CBC5D90 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108DED7450 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108EAEA010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108761D020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B3C98CE0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108DE47090 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108E086F80 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108DED7450 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B342B010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108C2E8030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108EBAEDB0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108E0E6EF0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108E216210 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.604 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.2 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1791.
-Total: 89.222900 ms (FindLiveObjects: 19.030500 ms CreateObjectMapping: 16.524700 ms MarkObjects: 53.580300 ms  DeleteObjects: 0.011700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000773 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.700 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.2 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1793.
-Total: 1.528600 ms (FindLiveObjects: 0.187400 ms CreateObjectMapping: 0.047000 ms MarkObjects: 1.282500 ms  DeleteObjects: 0.010600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000930 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.612 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.2 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1795.
-Total: 2.751900 ms (FindLiveObjects: 0.182300 ms CreateObjectMapping: 0.042700 ms MarkObjects: 2.498300 ms  DeleteObjects: 0.026500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001268 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.728 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.2 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1797.
-Total: 1.298800 ms (FindLiveObjects: 0.126200 ms CreateObjectMapping: 0.034000 ms MarkObjects: 1.128500 ms  DeleteObjects: 0.009500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001260 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.658 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.2 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1799.
-Total: 1.754000 ms (FindLiveObjects: 0.155200 ms CreateObjectMapping: 0.036400 ms MarkObjects: 1.548700 ms  DeleteObjects: 0.012400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000828 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.682 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.3 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1801.
-Total: 1.274200 ms (FindLiveObjects: 0.123100 ms CreateObjectMapping: 0.032600 ms MarkObjects: 1.109400 ms  DeleteObjects: 0.008200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000882 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.686 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.2 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1803.
-Total: 2.721400 ms (FindLiveObjects: 0.262700 ms CreateObjectMapping: 0.082700 ms MarkObjects: 2.350300 ms  DeleteObjects: 0.023800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001034 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -920,20 +340,119 @@ RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.661 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.2 MB.
+Unloading 1203 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.1 MB.
+System memory in use after: 78.2 MB.
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1805.
-Total: 1.523300 ms (FindLiveObjects: 0.126800 ms CreateObjectMapping: 0.034300 ms MarkObjects: 1.349700 ms  DeleteObjects: 0.011300 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1707.
+Total: 2.354900 ms (FindLiveObjects: 0.167900 ms CreateObjectMapping: 0.029100 ms MarkObjects: 2.139600 ms  DeleteObjects: 0.016900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 408.751758 seconds.
+  path: Assets/Scripts/UI/Inventory.cs
+  artifactKey: Guid(be89c3bd18bbd5c48bb0ad568cf576af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/Inventory.cs using Guid(be89c3bd18bbd5c48bb0ad568cf576af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d28ec260b4cf0d69dda063b60ec1e2') in 0.005150 seconds
+  Import took 0.007544 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000942 seconds.
+Registered in 0.001035 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002108DEC4820 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B3838600 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108EDBA010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108761D020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108EBB4FB0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108DE47090 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108E85FEC0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B3838600 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108E6E1EF0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108C2E8030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108E0DCAD0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108E0E6EF0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108F5B5D00 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.772 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1203 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.1 MB.
+System memory in use after: 78.2 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1709.
+Total: 1.539200 ms (FindLiveObjects: 0.182300 ms CreateObjectMapping: 0.031200 ms MarkObjects: 1.312900 ms  DeleteObjects: 0.011500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 636.020830 seconds.
+  path: Assets/Resources/20 Map
+  artifactKey: Guid(de7af090eaadf48478e3c87682c6af19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/20 Map using Guid(de7af090eaadf48478e3c87682c6af19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e2bb3704f65df707b743e0a280a594') in 0.009287 seconds
+  Import took 0.012045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.423027 seconds.
+  path: Assets/Resources/UI/inventory/skill.prefab
+  artifactKey: Guid(d712a91db576d2946993aefa2210fda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/inventory/skill.prefab using Guid(d712a91db576d2946993aefa2210fda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67a9d2cb36de23ff47e9f5fcd407aa4') in 0.040740 seconds
+  Import took 0.043561 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000917 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000210B518DFB0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108DED7450 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108B6DF010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108EAFB470 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108F21ADF0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B5C5F010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B4724F30 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108761D020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210873B1430 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B5186010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108EBAEDB0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B3C83A20 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021086CBC020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -941,220 +460,615 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.602 seconds
+- Completed reload, in  0.687 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.2 MB.
+Unloading 1203 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.2 MB.
+System memory in use after: 78.3 MB.
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1807.
-Total: 1.374900 ms (FindLiveObjects: 0.137000 ms CreateObjectMapping: 0.035700 ms MarkObjects: 1.191100 ms  DeleteObjects: 0.010400 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1711.
+Total: 1.431800 ms (FindLiveObjects: 0.141700 ms CreateObjectMapping: 0.028100 ms MarkObjects: 1.249600 ms  DeleteObjects: 0.011500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3447.781422 seconds.
+  path: Assets/Scripts/UI/Inventory.cs
+  artifactKey: Guid(be89c3bd18bbd5c48bb0ad568cf576af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/Inventory.cs using Guid(be89c3bd18bbd5c48bb0ad568cf576af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced58bdbafe2ab5377dadbb9d8af28a7') in 0.005201 seconds
+  Import took 0.007742 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000875 seconds.
+Registered in 0.000977 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002108E2022D0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108DED7450 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108B6DF010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B3A6B020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021087262C90 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B5C5F010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108DFA3010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108761D020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108B7E1080 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B4A68010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B4A68010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108EFF4410 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108F19AC20 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.699 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.2 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1809.
-Total: 1.385400 ms (FindLiveObjects: 0.131200 ms CreateObjectMapping: 0.034200 ms MarkObjects: 1.206300 ms  DeleteObjects: 0.012300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000722 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.585 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.3 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1811.
-Total: 1.701800 ms (FindLiveObjects: 0.303400 ms CreateObjectMapping: 0.062800 ms MarkObjects: 1.322700 ms  DeleteObjects: 0.012000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1299.837108 seconds.
-  path: Assets/Resources/Effect/Epic Toon FX/Demo/Textures/devsprite.png
-  artifactKey: Guid(c1e3ddf20be295e4cb3a38f57f18680a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Textures/devsprite.png using Guid(c1e3ddf20be295e4cb3a38f57f18680a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7e7a004d62e8376d36ce102459b2c9') in 0.093219 seconds
-  Import took 0.098339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Resources/UI/Ingame/hpbar_bg.png
-  artifactKey: Guid(999f370d68c26524ba36e007ae6c1ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Ingame/hpbar_bg.png using Guid(999f370d68c26524ba36e007ae6c1ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b86d13ac029c75edff2f1fd506a8d1') in 0.096973 seconds
-  Import took 0.098878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.572313 seconds.
-  path: Assets/Resources/UI/Ingame/hpbar_slider.png
-  artifactKey: Guid(eecbf178475a7d84299a50bd70d6c63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Ingame/hpbar_slider.png using Guid(eecbf178475a7d84299a50bd70d6c63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac985601d0cc32dd3fd002fa7821cfdb') in 0.031014 seconds
-  Import took 0.033298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Resources/UI/Ingame/lefttime.psd
-  artifactKey: Guid(fe680768f3463dd49a6ab8e9a5f3fb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Ingame/lefttime.psd using Guid(fe680768f3463dd49a6ab8e9a5f3fb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076471be201c9ed72eb1627b72646c00') in 0.030311 seconds
-  Import took 0.032391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.397831 seconds.
-  path: Assets/Resources/UI/Ingame/lefttime_bg.png
-  artifactKey: Guid(a36de2b21ff566d44b4fc10fc91cb15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Ingame/lefttime_bg.png using Guid(a36de2b21ff566d44b4fc10fc91cb15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da28d7a2d0e33b831cb89fac4eb8e7f') in 0.032059 seconds
-  Import took 0.034322 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Resources/UI/Ingame/lefttime_frt.png
-  artifactKey: Guid(8094096707f3e80428ff42a8bf3db7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Ingame/lefttime_frt.png using Guid(8094096707f3e80428ff42a8bf3db7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea1cc3e8cdcb7d658082a0fa5677ad0') in 0.018328 seconds
-  Import took 0.020302 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.380647 seconds.
-  path: Assets/Resources/UI/Ingame/lefttime_slider.png
-  artifactKey: Guid(fae3675e6d271594a8b67636bb382ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Ingame/lefttime_slider.png using Guid(fae3675e6d271594a8b67636bb382ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661d0b39e93e0dca4fa41216aed2cd4e') in 0.046533 seconds
-  Import took 0.052024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/Resources/UI/Ingame/lefttime_slider_under.png
-  artifactKey: Guid(e4916feb4f1ba5e4cb160d12f6f4594b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Ingame/lefttime_slider_under.png using Guid(e4916feb4f1ba5e4cb160d12f6f4594b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4983fde2c3ef6cd54ac444fdf213dcc2') in 0.028211 seconds
-  Import took 0.030848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.816557 seconds.
-  path: Assets/Resources/UI/Ingame/sandglass.psd
-  artifactKey: Guid(805125b6e2bf686409cfaca982982b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Ingame/sandglass.psd using Guid(805125b6e2bf686409cfaca982982b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a9951059040894c78e01603b54e1ac') in 0.027411 seconds
-  Import took 0.030138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Resources/UI/Ingame/sandglass_bg.png
-  artifactKey: Guid(06cc536bd32435d468d32d05c2edf81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Ingame/sandglass_bg.png using Guid(06cc536bd32435d468d32d05c2edf81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7f030561440704fab4c603bbbcca22') in 0.095868 seconds
-  Import took 0.098267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Resources/UI/Ingame/sandglass_front.png
-  artifactKey: Guid(1017c847ed20b68418cb3a799667f6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Ingame/sandglass_front.png using Guid(1017c847ed20b68418cb3a799667f6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadb13a0fe59dd628ef01bd98367ae58') in 0.012952 seconds
-  Import took 0.014960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.151744 seconds.
-  path: Assets/Resources/UI/Ingame/sandglass_slider.png
-  artifactKey: Guid(4e1859dac88a1d64e8508283c77794af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Ingame/sandglass_slider.png using Guid(4e1859dac88a1d64e8508283c77794af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afbe536c996261893630cde3c3f1368') in 0.013609 seconds
-  Import took 0.015931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Resources/UI/Ingame/sandglass_slider_under.png
-  artifactKey: Guid(1f732431e659b6f4abca9836467a1ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Ingame/sandglass_slider_under.png using Guid(1f732431e659b6f4abca9836467a1ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ae7c139edafa45b8f74bd7db0c6f8e') in 0.014163 seconds
-  Import took 0.015987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.435117 seconds.
-  path: Assets/Resources/UI/Ingame/stamina_bg.png
-  artifactKey: Guid(cee95a929a1e72f4b849c87a9351312a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Ingame/stamina_bg.png using Guid(cee95a929a1e72f4b849c87a9351312a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37e34bcb72cf1c69731b0da21e1455a') in 0.048330 seconds
-  Import took 0.055004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000579 seconds.
-  path: Assets/Resources/UI/Ingame/stamina_slider.png
-  artifactKey: Guid(730316afabdac1b4aa3a982e68f602ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Ingame/stamina_slider.png using Guid(730316afabdac1b4aa3a982e68f602ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61217e6d71820ff9d5f94a11fa142314') in 0.022273 seconds
-  Import took 0.024990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Resources/UI/Ingame/stamina_bg.png
-  artifactKey: Guid(cee95a929a1e72f4b849c87a9351312a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Ingame/stamina_bg.png using Guid(cee95a929a1e72f4b849c87a9351312a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37e34bcb72cf1c69731b0da21e1455a') in 0.010522 seconds
-  Import took 0.012841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Resources/UI/Ingame/stamina_slider.png
-  artifactKey: Guid(730316afabdac1b4aa3a982e68f602ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Ingame/stamina_slider.png using Guid(730316afabdac1b4aa3a982e68f602ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61217e6d71820ff9d5f94a11fa142314') in 0.007901 seconds
-  Import took 0.009898 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000750 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.652 seconds
+- Completed reload, in  0.657 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.2 MB.
-System memory in use after: 76.3 MB.
+Unloading 1203 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.2 MB.
+System memory in use after: 78.3 MB.
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1819.
-Total: 1.254000 ms (FindLiveObjects: 0.123500 ms CreateObjectMapping: 0.032200 ms MarkObjects: 1.087900 ms  DeleteObjects: 0.009900 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1713.
+Total: 1.550600 ms (FindLiveObjects: 0.177200 ms CreateObjectMapping: 0.029100 ms MarkObjects: 1.332800 ms  DeleteObjects: 0.010500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 191.138369 seconds.
+  path: Assets/Scripts/UI/Inventory.cs
+  artifactKey: Guid(be89c3bd18bbd5c48bb0ad568cf576af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/Inventory.cs using Guid(be89c3bd18bbd5c48bb0ad568cf576af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02bf23f97bed49cd0e920efffdea433') in 0.007760 seconds
+  Import took 0.010099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 201.642539 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(4a71bd7f4d7b6fe42ab3fdc1b6f806e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(4a71bd7f4d7b6fe42ab3fdc1b6f806e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d6469983c780bf3089ec062d8fa864') in 0.006580 seconds
+  Import took 0.008951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.796384 seconds.
+  path: Assets/Resources/CSV
+  artifactKey: Guid(c7f20c5db8d1bc6419c7bc2fb1014539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CSV using Guid(c7f20c5db8d1bc6419c7bc2fb1014539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c894492090de6cb72ff5ef1372ee09d') in 0.008168 seconds
+  Import took 0.010813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005006 seconds.
+  path: Assets/Resources/CSV
+  artifactKey: Guid(c7f20c5db8d1bc6419c7bc2fb1014539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CSV using Guid(c7f20c5db8d1bc6419c7bc2fb1014539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c894492090de6cb72ff5ef1372ee09d') in 0.003204 seconds
+  Import took 0.005511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.612451 seconds.
+  path: Assets/Resources/abilities.csv
+  artifactKey: Guid(0975970e7ab6e7b46a106acf4ab75afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/abilities.csv using Guid(0975970e7ab6e7b46a106acf4ab75afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f69bdfdaa3da80ce67cf11f2f321d40') in 0.018871 seconds
+  Import took 0.021190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.194328 seconds.
+  path: Assets/Resources/CSV/abilities_text.csv
+  artifactKey: Guid(1126c30e5eb90604e8ca1d5f810a53ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CSV/abilities_text.csv using Guid(1126c30e5eb90604e8ca1d5f810a53ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6616a4b929c537f76fde6a3a88a3bc') in 0.007694 seconds
+  Import took 0.010027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.673776 seconds.
+  path: Assets/Resources/CSV/skills.csv
+  artifactKey: Guid(a6d3f007a3e325c4cb96e7b354340462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CSV/skills.csv using Guid(a6d3f007a3e325c4cb96e7b354340462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b029ee452f5399c24554714d39942f') in 0.007352 seconds
+  Import took 0.009563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.120676 seconds.
+  path: Assets/Scripts/Player
+  artifactKey: Guid(025b7e036fd4c9d42b7d0013d426bb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player using Guid(025b7e036fd4c9d42b7d0013d426bb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afdc2b73b15877cf48fda241c86c5b0f') in 0.007263 seconds
+  Import took 0.009585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008133 seconds.
+  path: Assets/Scripts/Player
+  artifactKey: Guid(025b7e036fd4c9d42b7d0013d426bb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player using Guid(025b7e036fd4c9d42b7d0013d426bb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afdc2b73b15877cf48fda241c86c5b0f') in 0.003300 seconds
+  Import took 0.005400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.671901 seconds.
+  path: Assets/Scripts/SandGlassManager.cs
+  artifactKey: Guid(df0ccb7020860594889d13c5809e868f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SandGlassManager.cs using Guid(df0ccb7020860594889d13c5809e868f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8904527945a17800697bfc1a3d478cc') in 0.006498 seconds
+  Import took 0.008934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Scripts/SandGlassManager.cs
+  artifactKey: Guid(df0ccb7020860594889d13c5809e868f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SandGlassManager.cs using Guid(df0ccb7020860594889d13c5809e868f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8904527945a17800697bfc1a3d478cc') in 0.002885 seconds
+  Import took 0.005599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.660715 seconds.
+  path: Assets/Scripts/PlayerStatus.cs
+  artifactKey: Guid(95000e40140dce748bbbbb4a6497a759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerStatus.cs using Guid(95000e40140dce748bbbbb4a6497a759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c925b9aaa8952ace6845dc9fa3dcca1a') in 0.007058 seconds
+  Import took 0.009187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Scripts/PlayerStatus.cs
+  artifactKey: Guid(95000e40140dce748bbbbb4a6497a759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerStatus.cs using Guid(95000e40140dce748bbbbb4a6497a759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c925b9aaa8952ace6845dc9fa3dcca1a') in 0.002964 seconds
+  Import took 0.005256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.617005 seconds.
+  path: Assets/Scripts/PlayerStatusManager.cs
+  artifactKey: Guid(72606fd024f2c7c4dbaa64f22fb23daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerStatusManager.cs using Guid(72606fd024f2c7c4dbaa64f22fb23daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014db9de8da3bb0dbcf779c2a90e9f0b') in 0.007325 seconds
+  Import took 0.010071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.068879 seconds.
+  path: Assets/Scripts/CameraMove.cs
+  artifactKey: Guid(0eb67e51ef94e3243885f205604caea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraMove.cs using Guid(0eb67e51ef94e3243885f205604caea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623768a63d4cbafac242e6c252269a58') in 0.006787 seconds
+  Import took 0.009372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001081 seconds.
+  path: Assets/Scripts/CameraMove.cs
+  artifactKey: Guid(0eb67e51ef94e3243885f205604caea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraMove.cs using Guid(0eb67e51ef94e3243885f205604caea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623768a63d4cbafac242e6c252269a58') in 0.003425 seconds
+  Import took 0.005665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.831107 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(7103e6428b985a04bb50b25f4b2a7dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(7103e6428b985a04bb50b25f4b2a7dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cab071ae0c748b087ee4cbf69079a16') in 0.006437 seconds
+  Import took 0.008797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(7103e6428b985a04bb50b25f4b2a7dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(7103e6428b985a04bb50b25f4b2a7dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cab071ae0c748b087ee4cbf69079a16') in 0.003133 seconds
+  Import took 0.005371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.296890 seconds.
+  path: Assets/Scripts/Csv
+  artifactKey: Guid(9b8643a4fae7dd64d80496a9d40d9e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Csv using Guid(9b8643a4fae7dd64d80496a9d40d9e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116b8ec1d7892e6bb71ed1dc1c53f51a') in 0.007968 seconds
+  Import took 0.010483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.841893 seconds.
+  path: Assets/Scripts/CsvFileCommon.cs
+  artifactKey: Guid(ca9a7909f60197c4aa58b25184714b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CsvFileCommon.cs using Guid(ca9a7909f60197c4aa58b25184714b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351a78136be33c160d282b3a33002f18') in 0.007292 seconds
+  Import took 0.009879 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000971 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000210B518DFB0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B38382C0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108B6DF010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EDF1FF840 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B3512FD0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108B6DF010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108E5D6010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EDF1FF840 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021087117B70 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B403EEE0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108EB76590 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021086B40E50 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108F19AC20 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.666 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1203 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.2 MB.
+System memory in use after: 78.3 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1715.
+Total: 2.012700 ms (FindLiveObjects: 0.198900 ms CreateObjectMapping: 0.032000 ms MarkObjects: 1.767100 ms  DeleteObjects: 0.013000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.865712 seconds.
+  path: Assets/Scripts/PlayerEffect.cs
+  artifactKey: Guid(72a14aad1195fed4cae6ad4784d9466c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerEffect.cs using Guid(72a14aad1195fed4cae6ad4784d9466c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb924ac2ade21329391664a67a7c66f') in 0.009603 seconds
+  Import took 0.012885 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000974 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002108BE34040 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B38382C0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108B6DF010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B38382C0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108E48D070 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108B6DF010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108E5D6010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B38382C0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108D381010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B403EEE0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108EB76590 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021086B40E50 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108F19AC20 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.664 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1203 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.2 MB.
+System memory in use after: 78.3 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1717.
+Total: 1.488500 ms (FindLiveObjects: 0.184300 ms CreateObjectMapping: 0.029600 ms MarkObjects: 1.262000 ms  DeleteObjects: 0.011600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.523133 seconds.
+  path: Assets/Scripts/PlayerSandGlass.cs
+  artifactKey: Guid(f1f22e8046c95ed44835dd964e2e9c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerSandGlass.cs using Guid(f1f22e8046c95ed44835dd964e2e9c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4046b8574b3ed56719737218615b2ae7') in 0.009293 seconds
+  Import took 0.011764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.823606 seconds.
+  path: Assets/Scripts/PlayerSkill.cs
+  artifactKey: Guid(0f8176250add73240887823d892dbe21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerSkill.cs using Guid(0f8176250add73240887823d892dbe21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9619ebc7b302beafbfda110eb53e81') in 0.007744 seconds
+  Import took 0.010918 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000841 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000210B4E6A770 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B4E4A010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108B6DF010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108CB2DE00 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B37EF4C0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108E0ADD80 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B469E850 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108761D020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B37AE040 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B4A68010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B49AD880 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B4E2F050 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108DF39020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.700 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1204 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.2 MB.
+System memory in use after: 78.3 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1720.
+Total: 2.000200 ms (FindLiveObjects: 0.160500 ms CreateObjectMapping: 0.033100 ms MarkObjects: 1.793700 ms  DeleteObjects: 0.011900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000989 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000210B4E6A770 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B4E4A010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108B6DF010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108CB2DE00 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B37EF4C0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108D721520 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108D607060 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108761D020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108F90D050 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B46BE860 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B49AD880 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B4E2F050 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108DF39020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.651 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1204 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.2 MB.
+System memory in use after: 78.3 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1722.
+Total: 1.715100 ms (FindLiveObjects: 0.217500 ms CreateObjectMapping: 0.042800 ms MarkObjects: 1.441600 ms  DeleteObjects: 0.012200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.922768 seconds.
+  path: Assets/Scripts/PlayerSkill.cs
+  artifactKey: Guid(0f8176250add73240887823d892dbe21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerSkill.cs using Guid(0f8176250add73240887823d892dbe21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef781f0af6084291e43d0b46d49126e4') in 0.007737 seconds
+  Import took 0.010149 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001140 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002108DE28250 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B32B8010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108EDBA010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021086CCE010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B58F1020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B4F25630 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108D607060 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108D470010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B34DF050 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108DE98480 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B3B686D0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108DF5ECC0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108F102000 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.659 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1204 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.2 MB.
+System memory in use after: 78.3 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1724.
+Total: 1.423800 ms (FindLiveObjects: 0.145600 ms CreateObjectMapping: 0.027800 ms MarkObjects: 1.238200 ms  DeleteObjects: 0.011200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.118392 seconds.
+  path: Assets/Scripts/PlayerSkill.cs
+  artifactKey: Guid(0f8176250add73240887823d892dbe21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerSkill.cs using Guid(0f8176250add73240887823d892dbe21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e291f44e93eead565108e055c964f2f') in 0.004966 seconds
+  Import took 0.007840 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001025 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000210B4042EF0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B32B8010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108D53D010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021086CCE010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B4C74030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108DF49030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108D607060 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108DD63030 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108B7E1080 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108DE98480 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108D0A1020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B406B130 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108E48D070 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.654 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1204 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.2 MB.
+System memory in use after: 78.3 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1726.
+Total: 1.570400 ms (FindLiveObjects: 0.145000 ms CreateObjectMapping: 0.033100 ms MarkObjects: 1.377900 ms  DeleteObjects: 0.013300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001035 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000210B3839D10 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108D649020 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108D53D010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108D470010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108F21ADF0 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B4F25630 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B3C43930 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108D470010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108F77D040 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B461D860 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108E740040 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002108D721520 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210B4E07010 doesn't match image C:\Users\윤성재\Desktop\Kronos\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.678 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1204 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.2 MB.
+System memory in use after: 78.3 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1728.
+Total: 2.744600 ms (FindLiveObjects: 0.231600 ms CreateObjectMapping: 0.028700 ms MarkObjects: 2.459100 ms  DeleteObjects: 0.022800 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

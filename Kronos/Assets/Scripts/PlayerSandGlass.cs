@@ -44,8 +44,8 @@ public class PlayerSandGlass : MonoBehaviour
 
     private void Awake()
     {
-        abilities = CSVReader.Read("abilities");
-        abilities_text = CSVReader.Read("abilities_text");
+        abilities = CSVReader.Read("CSV/abilities");
+        abilities_text = CSVReader.Read("CSV/abilities_text");
 
         SumLevelOfType = new int[6];
     }
