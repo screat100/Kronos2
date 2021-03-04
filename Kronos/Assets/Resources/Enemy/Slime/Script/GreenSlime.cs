@@ -7,10 +7,9 @@ public class GreenSlime : MonoBehaviour
     private float MonsterHP;
     
     public float MoveSpeed = 1;
-    public float DetectRange=5f;
     public float AttackRange=1.2f;
-    [SerializeField] float m_angle = 0f;
-    [SerializeField] float m_distance = 0f;
+    [SerializeField] float m_SightAngle = 0f;
+    [SerializeField] float m_DetectDistance = 0f;
     [SerializeField] LayerMask m_layerMask = 0;
 
     GameObject player;
@@ -97,29 +96,18 @@ public class GreenSlime : MonoBehaviour
             /*
              * 몬스터 시야 전방 탐지범위안에 들어오면 탐지완료
              */
-            //RaycastHit hit;
-            //Vector3 obj = transform.position + Vector3.up;
-            //if (Physics.Raycast(obj, transform.forward, out hit, DetectRange))
-            //{
-            //    if (hit.collider.gameObject == player)
-            //    {
-            //        Debug.Log("Detect");
-            //        Detect = true;
-            //        return true;
-            //    }
-            //}
 
-            Collider[] t_cols = Physics.OverlapSphere(transform.position, m_distance, m_layerMask);
-            Debug.Log(t_cols+" / "+m_angle+" / "+m_distance);
+            Collider[] t_cols = Physics.OverlapSphere(transform.position, m_DetectDistance, m_layerMask);
             if (t_cols.Length > 0)
             {
                 Transform t_tfPlayer = t_cols[0].transform;
 
                 Vector3 t_direcrion = (t_tfPlayer.position - transform.position).normalized;
                 float t_angle = Vector3.Angle(t_direcrion, transform.forward);
-                if(t_angle <m_angle * 0.5f)
-                {
-                    if(Physics.Raycast(transform.forward,t_direcrion,out RaycastHit t_hit, m_distance))
+
+                //시야각에 잡히면
+                if(t_angle <m_SightAngle * 0.5f){
+                    if (Physics.Raycast(transform.position+Vector3.up, t_direcrion, out RaycastHit t_hit, m_DetectDistance))
                     {
                         if (t_hit.transform.CompareTag("Player"))
                         {
@@ -129,26 +117,33 @@ public class GreenSlime : MonoBehaviour
                         }
                     }
                 }
-            }
-            /*
-             * 몬스터에게 너무 가까이 있어도 탐지// 거리는 DectectRange의 1/2
-             */
-            Vector3 mag = player.transform.position - gameObject.transform.position;
-            if (Vector3.Magnitude(mag) <= DetectRange / 2f)
-            {
-                Detect = true;
-                return true;
+                //너무 가까이 왔으면(탐지거리에 1/3)
+                else if(Physics.Raycast(transform.position + Vector3.up, t_direcrion, out RaycastHit t_hit, m_DetectDistance / 3))
+                {
+                    if (t_hit.transform.CompareTag("Player"))
+                    {
+                        Debug.Log("Detect");
+                        Detect = true;
+                        return true;
+                    }
+                }
             }
 
             /*
              * 순찰 status: 0
              * 좌우(랜덤) 일정시간 이동
              */
+            //벽만나면 빠꾸
+            if(Physics.Raycast(transform.position + Vector3.up, transform.forward, out RaycastHit hit, 2f))
+            {
+                Debug.Log("빠꾸");
+                L_dir = !L_dir;
+            }
+
             if (L_dir)
             {
                 _enemyState = EnemyState.Patrol;
                 Vector3 target = gameObject.transform.position + Vector3.left;
-
                 gameObject.transform.LookAt(target);
                 transform.position = Vector3.MoveTowards(gameObject.transform.position, target, MoveSpeed * Time.deltaTime);
             }
