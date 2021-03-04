@@ -251,7 +251,7 @@ public class PlayerMove : MonoBehaviour
             return;
 
         // Ãß¶ô
-        if (rigidbody.velocity.y < -0.5f)
+        if (rigidbody.velocity.y < -0.99f)
         {
             animator.SetInteger("Input", 11);
             _playerState = PlayerState.Fall;
