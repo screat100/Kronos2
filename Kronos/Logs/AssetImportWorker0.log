@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 18363.1379; Version 1909; 64bit' Language: 'ko' Physical Memory: 16302 MB
+OS: 'Windows 10 Education; OS build 18363.1379; Version 1909; 64bit' Language: 'ko' Physical Memory: 16315 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,2199 +11,573 @@ C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Seongjae Yoon/Desktop/MonsterHunterSoldier/Kronos2/Kronos
+C:/Users/김근남/Desktop/UnityProject/Kronos2/Kronos
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57401
-Successfully changed project path to: C:/Users/Seongjae Yoon/Desktop/MonsterHunterSoldier/Kronos2/Kronos
-C:/Users/Seongjae Yoon/Desktop/MonsterHunterSoldier/Kronos2/Kronos
+63665
+Successfully changed project path to: C:/Users/김근남/Desktop/UnityProject/Kronos2/Kronos
+C:/Users/김근남/Desktop/UnityProject/Kronos2/Kronos
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 33.74 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 39.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Seongjae Yoon/Desktop/MonsterHunterSoldier/Kronos2/Kronos/Assets
+[Subsystems] Discovering subsystems at path C:/Users/김근남/Desktop/UnityProject/Kronos2/Kronos/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2080 Ti (ID=0x1e07)
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
     Vendor:   
-    VRAM:     11048 MB
+    VRAM:     5980 MB
     Driver:   27.21.14.5671
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001625 seconds.
+Registered in 0.003176 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 35.53 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 40.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.796 seconds
+- Completed reload, in  1.140 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000761 seconds.
+Registered in 0.001167 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000014F8CFEA8B0 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F87E61880 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F87E61880 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F87E61880 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8C80D020 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F87E61880 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F877FFB90 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F87E61880 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8C83AE30 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F87E61880 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8C4C2A20 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.646 seconds
+- Completed reload, in  0.753 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1239 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 73.9 MB.
-System memory in use after: 73.9 MB.
+System memory in use after: 74.0 MB.
 
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1692.
-Total: 1.626000 ms (FindLiveObjects: 0.130200 ms CreateObjectMapping: 0.041200 ms MarkObjects: 1.396500 ms  DeleteObjects: 0.057300 ms)
+Total: 1.618000 ms (FindLiveObjects: 0.145400 ms CreateObjectMapping: 0.045800 ms MarkObjects: 1.364000 ms  DeleteObjects: 0.062000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/PlayerSkill.cs
-  artifactKey: Guid(0f8176250add73240887823d892dbe21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerSkill.cs using Guid(0f8176250add73240887823d892dbe21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5d87bcc9b70fdbacba90cb6d54e3e6') in 0.036650 seconds
-  Import took 0.038777 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.082350 seconds.
-  path: Assets/Scenes/corridor.unity
-  artifactKey: Guid(ddda88e22abc9d049a8d794431065389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/corridor.unity using Guid(ddda88e22abc9d049a8d794431065389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef75bd67f0f9d9afd197321975bad76') in 0.012476 seconds
-  Import took 0.014635 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 106.916152 seconds.
-  path: Assets/Scenes/Fire_01.unity
-  artifactKey: Guid(5550ba2c376ab954cb9d1fd930605116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fire_01.unity using Guid(5550ba2c376ab954cb9d1fd930605116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83a86cef254a0a124d7e9cd8d341841') in 0.006571 seconds
-  Import took 0.009023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 638.120586 seconds.
-  path: Assets/Scenes/Fire_00.unity
-  artifactKey: Guid(5550ba2c376ab954cb9d1fd930605116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fire_00.unity using Guid(5550ba2c376ab954cb9d1fd930605116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e094a9197cf19937674d32edcac68d') in 0.021819 seconds
-  Import took 0.024131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.548568 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons
-  artifactKey: Guid(685076ede41952045a4b30c10d0a6de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons using Guid(685076ede41952045a4b30c10d0a6de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9153d3d38fcc2226a0040e4ff6fc46') in 0.007084 seconds
-  Import took 0.009429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000586 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons
-  artifactKey: Guid(685076ede41952045a4b30c10d0a6de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons using Guid(685076ede41952045a4b30c10d0a6de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9153d3d38fcc2226a0040e4ff6fc46') in 0.003091 seconds
-  Import took 0.005228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.872663 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs
-  artifactKey: Guid(56f5e6de8b16ab44e9d609bb650097cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs using Guid(56f5e6de8b16ab44e9d609bb650097cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97f91a7b4599a2546a8c11fcaf52aac') in 0.007871 seconds
-  Import took 0.010031 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.542834 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon
-  artifactKey: Guid(a5a89186547daf940a72c768772a991c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon using Guid(a5a89186547daf940a72c768772a991c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e249e673cc1849962818f46f16478bef') in 0.006140 seconds
-  Import took 0.008129 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.790775 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Arena_01.prefab
-  artifactKey: Guid(b236219772623334297e0540b4983177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Arena_01.prefab using Guid(b236219772623334297e0540b4983177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfeec67c851f26601e664f1fd1c5a675') in 0.104499 seconds
-  Import took 0.107410 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_02.prefab
-  artifactKey: Guid(a16b5b0132ccd6a41ae97c9cc483a453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_02.prefab using Guid(a16b5b0132ccd6a41ae97c9cc483a453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c789c119423cc719b9b43040e04f1eb2') in 0.022464 seconds
-  Import took 0.024300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Brick_01.prefab
-  artifactKey: Guid(fa101c0f6bc8deb4db66122e0340476f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Brick_01.prefab using Guid(fa101c0f6bc8deb4db66122e0340476f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93bb4d63b879bae9a8ceee8071cd7f0') in 0.025617 seconds
-  Import took 0.027616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Bridge_03.prefab
-  artifactKey: Guid(3d1a6b8bb47ec1443b03619f31d527c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Bridge_03.prefab using Guid(3d1a6b8bb47ec1443b03619f31d527c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e69780ce79655c437ec54951425c5a7') in 0.020383 seconds
-  Import took 0.022350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Column_07.prefab
-  artifactKey: Guid(5786d4bfb892efa4f86569b64683ad2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Column_07.prefab using Guid(5786d4bfb892efa4f86569b64683ad2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07d594842a3c7541f8eef19de53dbe8') in 0.019225 seconds
-  Import took 0.021074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_07.prefab
-  artifactKey: Guid(0dbffa8461d45ae4784ddb2b1cd1cf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_07.prefab using Guid(0dbffa8461d45ae4784ddb2b1cd1cf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591c7111a9ad2e84f69c5d1c5bac917f') in 0.014494 seconds
-  Import took 0.016308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_09.prefab
-  artifactKey: Guid(ea7312f547d0e064cbce8a0e86fbf25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_09.prefab using Guid(ea7312f547d0e064cbce8a0e86fbf25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbd8ca7289c6f9218e9ce1778347940') in 0.023675 seconds
-  Import took 0.025711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Column_08.prefab
-  artifactKey: Guid(413fa6f9b7d355443a955edd94bc850d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Column_08.prefab using Guid(413fa6f9b7d355443a955edd94bc850d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffa005334a366d1b954b07229320b78') in 0.019351 seconds
-  Import took 0.021142 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_11.prefab
-  artifactKey: Guid(40d47deaca22b9e4cbe24ddd6fc02670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_11.prefab using Guid(40d47deaca22b9e4cbe24ddd6fc02670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89ee1e025476a5e75235ba9613f75a8') in 0.014370 seconds
-  Import took 0.016252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/MetalWall_01.prefab
-  artifactKey: Guid(42152f05150e2294eac81abcd97634e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/MetalWall_01.prefab using Guid(42152f05150e2294eac81abcd97634e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23309fa0846bd1bef9c68cd5614847c6') in 0.019298 seconds
-  Import took 0.021181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/MetalWall_Door_02.prefab
-  artifactKey: Guid(9ad3bb031a8b94f47bbb5973f5cf153e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/MetalWall_Door_02.prefab using Guid(9ad3bb031a8b94f47bbb5973f5cf153e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb1ae86138169a96320ee29e6a7b8bc') in 0.023098 seconds
-  Import took 0.024876 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_04.prefab
-  artifactKey: Guid(e34cd81e8abfa994eb2a3e1fdb41b4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_04.prefab using Guid(e34cd81e8abfa994eb2a3e1fdb41b4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d7d6da832d7ee021ca70d4daaaea6e') in 0.014819 seconds
-  Import took 0.016689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Column_02.prefab
-  artifactKey: Guid(cc011ba67ad47e24a944f5abea770eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Column_02.prefab using Guid(cc011ba67ad47e24a944f5abea770eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702a0adf06c92cd9b1a8ac8af4afc197') in 0.019338 seconds
-  Import took 0.021238 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_05.prefab
-  artifactKey: Guid(87e2a079dac43ff418ca1f426c71f84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_05.prefab using Guid(87e2a079dac43ff418ca1f426c71f84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d130129720819638e16f0da68b07b38') in 0.019186 seconds
-  Import took 0.020909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_01.prefab
-  artifactKey: Guid(a9b8ba1831e8a76488572601a09b8381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_01.prefab using Guid(a9b8ba1831e8a76488572601a09b8381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5920ade629aa4b8dc03aa71005a474') in 0.020500 seconds
-  Import took 0.022322 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_14.prefab
-  artifactKey: Guid(edf30fd4df9ef1b44a1cf42f06248129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_14.prefab using Guid(edf30fd4df9ef1b44a1cf42f06248129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af91942477f98849dafba81b44b1ec52') in 0.018616 seconds
-  Import took 0.020474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Bridge_01.prefab
-  artifactKey: Guid(b8010e39410a0f54d88271428eec1dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Bridge_01.prefab using Guid(b8010e39410a0f54d88271428eec1dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d375f72a02676f2b1ff21911c53207c') in 0.020319 seconds
-  Import took 0.022125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/MetalWall_03.prefab
-  artifactKey: Guid(9000c34f5f5f817479904e98ec354679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/MetalWall_03.prefab using Guid(9000c34f5f5f817479904e98ec354679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8eb33c1ba861c45b25cae66755e6a6c') in 0.018879 seconds
-  Import took 0.020652 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Column_01.prefab
-  artifactKey: Guid(2d023628663a4444eade61c5a0210259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Column_01.prefab using Guid(2d023628663a4444eade61c5a0210259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76baa0dfb8e0e01d889a868abc2a9f01') in 0.013950 seconds
-  Import took 0.015965 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Mud_02.prefab
-  artifactKey: Guid(71da40efedd00c448b8bfa68e781d215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Mud_02.prefab using Guid(71da40efedd00c448b8bfa68e781d215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512356dcfab0a1fc6ee56d35e4ff75e2') in 0.019377 seconds
-  Import took 0.021250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Brick_04.prefab
-  artifactKey: Guid(8b0e16a9b0d55fa478448d1c9363daa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Brick_04.prefab using Guid(8b0e16a9b0d55fa478448d1c9363daa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0cf209dd71527b0740fc481daf461ae') in 0.018928 seconds
-  Import took 0.020813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_12.prefab
-  artifactKey: Guid(bcc59605049cf8a4995bf79279008c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_12.prefab using Guid(bcc59605049cf8a4995bf79279008c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364d188f1d1403b6a3b09f9cca3663e3') in 0.019361 seconds
-  Import took 0.021352 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_08.prefab
-  artifactKey: Guid(d646a42b4a8e85c439548a50e76bb3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_08.prefab using Guid(d646a42b4a8e85c439548a50e76bb3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123437e361067b89991359ceea7b2df1') in 0.019385 seconds
-  Import took 0.021254 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Mud_01.prefab
-  artifactKey: Guid(121734464a06b554189467907a24b1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Mud_01.prefab using Guid(121734464a06b554189467907a24b1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb8944df546fd088d92047feca0435a') in 0.020548 seconds
-  Import took 0.022393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Column_04.prefab
-  artifactKey: Guid(3bd29f258e37ef244bbce0571e0ed9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Column_04.prefab using Guid(3bd29f258e37ef244bbce0571e0ed9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ec2c23f7119cf310d6539eb9178c50') in 0.019033 seconds
-  Import took 0.020834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_03.prefab
-  artifactKey: Guid(fd79cb76c879c344caa2204ffe569e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_03.prefab using Guid(fd79cb76c879c344caa2204ffe569e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5724d16bab94418a983226b2c45c283') in 0.018830 seconds
-  Import took 0.020579 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Brick_03.prefab
-  artifactKey: Guid(5edc6da8c22d58a4cb3027d44d05619f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Brick_03.prefab using Guid(5edc6da8c22d58a4cb3027d44d05619f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955a56a72ad2bdad113a28888ab30d06') in 0.020071 seconds
-  Import took 0.021857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_06.prefab
-  artifactKey: Guid(5035294e597987445a2252709e8007b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_06.prefab using Guid(5035294e597987445a2252709e8007b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804a78b82ed5173341f02396ec158f3d') in 0.019166 seconds
-  Import took 0.021032 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/MetalWall_Door_01.prefab
-  artifactKey: Guid(960cd7da2b4732543abff8b232cd04ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/MetalWall_Door_01.prefab using Guid(960cd7da2b4732543abff8b232cd04ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a9c82e4f5a27d5141fce723a6d369c') in 0.021184 seconds
-  Import took 0.023135 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_13.prefab
-  artifactKey: Guid(eb77004eb1a1626438301264ef319ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_13.prefab using Guid(eb77004eb1a1626438301264ef319ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9690b690091c4821c0a811e93e7e2a40') in 0.019574 seconds
-  Import took 0.021490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/MetalWall_02.prefab
-  artifactKey: Guid(98124da2a5a190c49b7e76b86b2db963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/MetalWall_02.prefab using Guid(98124da2a5a190c49b7e76b86b2db963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f968b86e93e7e791034b56285e250bf8') in 0.019143 seconds
-  Import took 0.020991 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Column_05.prefab
-  artifactKey: Guid(e2a85919981d503409e8ed76f2a7aeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Column_05.prefab using Guid(e2a85919981d503409e8ed76f2a7aeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5b925d667a27e7a7075b80d8fd21d2') in 0.015488 seconds
-  Import took 0.017641 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_10.prefab
-  artifactKey: Guid(0f9515d14eddb8d438f5bb8d62e2bb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Ground_10.prefab using Guid(0f9515d14eddb8d438f5bb8d62e2bb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b251d166ccdb070593d4f669b0f185f') in 0.023296 seconds
-  Import took 0.025115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Column_06.prefab
-  artifactKey: Guid(fce50451b3b14cb4e8d48f23dc6a3ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Column_06.prefab using Guid(fce50451b3b14cb4e8d48f23dc6a3ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d936f94a2ecb31087fe9916880e863') in 0.021177 seconds
-  Import took 0.023032 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Column_03.prefab
-  artifactKey: Guid(c6999de7e22f7a54ebac659205e88c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Column_03.prefab using Guid(c6999de7e22f7a54ebac659205e88c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095bb28140122a15134f8766b46bc969') in 0.023918 seconds
-  Import took 0.025737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Bridge_02.prefab
-  artifactKey: Guid(1153e64d5ff672d4cb895ccf3da9c3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Bridge_02.prefab using Guid(1153e64d5ff672d4cb895ccf3da9c3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a1a4bb15108adaf592ccc44db6bc2b') in 0.019341 seconds
-  Import took 0.021094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Brick_02.prefab
-  artifactKey: Guid(bb5e701e8a3049948bd16968096a99d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Brick_02.prefab using Guid(bb5e701e8a3049948bd16968096a99d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d02f140c52fcba5ce0fc4f5fd5947a5') in 0.018571 seconds
-  Import took 0.020344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.865682 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Mud_03.prefab
-  artifactKey: Guid(a4bca31165896444fb0fb44f77749502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Mud_03.prefab using Guid(a4bca31165896444fb0fb44f77749502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c54da670f1312aa468307b75fe9a4c') in 0.053690 seconds
-  Import took 0.056539 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Stairs_03.prefab
-  artifactKey: Guid(b60762046a9d05a4bbc56c7b385f41fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Stairs_03.prefab using Guid(b60762046a9d05a4bbc56c7b385f41fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c051a5d393781c65ff9f1527f80c2ed') in 0.021115 seconds
-  Import took 0.023117 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Mud_05.prefab
-  artifactKey: Guid(6fa39378f11b06d45b4bdf0dc9e319b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Mud_05.prefab using Guid(6fa39378f11b06d45b4bdf0dc9e319b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e003ae04130de5f02650d153a8e263') in 0.029781 seconds
-  Import took 0.031673 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/StairsPart_04.prefab
-  artifactKey: Guid(2f039ce02cc7fc34788fc4ccb134142a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/StairsPart_04.prefab using Guid(2f039ce02cc7fc34788fc4ccb134142a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a53b632fe08b585f459031f49ae6254') in 0.016707 seconds
-  Import took 0.018620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/StairsPart_09.prefab
-  artifactKey: Guid(5bc623d839a5b6a41941ef12879276dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/StairsPart_09.prefab using Guid(5bc623d839a5b6a41941ef12879276dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c397a692c5d52b7c1f196895ba92499d') in 0.016569 seconds
-  Import took 0.018499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Tile_03.prefab
-  artifactKey: Guid(966bdd67c47354d4da1879cfc98618ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Tile_03.prefab using Guid(966bdd67c47354d4da1879cfc98618ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6814da8c92713b4c0a71522a87fdca70') in 0.018457 seconds
-  Import took 0.020449 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Tile_02.prefab
-  artifactKey: Guid(ef149b86993e06f45bb54c28e4b05d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Tile_02.prefab using Guid(ef149b86993e06f45bb54c28e4b05d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0809d158d33a90abd15c19c65acb03d') in 0.018864 seconds
-  Import took 0.020955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/StairsPart_08.prefab
-  artifactKey: Guid(96b057dae9226a241831890c0dacdb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/StairsPart_08.prefab using Guid(96b057dae9226a241831890c0dacdb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f94998e4c7ac424a5255044d1ab203e') in 0.019033 seconds
-  Import took 0.021030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Stairs_02.prefab
-  artifactKey: Guid(38cb42d66914de04fafb8238bb52cb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Stairs_02.prefab using Guid(38cb42d66914de04fafb8238bb52cb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b86cfb5db0676c759fa10a715b504ce') in 0.020558 seconds
-  Import took 0.022530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Tile_06.prefab
-  artifactKey: Guid(87cf283eb5b1a2b48837cfca754775f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Tile_06.prefab using Guid(87cf283eb5b1a2b48837cfca754775f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1a252fd98cd866ad271fec04fd2fd4') in 0.019852 seconds
-  Import took 0.021876 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_01.prefab
-  artifactKey: Guid(f87285e2f00713c4ea55142d0b475c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_01.prefab using Guid(f87285e2f00713c4ea55142d0b475c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3ee477afcd28e9667fdca9c4e1f3fb') in 0.015223 seconds
-  Import took 0.017183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Mud_06.prefab
-  artifactKey: Guid(f9a5987d17c3b57488cde94b0655591b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Mud_06.prefab using Guid(f9a5987d17c3b57488cde94b0655591b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d1ee57af67bb7790edc87f120a63d5') in 0.019557 seconds
-  Import took 0.021693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_03.prefab
-  artifactKey: Guid(c499bed2f737c0e488efed8069326c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_03.prefab using Guid(c499bed2f737c0e488efed8069326c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca76e6796c4e2cecec3674ea7ab21e8') in 0.022059 seconds
-  Import took 0.024133 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_02.prefab
-  artifactKey: Guid(8ab0d05ceccffa2469d030535e60f0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_02.prefab using Guid(8ab0d05ceccffa2469d030535e60f0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffa4933c09b8c57fed420b48f2d8003') in 0.019586 seconds
-  Import took 0.021687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_08_Door_01.prefab
-  artifactKey: Guid(1450bf572a9abe74f88bbed7ccc09472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_08_Door_01.prefab using Guid(1450bf572a9abe74f88bbed7ccc09472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e07d0b4daba70dca14671a14a778534') in 0.021194 seconds
-  Import took 0.023213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_09_Door_01.prefab
-  artifactKey: Guid(81b76af0503adc246b3bbb53da35a6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_09_Door_01.prefab using Guid(81b76af0503adc246b3bbb53da35a6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8faeca8c315f7dfde005ea11f6519f7f') in 0.025473 seconds
-  Import took 0.027549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_10.prefab
-  artifactKey: Guid(dcd440bd97a94cb449c9b3b75f8b5f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_10.prefab using Guid(dcd440bd97a94cb449c9b3b75f8b5f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e5079d950b029ea4fb646004399484') in 0.014922 seconds
-  Import took 0.016853 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_09_Door_02.prefab
-  artifactKey: Guid(6810a73d68345b44499b8c45b4436c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_09_Door_02.prefab using Guid(6810a73d68345b44499b8c45b4436c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4949e8886ad9030eb0ef01814c3adcad') in 0.018689 seconds
-  Import took 0.020586 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_07.prefab
-  artifactKey: Guid(198593d788a3e85478fe6505e4611609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_07.prefab using Guid(198593d788a3e85478fe6505e4611609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411ecb8908589b40c93ce281a764ccc0') in 0.014808 seconds
-  Import took 0.016959 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_10_Door_01.prefab
-  artifactKey: Guid(d535472e5adf302439d07f7cf365b826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_10_Door_01.prefab using Guid(d535472e5adf302439d07f7cf365b826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9322157975dfc9692254ab0e59286045') in 0.017090 seconds
-  Import took 0.019294 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Mud_04.prefab
-  artifactKey: Guid(94e3d8c652b752c4482bfc4299894af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Mud_04.prefab using Guid(94e3d8c652b752c4482bfc4299894af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8941d45dcd99d29c9853bdae7037b8ff') in 0.022057 seconds
-  Import took 0.024080 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_07_Door_01.prefab
-  artifactKey: Guid(b5fef02221fc65a48aafd5a7bdaa717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_07_Door_01.prefab using Guid(b5fef02221fc65a48aafd5a7bdaa717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdb0334c18ab704f47401e48dc16925') in 0.017046 seconds
-  Import took 0.019067 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/StairsPart_06.prefab
-  artifactKey: Guid(84dd0aa26771dee4b8b609ee8564160d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/StairsPart_06.prefab using Guid(84dd0aa26771dee4b8b609ee8564160d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554d799acfcb8e09b7afd23ab48b21f3') in 0.019851 seconds
-  Import took 0.021867 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/StairsPart_03.prefab
-  artifactKey: Guid(b5242ec25ee5af648bb18b4d84c2e243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/StairsPart_03.prefab using Guid(b5242ec25ee5af648bb18b4d84c2e243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7b76973c775df0e62ecf5557318e5f') in 0.014787 seconds
-  Import took 0.017408 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/StairsPart_01.prefab
-  artifactKey: Guid(4fc718fac5cc66b4b8a9d9bb8efca55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/StairsPart_01.prefab using Guid(4fc718fac5cc66b4b8a9d9bb8efca55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a5ebd58cd4ccd06bf14d7a4c403b74f') in 0.014080 seconds
-  Import took 0.016418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/StairsPart_02.prefab
-  artifactKey: Guid(ebe2e8d0f92ae41499f0300144b21acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/StairsPart_02.prefab using Guid(ebe2e8d0f92ae41499f0300144b21acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446c62638ccdeed396792e16edfd3ddc') in 0.018877 seconds
-  Import took 0.020913 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_06.prefab
-  artifactKey: Guid(24fe238562c0d104e95dc5f028fa3bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_06.prefab using Guid(24fe238562c0d104e95dc5f028fa3bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59351464a4c5e0b60b89be4aecb2314a') in 0.020792 seconds
-  Import took 0.022578 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_04.prefab
-  artifactKey: Guid(2d377aacaacf9784b87a8fbe179b4389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_04.prefab using Guid(2d377aacaacf9784b87a8fbe179b4389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b94d404bfeb4dfd134c317766c622f') in 0.020470 seconds
-  Import took 0.022729 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/StairsPart_07.prefab
-  artifactKey: Guid(d4d1f5567fa6ef94fba20ea935aef0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/StairsPart_07.prefab using Guid(d4d1f5567fa6ef94fba20ea935aef0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29858b41a11af166f58d38857b3b6a50') in 0.020574 seconds
-  Import took 0.022529 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Stairs_01.prefab
-  artifactKey: Guid(fdd45e0392ccac049a8608445fad7343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Stairs_01.prefab using Guid(fdd45e0392ccac049a8608445fad7343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b016b62dacbfd695a50e4bd62d4965f8') in 0.016644 seconds
-  Import took 0.018662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Stairs_04.prefab
-  artifactKey: Guid(92a7c2936f466dd439d8bafd0a4096c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Stairs_04.prefab using Guid(92a7c2936f466dd439d8bafd0a4096c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1867c4dc7b2763679b320abe233b082') in 0.019212 seconds
-  Import took 0.020955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/StairsPart_05.prefab
-  artifactKey: Guid(285d342abd126a04fb875f10eb3c4afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/StairsPart_05.prefab using Guid(285d342abd126a04fb875f10eb3c4afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8392b01004fdff04e99d2960150e3080') in 0.019445 seconds
-  Import took 0.021307 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_08.prefab
-  artifactKey: Guid(4ca8b6fd88b222f439afcb395429d94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_08.prefab using Guid(4ca8b6fd88b222f439afcb395429d94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8222ac29b9053ca657df5ef0f5c295fc') in 0.016351 seconds
-  Import took 0.018111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_08_Door_02.prefab
-  artifactKey: Guid(3d3e152d258a80c4fab94117eaa1778a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_08_Door_02.prefab using Guid(3d3e152d258a80c4fab94117eaa1778a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a608412c835e5c55f13d1a4a523a811') in 0.015824 seconds
-  Import took 0.017778 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Tile_04.prefab
-  artifactKey: Guid(51d27d240c0214d4fb8e2eaadc3e8efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Tile_04.prefab using Guid(51d27d240c0214d4fb8e2eaadc3e8efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d294dd28d9117b08c2e91351e6c7d1e') in 0.019000 seconds
-  Import took 0.020948 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_05.prefab
-  artifactKey: Guid(5f9b1450e1be9bc4f89df242c0d2b53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_05.prefab using Guid(5f9b1450e1be9bc4f89df242c0d2b53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173b9a421a0545a23d5d6f6e354e3260') in 0.019335 seconds
-  Import took 0.021184 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Tile_01.prefab
-  artifactKey: Guid(b4c6ee925b6ed3048a2b66be170c8347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Tile_01.prefab using Guid(b4c6ee925b6ed3048a2b66be170c8347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373e4a2a59c25a57927981394737ab56') in 0.019125 seconds
-  Import took 0.021266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_07_Door_02.prefab
-  artifactKey: Guid(346d408901667814990ddce35159ba00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_07_Door_02.prefab using Guid(346d408901667814990ddce35159ba00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba1ae3a126e2b3fecc128b18e082766') in 0.016716 seconds
-  Import took 0.018574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_09.prefab
-  artifactKey: Guid(7dd5e1c856d5b444f9b8714b4ec60400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_09.prefab using Guid(7dd5e1c856d5b444f9b8714b4ec60400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea661cc0575609d65e565c3256bed48b') in 0.015536 seconds
-  Import took 0.017402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Tile_05.prefab
-  artifactKey: Guid(263471ae62600f54d8fde825958951cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Tile_05.prefab using Guid(263471ae62600f54d8fde825958951cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248eebbbdc732b61e41e5996409e2f51') in 0.019019 seconds
-  Import took 0.021029 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.748237 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_10_Door_02.prefab
-  artifactKey: Guid(11b4f7701b8350e4db55866d69bb9839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_10_Door_02.prefab using Guid(11b4f7701b8350e4db55866d69bb9839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cda1379ecfca32f350bcc18edaa6dd') in 0.033061 seconds
-  Import took 0.036628 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_10_Door_03.prefab
-  artifactKey: Guid(f387c03409a746c4fab1dc13f6d4451d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_10_Door_03.prefab using Guid(f387c03409a746c4fab1dc13f6d4451d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c08446f7af264258764ef1d47cc5421') in 0.027281 seconds
-  Import took 0.030040 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_12_Door_01.prefab
-  artifactKey: Guid(12f1edda0fde7624ca2da0454e0c987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_12_Door_01.prefab using Guid(12f1edda0fde7624ca2da0454e0c987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7ff529eeeaa93c21356bf65b25bd84') in 0.043646 seconds
-  Import took 0.046008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_17.prefab
-  artifactKey: Guid(48fb1ecb128bba648b5a4da29606f7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_17.prefab using Guid(48fb1ecb128bba648b5a4da29606f7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70e56d77fc4673293af7b1e4376f0b4') in 0.017993 seconds
-  Import took 0.019864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_20.prefab
-  artifactKey: Guid(2a9b26a98d2d55f4ca20b5be2c0876b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_20.prefab using Guid(2a9b26a98d2d55f4ca20b5be2c0876b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb69129da700ecf424419111379bce21') in 0.020488 seconds
-  Import took 0.022416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_30.prefab
-  artifactKey: Guid(f73efc95d39416042b262ebc4da45c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_30.prefab using Guid(f73efc95d39416042b262ebc4da45c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2503bcf77a08e24d6ce6ab8aa817e4c') in 0.018436 seconds
-  Import took 0.020672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_12.prefab
-  artifactKey: Guid(f481917f7beaa6247b2958a38a4b24fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_12.prefab using Guid(f481917f7beaa6247b2958a38a4b24fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0225f5b0549e67a404d03f4c6412d7') in 0.014852 seconds
-  Import took 0.016814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/WallPart_02.prefab
-  artifactKey: Guid(dc91d64e01b35e04fa505c980aa76d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/WallPart_02.prefab using Guid(dc91d64e01b35e04fa505c980aa76d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a531d8c6f57850759d0a0ddc684a9009') in 0.020297 seconds
-  Import took 0.022266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_13.prefab
-  artifactKey: Guid(c65ebbd459d16024790b3532db505237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_13.prefab using Guid(c65ebbd459d16024790b3532db505237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077f7a8e8571ec074473ea8e2bef5d29') in 0.015650 seconds
-  Import took 0.017685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_27.prefab
-  artifactKey: Guid(e813a57052639634a919c7d446f989b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_27.prefab using Guid(e813a57052639634a919c7d446f989b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe091bed542129708d01f7eb8f54e15') in 0.019469 seconds
-  Import took 0.021427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_26.prefab
-  artifactKey: Guid(adfdb2362d072624b90db91df1bc06a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_26.prefab using Guid(adfdb2362d072624b90db91df1bc06a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbadbae6d47cd6786d57077d629628d') in 0.019206 seconds
-  Import took 0.021228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_10_Door_02.prefab
-  artifactKey: Guid(11b4f7701b8350e4db55866d69bb9839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_10_Door_02.prefab using Guid(11b4f7701b8350e4db55866d69bb9839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cda1379ecfca32f350bcc18edaa6dd') in 0.008821 seconds
-  Import took 0.010643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_28.prefab
-  artifactKey: Guid(cb77773e6265a0f40bf382601a287fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_28.prefab using Guid(cb77773e6265a0f40bf382601a287fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9ac2eb94af035d59384b3ced413ac6') in 0.019308 seconds
-  Import took 0.021437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_19.prefab
-  artifactKey: Guid(c41528196afba3647a873f405477ea14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_19.prefab using Guid(c41528196afba3647a873f405477ea14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9b53ecc27402070a307b73501f1ee8') in 0.019098 seconds
-  Import took 0.021031 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_21.prefab
-  artifactKey: Guid(b8e82ee9dbc66c1408b336bca986859d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_21.prefab using Guid(b8e82ee9dbc66c1408b336bca986859d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbfec78655c8a782734e6597d0c997a') in 0.019210 seconds
-  Import took 0.020958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_31.prefab
-  artifactKey: Guid(f5f9967d408724c4a88869f7c7de6dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_31.prefab using Guid(f5f9967d408724c4a88869f7c7de6dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f653cff2f150bbbe3b739d79908243a') in 0.019374 seconds
-  Import took 0.021170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_23.prefab
-  artifactKey: Guid(db8dcf3cffc888347aca211e06518947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_23.prefab using Guid(db8dcf3cffc888347aca211e06518947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a81ab855b93fca0d274b1c6ef5f8750') in 0.020447 seconds
-  Import took 0.022204 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_11.prefab
-  artifactKey: Guid(0663a9044356b70439758b54fb9f4b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_11.prefab using Guid(0663a9044356b70439758b54fb9f4b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b894e2e6b7564d3f4520bc3b0583bed3') in 0.019602 seconds
-  Import took 0.021528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_29.prefab
-  artifactKey: Guid(6b8652abcb28ea14688089256146eaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_29.prefab using Guid(6b8652abcb28ea14688089256146eaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8d2f0f8a98ad6574ee1ccf5b8db531') in 0.021222 seconds
-  Import took 0.022970 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_15.prefab
-  artifactKey: Guid(ea6792f0a8ddde24cacc1a0e006c4bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_15.prefab using Guid(ea6792f0a8ddde24cacc1a0e006c4bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74075717e7bb36fcddd3803ead309781') in 0.019326 seconds
-  Import took 0.021105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_22.prefab
-  artifactKey: Guid(0f3e15f4e5e2ca1419941e1d493dfd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_22.prefab using Guid(0f3e15f4e5e2ca1419941e1d493dfd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4477b540bc8ae8f334b0dfa5dbc51434') in 0.020125 seconds
-  Import took 0.021952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_32.prefab
-  artifactKey: Guid(58be77d7a49b30c4891195382de0c752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_32.prefab using Guid(58be77d7a49b30c4891195382de0c752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f717ad88dd214ef9fbcfee6fafec6dc') in 0.016614 seconds
-  Import took 0.018452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_18.prefab
-  artifactKey: Guid(da9f91ce14a50c445aa96c7978f24bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_18.prefab using Guid(da9f91ce14a50c445aa96c7978f24bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbda77902261fcfd06f7ab0e8416d80') in 0.020086 seconds
-  Import took 0.022013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_24.prefab
-  artifactKey: Guid(5f3ac93e10ff59b4d80406202225c4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_24.prefab using Guid(5f3ac93e10ff59b4d80406202225c4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0089c0a0d8145d5b731e8b1c4eb3ab52') in 0.019867 seconds
-  Import took 0.021730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/WallPart_01.prefab
-  artifactKey: Guid(d5660faf22c82dc4d876cd407312d62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/WallPart_01.prefab using Guid(d5660faf22c82dc4d876cd407312d62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43b313102a25bc26bbc0d42b3b0458d') in 0.014705 seconds
-  Import took 0.016686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_36.prefab
-  artifactKey: Guid(5d73615e277fd214a8b8af6011ce23e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_36.prefab using Guid(5d73615e277fd214a8b8af6011ce23e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0302dec66373ab86bac88adee1751f7') in 0.020026 seconds
-  Import took 0.021873 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_14.prefab
-  artifactKey: Guid(5c9c4124d72f4794da50c15ca40dd2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_14.prefab using Guid(5c9c4124d72f4794da50c15ca40dd2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf3e2b2f7c787978c17d954a2844747') in 0.021659 seconds
-  Import took 0.023653 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_36.prefab
-  artifactKey: Guid(5d73615e277fd214a8b8af6011ce23e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_36.prefab using Guid(5d73615e277fd214a8b8af6011ce23e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0302dec66373ab86bac88adee1751f7') in 0.008087 seconds
-  Import took 0.009939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_16.prefab
-  artifactKey: Guid(59b1ff6686cc7ea4288201a5a1560651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_16.prefab using Guid(59b1ff6686cc7ea4288201a5a1560651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c72b29a5ce03c598656bbd848b485c8') in 0.022907 seconds
-  Import took 0.024905 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_34.prefab
-  artifactKey: Guid(4f7739deb8ac5424496633d99b8b6048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_34.prefab using Guid(4f7739deb8ac5424496633d99b8b6048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685b85a688b0f67040dfa4bcfcc6da0c') in 0.021681 seconds
-  Import took 0.023579 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_25.prefab
-  artifactKey: Guid(a3f30789f909ff34789b275f2a5e4620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_25.prefab using Guid(a3f30789f909ff34789b275f2a5e4620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718e371ce19d004c0f54cd7ab8e9322a') in 0.024387 seconds
-  Import took 0.026527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_33.prefab
-  artifactKey: Guid(2d18da8e86b86de4ea4aff51311c400b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_33.prefab using Guid(2d18da8e86b86de4ea4aff51311c400b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c5d1194a6c95918e36f6ccbb61cefe') in 0.022342 seconds
-  Import took 0.024356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_11_Door_01.prefab
-  artifactKey: Guid(327032fc6d704d045ac7dfb46189ca2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_11_Door_01.prefab using Guid(327032fc6d704d045ac7dfb46189ca2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8821afa88d2cbfed94082f710f089e') in 0.017863 seconds
-  Import took 0.019969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_35.prefab
-  artifactKey: Guid(2c707ccafcb211e4faa7455a12f04065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wall_35.prefab using Guid(2c707ccafcb211e4faa7455a12f04065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0862ce4c1946fcd774ffef4ce4966f') in 0.020980 seconds
-  Import took 0.023070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 181.679955 seconds.
-  path: Assets/Resources/HSBombaram3.0_Regular.ttf
-  artifactKey: Guid(d637c2e77b8c73a4db94a80ad838ce85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/HSBombaram3.0_Regular.ttf using Guid(d637c2e77b8c73a4db94a80ad838ce85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c240aa60f105c684275cff906d640779') in 0.057006 seconds
-  Import took 0.059303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.757789 seconds.
-  path: Assets/Resources
-  artifactKey: Guid(4a71bd7f4d7b6fe42ab3fdc1b6f806e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources using Guid(4a71bd7f4d7b6fe42ab3fdc1b6f806e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0121d83aba7e0a4fb2d50107306179') in 0.006586 seconds
-  Import took 0.008878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.325660 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6e520b92ccfc61bcfa21a7bcab8468') in 0.006906 seconds
-  Import took 0.009223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000475 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6e520b92ccfc61bcfa21a7bcab8468') in 0.002782 seconds
-  Import took 0.004940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.519334 seconds.
-  path: Assets/hello.txt
-  artifactKey: Guid(19f828b21311e6140987fac3e5e07aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/hello.txt using Guid(19f828b21311e6140987fac3e5e07aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0482d123234e5be11fe41ea3cb5a7af') in 0.022987 seconds
-  Import took 0.025361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.748403 seconds.
-  path: Assets/Maps
-  artifactKey: Guid(9033792ab3564c14c87ccf29d211c80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps using Guid(9033792ab3564c14c87ccf29d211c80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4502004323ac42c1e11e460ca0eaa917') in 0.005656 seconds
-  Import took 0.007668 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.366277 seconds.
-  path: Assets/Maps/Map.prefab
-  artifactKey: Guid(4b32a6624c9dbf14c9800f0ebf8dd0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Map.prefab using Guid(4b32a6624c9dbf14c9800f0ebf8dd0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87541e7d04fd3dcbed1db8cdb81b3383') in 0.008286 seconds
-  Import took 0.010462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 216.312906 seconds.
-  path: Assets/Maps/Prefab
-  artifactKey: Guid(dbb179bc6e014fc4fa6ba7e770ee307b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefab using Guid(dbb179bc6e014fc4fa6ba7e770ee307b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5dd01716ade2b8d7ca08aebd567d809') in 0.006051 seconds
-  Import took 0.008400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.309246 seconds.
-  path: Assets/Maps/Prefabs
-  artifactKey: Guid(dbb179bc6e014fc4fa6ba7e770ee307b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs using Guid(dbb179bc6e014fc4fa6ba7e770ee307b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e602125ff4bbd891a04d7275780a2bfc') in 0.005808 seconds
-  Import took 0.007822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.660334 seconds.
-  path: Assets/Maps/Prefabs/Ground_05.prefab
-  artifactKey: Guid(8d8cf7fdcbb605a4086e09f8489ecd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Ground_05.prefab using Guid(8d8cf7fdcbb605a4086e09f8489ecd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771bc864a8d80398768e6af54f320ef4') in 0.015308 seconds
-  Import took 0.017690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007539 seconds.
-  path: Assets/Maps/Prefabs/Ground_05.prefab
-  artifactKey: Guid(8d8cf7fdcbb605a4086e09f8489ecd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Ground_05.prefab using Guid(8d8cf7fdcbb605a4086e09f8489ecd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771bc864a8d80398768e6af54f320ef4') in 0.021711 seconds
-  Import took 0.024127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.268762 seconds.
-  path: Assets/Maps/Prefabs/Ground_normal.prefab
-  artifactKey: Guid(8d8cf7fdcbb605a4086e09f8489ecd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Ground_normal.prefab using Guid(8d8cf7fdcbb605a4086e09f8489ecd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f30c574c09c4467d5e7a47ee5cba0d') in 0.014696 seconds
-  Import took 0.017160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 602.439304 seconds.
-  path: Assets/Resources/20 Map/StairMaterial.physicMaterial
-  artifactKey: Guid(b9c1dfe352715ae44a4273e900378c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/StairMaterial.physicMaterial using Guid(b9c1dfe352715ae44a4273e900378c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb795c4fa046beb491a0c89cc298c54a') in 0.013325 seconds
-  Import took 0.016110 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Resources/20 Map/WallMaterial.physicMaterial
-  artifactKey: Guid(bc8eed1b4e00c6e4bae81bdba2b2cd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/WallMaterial.physicMaterial using Guid(bc8eed1b4e00c6e4bae81bdba2b2cd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75938361dadab5a5d3b912ee731bf2f') in 0.007849 seconds
-  Import took 0.009824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.884768 seconds.
-  path: Assets/Maps/Prefabs/Ground_normal.prefab
-  artifactKey: Guid(8d8cf7fdcbb605a4086e09f8489ecd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Ground_normal.prefab using Guid(8d8cf7fdcbb605a4086e09f8489ecd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3f77237b64642cc65f12925284c685') in 0.010588 seconds
-  Import took 0.013024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.554257 seconds.
-  path: Assets/Maps/Prefabs/Stairs_02.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_02.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd590b4cec50d0d4f536590e968804332') in 0.013440 seconds
-  Import took 0.015624 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014457 seconds.
-  path: Assets/Maps/Prefabs/Stairs_02.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_02.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd590b4cec50d0d4f536590e968804332') in 0.010745 seconds
-  Import took 0.013329 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.183960 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fdf4708b30ff2651e7de83cba5e6b2') in 0.012950 seconds
-  Import took 0.014987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004883 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fdf4708b30ff2651e7de83cba5e6b2') in 0.026178 seconds
-  Import took 0.028344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4633.683650 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c3fcac0caca6ef3b79e9811256830e') in 0.032304 seconds
-  Import took 0.035186 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.759952 seconds.
-  path: Assets/Maps/Prefabs/Wall_04.prefab
-  artifactKey: Guid(a88b72d29b9a0dd46896c2381d360a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Wall_04.prefab using Guid(a88b72d29b9a0dd46896c2381d360a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b84d7050dcafbdd39a866026594876a') in 0.014396 seconds
-  Import took 0.016665 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007356 seconds.
-  path: Assets/Maps/Prefabs/Wall_04.prefab
-  artifactKey: Guid(a88b72d29b9a0dd46896c2381d360a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Wall_04.prefab using Guid(a88b72d29b9a0dd46896c2381d360a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b84d7050dcafbdd39a866026594876a') in 0.009190 seconds
-  Import took 0.011274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.748791 seconds.
-  path: Assets/Maps/Prefabs/Wall_normal.prefab
-  artifactKey: Guid(a88b72d29b9a0dd46896c2381d360a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Wall_normal.prefab using Guid(a88b72d29b9a0dd46896c2381d360a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb30e859ade71e9a370a8d259466e3a6') in 0.015373 seconds
-  Import took 0.017772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000708 seconds.
-  path: Assets/Maps/Prefabs/Wall_normal.prefab
-  artifactKey: Guid(a88b72d29b9a0dd46896c2381d360a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Wall_normal.prefab using Guid(a88b72d29b9a0dd46896c2381d360a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb30e859ade71e9a370a8d259466e3a6') in 0.014440 seconds
-  Import took 0.016518 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 73.178315 seconds.
-  path: Assets/Maps/Prefabs/Wall_07.prefab
-  artifactKey: Guid(f6b74757397b97d4e811ec33a9914cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Wall_07.prefab using Guid(f6b74757397b97d4e811ec33a9914cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532be7339b3c20354bb2fc44265ff0cf') in 0.020335 seconds
-  Import took 0.022642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.331829 seconds.
-  path: Assets/Maps/Prefabs/Wall_GateRect_noDoor.prefab
-  artifactKey: Guid(f6b74757397b97d4e811ec33a9914cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Wall_GateRect_noDoor.prefab using Guid(f6b74757397b97d4e811ec33a9914cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1335558ce617ad1b3e08c1e78d18171a') in 0.014678 seconds
-  Import took 0.016958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 208.513252 seconds.
   path: Assets/Scenes/TestScene.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eeea8dbf1b8ce8e3126f208904d0959') in 0.010546 seconds
-  Import took 0.013262 seconds .
+Start importing Assets/Scenes/TestScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46c41032f6dde032a40fdc3acb6bd38') in 0.017047 seconds
+  Import took 0.019230 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.156844 seconds.
-  path: Assets/Scenes/Fire_00.unity
-  artifactKey: Guid(5550ba2c376ab954cb9d1fd930605116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fire_00.unity using Guid(5550ba2c376ab954cb9d1fd930605116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4454f889d1385e44f1257baffd44ebd7') in 0.007391 seconds
-  Import took 0.009823 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000813 seconds.
-  path: Assets/Scenes/Fire_00.unity
-  artifactKey: Guid(5550ba2c376ab954cb9d1fd930605116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fire_00.unity using Guid(5550ba2c376ab954cb9d1fd930605116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4454f889d1385e44f1257baffd44ebd7') in 0.003584 seconds
-  Import took 0.005777 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 128.537034 seconds.
-  path: Assets/Maps/Prefabs/Wall_Light.prefab
-  artifactKey: Guid(c5ba72b17c4f4ef40acde04b564c9a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Wall_Light.prefab using Guid(c5ba72b17c4f4ef40acde04b564c9a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c61500429312adb05ef51e399d0dfc') in 0.020957 seconds
-  Import took 0.023457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.070003 seconds.
-  path: Assets/Scenes/Fire_00.unity
-  artifactKey: Guid(5550ba2c376ab954cb9d1fd930605116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fire_00.unity using Guid(5550ba2c376ab954cb9d1fd930605116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597b023c2faaaade4ab29b1438aca041') in 0.003595 seconds
-  Import took 0.006126 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 121.201839 seconds.
-  path: Assets/Scenes/Fire_00.unity
-  artifactKey: Guid(5550ba2c376ab954cb9d1fd930605116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fire_00.unity using Guid(5550ba2c376ab954cb9d1fd930605116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f675847138e7f00ec3c185ba7fb2ee3b') in 0.003871 seconds
-  Import took 0.006291 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 121.697080 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/WallPart_03.prefab
-  artifactKey: Guid(aed85ab0f56166c4a82509c3117f794f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/WallPart_03.prefab using Guid(aed85ab0f56166c4a82509c3117f794f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e9e9022c386ec4d488ce874182f521') in 0.081403 seconds
-  Import took 0.084905 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wood_03.prefab
-  artifactKey: Guid(b5d7e82e01a181641bff74ac2f1faa70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wood_03.prefab using Guid(b5d7e82e01a181641bff74ac2f1faa70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658b432aaad1f4f96d103556ccb77410') in 0.022711 seconds
-  Import took 0.025228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wood_02.prefab
-  artifactKey: Guid(1845782a9012a684caeeb54dcc9e792a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wood_02.prefab using Guid(1845782a9012a684caeeb54dcc9e792a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd656ba77a05aa474536edbec9b9a90') in 0.034524 seconds
-  Import took 0.036707 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wood_04.prefab
-  artifactKey: Guid(ba4dfa359602b8642bada26a3a14e439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wood_04.prefab using Guid(ba4dfa359602b8642bada26a3a14e439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae0ef30462af6d88c4cd172e00c3a74') in 0.020241 seconds
-  Import took 0.022454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wood_01.prefab
-  artifactKey: Guid(f2941b6f67a61fc439d8cf8bd2c57a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wood_01.prefab using Guid(f2941b6f67a61fc439d8cf8bd2c57a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b1c4358474a4837aee87df4cda98cc') in 0.020656 seconds
-  Import took 0.022936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wood_05.prefab
-  artifactKey: Guid(8408849ebba020041937e08e8727e626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wood_05.prefab using Guid(8408849ebba020041937e08e8727e626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334e00997e5665faa4d713383ef576a4') in 0.019671 seconds
-  Import took 0.021656 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wood_01.prefab
-  artifactKey: Guid(f2941b6f67a61fc439d8cf8bd2c57a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wood_01.prefab using Guid(f2941b6f67a61fc439d8cf8bd2c57a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b1c4358474a4837aee87df4cda98cc') in 0.010353 seconds
-  Import took 0.012676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wood_05.prefab
-  artifactKey: Guid(8408849ebba020041937e08e8727e626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Prefabs/Dungeon/Wood_05.prefab using Guid(8408849ebba020041937e08e8727e626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334e00997e5665faa4d713383ef576a4') in 0.008997 seconds
-  Import took 0.011378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1589.547671 seconds.
-  path: Assets/Maps/Prefabs/Wall_half.prefab
-  artifactKey: Guid(1aebc23d6824cf045ac721edb1d5f638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Wall_half.prefab using Guid(1aebc23d6824cf045ac721edb1d5f638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1626a84264e6d93f07f9d2420d59949e') in 0.023689 seconds
-  Import took 0.026812 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 175.173324 seconds.
-  path: Assets/Maps/Prefabs/BlackMaterial.mat
-  artifactKey: Guid(4137aa21f774a5d4bb98e17459c56189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/BlackMaterial.mat using Guid(4137aa21f774a5d4bb98e17459c56189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d60333214cd635c52d0a192be1c864') in 0.044824 seconds
-  Import took 0.047455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.068957 seconds.
-  path: Assets/Maps/Prefabs/BlackPortal.prefab
-  artifactKey: Guid(3fb80b94e89da10469a4b3023841ed52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/BlackPortal.prefab using Guid(3fb80b94e89da10469a4b3023841ed52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf6350c384cfce8bc953cb843618010') in 0.022181 seconds
-  Import took 0.024617 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.521855 seconds.
-  path: Assets/Maps/Prefabs/Material
-  artifactKey: Guid(ee0e9c7626b723041a9777eb0f67543f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Material using Guid(ee0e9c7626b723041a9777eb0f67543f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e693d36a20ce9bb902d64efdffb3a17') in 0.007317 seconds
-  Import took 0.009567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 213.727451 seconds.
-  path: Assets/Maps/Materials/BlackMaterial.mat
-  artifactKey: Guid(4137aa21f774a5d4bb98e17459c56189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Materials/BlackMaterial.mat using Guid(4137aa21f774a5d4bb98e17459c56189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ebd0c216af01d44b24ed693f0f55e4') in 0.031900 seconds
-  Import took 0.034078 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 919.908297 seconds.
-  path: Assets/Maps/Prefabs/Ceiling and Ground.prefab
-  artifactKey: Guid(ef7edf63380cd8d4695c102d26df9220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Ceiling and Ground.prefab using Guid(ef7edf63380cd8d4695c102d26df9220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ed0dc6a31010f153dbc5e7f1aad2ab') in 0.023108 seconds
-  Import took 0.025927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 354.787394 seconds.
-  path: Assets/Maps/Prefabs/Wall_04.prefab
-  artifactKey: Guid(0c370fccffdbbb64f8e03d594adc4fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Wall_04.prefab using Guid(0c370fccffdbbb64f8e03d594adc4fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57cb56a7f3cc5ba06fd152a8e49b17dd') in 0.018429 seconds
-  Import took 0.021204 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001770 seconds.
-  path: Assets/Maps/Prefabs/Wall_04.prefab
-  artifactKey: Guid(0c370fccffdbbb64f8e03d594adc4fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Wall_04.prefab using Guid(0c370fccffdbbb64f8e03d594adc4fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57cb56a7f3cc5ba06fd152a8e49b17dd') in 0.034869 seconds
-  Import took 0.037122 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.547039 seconds.
-  path: Assets/Maps/Prefabs/Wall_04.prefab
-  artifactKey: Guid(0c370fccffdbbb64f8e03d594adc4fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Wall_04.prefab using Guid(0c370fccffdbbb64f8e03d594adc4fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1864e1033ada73ef10c7e85d34611178') in 0.012039 seconds
-  Import took 0.014202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004164 seconds.
-  path: Assets/Maps/Prefabs/Wall_04.prefab
-  artifactKey: Guid(0c370fccffdbbb64f8e03d594adc4fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Wall_04.prefab using Guid(0c370fccffdbbb64f8e03d594adc4fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1864e1033ada73ef10c7e85d34611178') in 0.009596 seconds
-  Import took 0.011694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.861915 seconds.
-  path: Assets/Maps/Prefabs/Wall_normal 1.prefab
-  artifactKey: Guid(97c0d437da100ee45b5aba7691ed3abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Wall_normal 1.prefab using Guid(97c0d437da100ee45b5aba7691ed3abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bedff30d977996107997d1b8237415') in 0.020123 seconds
-  Import took 0.022583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004618 seconds.
-  path: Assets/Maps/Prefabs/Wall_normal 1.prefab
-  artifactKey: Guid(97c0d437da100ee45b5aba7691ed3abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Wall_normal 1.prefab using Guid(97c0d437da100ee45b5aba7691ed3abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bedff30d977996107997d1b8237415') in 0.010004 seconds
-  Import took 0.012556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1571.659618 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Materials
-  artifactKey: Guid(bac6fce06f1f8ea439f729351789a7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Materials using Guid(bac6fce06f1f8ea439f729351789a7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ece08902069fcf6411be6a87537167') in 0.009814 seconds
-  Import took 0.012553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.223555 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Materials/Dungeons_BG.mat
-  artifactKey: Guid(34efce60d118cd24fbb987b8529e819a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Materials/Dungeons_BG.mat using Guid(34efce60d118cd24fbb987b8529e819a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf47bf62813281b6f173d2da53adc457') in 0.039310 seconds
-  Import took 0.042649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Materials/Dungeons_Light.mat
-  artifactKey: Guid(c51eb1892fd0bc143bad021218d13877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Materials/Dungeons_Light.mat using Guid(c51eb1892fd0bc143bad021218d13877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c27a5a726f9c1b9b55a78c1cbeadaa') in 0.022223 seconds
-  Import took 0.024586 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Resources/20 Map/LowPolyDungeons/Materials/Dungeons_MAIN.mat
-  artifactKey: Guid(d08a0d1aba6bbce4b815d4bd76548e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20 Map/LowPolyDungeons/Materials/Dungeons_MAIN.mat using Guid(d08a0d1aba6bbce4b815d4bd76548e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808c74168d1b8503bbce716f13045fd3') in 0.022866 seconds
-  Import took 0.025017 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 363.425468 seconds.
-  path: Assets/Maps/Prefabs/Wall_09_Door_01.prefab
-  artifactKey: Guid(361def8bd7d47094a99b9ea97b60f98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Wall_09_Door_01.prefab using Guid(361def8bd7d47094a99b9ea97b60f98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb23758c3871345f655dc81853ce398') in 0.020335 seconds
-  Import took 0.022887 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.332652 seconds.
-  path: Assets/Maps/Prefabs/wall_Gate_toKing.prefab
-  artifactKey: Guid(361def8bd7d47094a99b9ea97b60f98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/wall_Gate_toKing.prefab using Guid(361def8bd7d47094a99b9ea97b60f98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ada08ab8da208b4393adb734d714e0') in 0.014848 seconds
-  Import took 0.017065 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.300134 seconds.
-  path: Assets/Maps/Prefabs/Wall_01.prefab
-  artifactKey: Guid(b8931be8752206948bbc71907b376052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Wall_01.prefab using Guid(b8931be8752206948bbc71907b376052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f126a7533b3f1120c6c3dd720b4bfd3') in 0.015963 seconds
-  Import took 0.018314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 61.374637 seconds.
-  path: Assets/Maps/Prefabs/Wall_plane.prefab
-  artifactKey: Guid(b8931be8752206948bbc71907b376052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Wall_plane.prefab using Guid(b8931be8752206948bbc71907b376052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce58a3c5470b1a831cbe6d3392204af7') in 0.017198 seconds
-  Import took 0.019904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.356621 seconds.
-  path: Assets/Maps/Prefabs/Wall_Gate_toKing.prefab
-  artifactKey: Guid(361def8bd7d47094a99b9ea97b60f98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Wall_Gate_toKing.prefab using Guid(361def8bd7d47094a99b9ea97b60f98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de677ea5a6626fa3f54a498ea3272bed') in 0.017723 seconds
-  Import took 0.020309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.283300 seconds.
-  path: Assets/Maps/Prefabs/Wall_plane.prefab
-  artifactKey: Guid(b8931be8752206948bbc71907b376052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Wall_plane.prefab using Guid(b8931be8752206948bbc71907b376052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264436d782df6a086e41738467f638ea') in 0.010686 seconds
-  Import took 0.013217 seconds .
+  Time since last request: 1.488222 seconds.
+  path: Assets/Scenes/TestScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46c41032f6dde032a40fdc3acb6bd38') in 0.004325 seconds
+  Import took 0.006804 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000840 seconds.
+Registered in 0.001605 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000014F87A66010 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F87FA7010 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8D560010 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8D476010 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F87A7AFF0 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F87639020 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8C016020 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F87FA7010 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F87953270 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F87E60E50 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8CA3F010 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.731 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1204 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.5 MB.
+System memory in use after: 72.6 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1694.
+Total: 1.338300 ms (FindLiveObjects: 0.108000 ms CreateObjectMapping: 0.029900 ms MarkObjects: 1.189000 ms  DeleteObjects: 0.010400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001388 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000014F8DAD1E50 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F87A68F00 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8D5F8020 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F9089B9A0 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F879E8020 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8D5F8020 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB1D68E40 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F87A68F00 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F87F81050 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F878D4D40 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8CFAE200 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.055 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1204 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.5 MB.
+System memory in use after: 72.6 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1696.
+Total: 1.778400 ms (FindLiveObjects: 0.163600 ms CreateObjectMapping: 0.036500 ms MarkObjects: 1.563800 ms  DeleteObjects: 0.013400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001414 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000014FB17A3B50 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F87EB7460 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8E96F830 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8F06D4C0 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F879E8020 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB1449650 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB1666040 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8D476010 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F875FF010 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB1C51010 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F90E5D270 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.787 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1204 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.5 MB.
+System memory in use after: 72.6 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1698.
+Total: 1.386300 ms (FindLiveObjects: 0.128900 ms CreateObjectMapping: 0.037600 ms MarkObjects: 1.207700 ms  DeleteObjects: 0.011100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1673.459062 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea06a2b4a7a17ac079b67de23508206') in 0.063574 seconds
+  Import took 0.066686 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001314 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000014F8E6AAB90 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F87EB7460 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8ED4A540 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8DAC8020 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F87A7AFF0 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8D427040 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB24390A0 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F90E50670 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB27CA010 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB28F9A10 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB1CF4680 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.790 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1204 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.5 MB.
+System memory in use after: 72.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1700.
+Total: 1.346200 ms (FindLiveObjects: 0.128300 ms CreateObjectMapping: 0.035300 ms MarkObjects: 1.170800 ms  DeleteObjects: 0.010900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001974 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000014F8EE7E5B0 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8C843010 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8ED4A540 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F91188020 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F87A7AFF0 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8E6BCF80 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB1D30DB0 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8C843010 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8E52A100 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F911D1FA0 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F9055FB00 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.684 seconds
+- Completed reload, in  0.797 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1204 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.4 MB.
-System memory in use after: 76.5 MB.
+System memory in use before: 72.5 MB.
+System memory in use after: 72.6 MB.
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1739.
-Total: 1.276200 ms (FindLiveObjects: 0.115600 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.119300 ms  DeleteObjects: 0.009100 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1702.
+Total: 1.554000 ms (FindLiveObjects: 0.144800 ms CreateObjectMapping: 0.036400 ms MarkObjects: 1.359600 ms  DeleteObjects: 0.012400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000994 seconds.
+Registered in 0.001540 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000014F8F0754D0 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB1A330A0 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB2A8D570 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8C0B4030 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB1D60D10 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB2A8D570 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB1666040 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8E732880 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB1357DE0 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F90E5B120 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB1831DC0 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.711 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1204 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.5 MB.
-System memory in use after: 76.6 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1741.
-Total: 1.924000 ms (FindLiveObjects: 0.261100 ms CreateObjectMapping: 0.059800 ms MarkObjects: 1.588500 ms  DeleteObjects: 0.011700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1895.811132 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d4326a7c0180fd854e55d5a204692c') in 0.047298 seconds
-  Import took 0.049875 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.949263 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8c9e0ece5b312e6bcb546471757a66') in 0.033524 seconds
-  Import took 0.035836 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.479025 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571cb01faf667a228eaeaa553736cb46') in 0.011578 seconds
-  Import took 0.013927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.310046 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50b3bfaea968e5530de65ed353106de') in 0.027812 seconds
-  Import took 0.029928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.648187 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e103fa81cc6fe5dd6fbbf9b0b76ac3') in 0.015547 seconds
-  Import took 0.018705 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000818 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.637 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1204 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.5 MB.
-System memory in use after: 76.6 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1744.
-Total: 1.267000 ms (FindLiveObjects: 0.139700 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.085000 ms  DeleteObjects: 0.009400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.407415 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8474eb3fe309eba8da7f6cf465ca85') in 0.047593 seconds
-  Import took 0.049740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.440103 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8474eb3fe309eba8da7f6cf465ca85') in 0.010250 seconds
-  Import took 0.012325 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001017 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.675 seconds
+- Completed reload, in  0.769 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1204 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.5 MB.
-System memory in use after: 76.6 MB.
+System memory in use before: 72.5 MB.
+System memory in use after: 72.6 MB.
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1747.
-Total: 1.760500 ms (FindLiveObjects: 0.124900 ms CreateObjectMapping: 0.032900 ms MarkObjects: 1.589100 ms  DeleteObjects: 0.012600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 80.642874 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae31d4d37aad51b762ed1145f93bdc94') in 0.051724 seconds
-  Import took 0.054016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.140502 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea5cf61e6facef3c2320d7e3474882f') in 0.010230 seconds
-  Import took 0.012802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.835113 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ccf3016bd897e440cf743e07b375bf') in 0.011553 seconds
-  Import took 0.014282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.223811 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f017c23aaea993ed91d2991261a2b847') in 0.011402 seconds
-  Import took 0.013643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.802597 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e1b94a847d52af9cb32abc225a0472') in 0.011338 seconds
-  Import took 0.013537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.805362 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d41d9c145302654d55d246b16f4989b') in 0.010327 seconds
-  Import took 0.012549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.591489 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128c2f129b5253606b75fe37b849be80') in 0.010749 seconds
-  Import took 0.012978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.007420 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb58ca986b5d327e940e0f51b722fca') in 0.010919 seconds
-  Import took 0.013187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.229437 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec28293da89bf7f70f660ab04a8507e') in 0.011795 seconds
-  Import took 0.013861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.813605 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b7c345e009fe2d7b53b53e459e4d91') in 0.010129 seconds
-  Import took 0.012609 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.672401 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e304f21a664643c0193860fa309c553') in 0.011123 seconds
-  Import took 0.013350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.415059 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174f4df9ddd2ec8b99d875742418a533') in 0.010864 seconds
-  Import took 0.013144 seconds .
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1704.
+Total: 1.501300 ms (FindLiveObjects: 0.136800 ms CreateObjectMapping: 0.037500 ms MarkObjects: 1.313400 ms  DeleteObjects: 0.012500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000765 seconds.
+Registered in 0.001379 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000014F8ED2AE10 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F87EB7460 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB1C52030 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB291B630 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F90730B40 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8E630020 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB2437020 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8DA69170 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F877DC650 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8F107FB0 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB2C6B010 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.595 seconds
+- Completed reload, in  0.801 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1204 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.6 MB.
-System memory in use after: 76.7 MB.
+System memory in use before: 72.6 MB.
+System memory in use after: 72.7 MB.
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1750.
-Total: 1.414600 ms (FindLiveObjects: 0.146300 ms CreateObjectMapping: 0.036600 ms MarkObjects: 1.221700 ms  DeleteObjects: 0.009000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 67.835361 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99107c51c826f343dd1585b28096c37') in 0.055598 seconds
-  Import took 0.057961 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.513585 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebeb01cbe995fa71bd7ab177a33167b5') in 0.015576 seconds
-  Import took 0.018616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.303772 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb3d46081bf09a2a7249b1ec42ea2c1') in 0.010951 seconds
-  Import took 0.013211 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.068184 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49943225e2a9c0b6f2cd93b76d8b5317') in 0.012287 seconds
-  Import took 0.014676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.591089 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca769190d37901255f4bc477087f4791') in 0.013392 seconds
-  Import took 0.015796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.503517 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f285c14c3b84a5df8037c3d1153d56c7') in 0.010985 seconds
-  Import took 0.013241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.406021 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc5540e5e7a6740a12ed3e432a07123') in 0.011485 seconds
-  Import took 0.013555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.439493 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdecfdf529f4d4208b69243afecd167') in 0.011021 seconds
-  Import took 0.013299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.370197 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c96c521ef2cfb189d32ffe96af6a5c9') in 0.012841 seconds
-  Import took 0.014994 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.815524 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea8911ec47e13a3b692ccec71d3dad9') in 0.013540 seconds
-  Import took 0.015766 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.639204 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1ddf1b468dc001cf45fe12423a1f26') in 0.015010 seconds
-  Import took 0.017601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.273183 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dac4a3deeaee96f2715e72ce57596b5') in 0.012754 seconds
-  Import took 0.015203 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.643752 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5886bffad67a98a108821f3660ae49') in 0.037625 seconds
-  Import took 0.039982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.257875 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b988932f6b9ac36e029f16bb9115282') in 0.017755 seconds
-  Import took 0.019872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.135042 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085e856d25ddea11b8da76e6aad300ec') in 0.038044 seconds
-  Import took 0.040716 seconds .
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1706.
+Total: 1.567600 ms (FindLiveObjects: 0.113100 ms CreateObjectMapping: 0.031600 ms MarkObjects: 1.411800 ms  DeleteObjects: 0.010500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001079 seconds.
+Registered in 0.001354 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000014F8E77E010 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8ED4A540 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB1C52030 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB2D01EB0 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F90730B40 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F87D6EC30 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB2437020 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8E8DDCA0 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8BE7A030 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8F107FB0 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB194BD20 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.601 seconds
+- Completed reload, in  1.212 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1204 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.6 MB.
-System memory in use after: 76.7 MB.
+System memory in use before: 72.6 MB.
+System memory in use after: 72.7 MB.
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1753.
-Total: 1.279200 ms (FindLiveObjects: 0.116400 ms CreateObjectMapping: 0.029800 ms MarkObjects: 1.122200 ms  DeleteObjects: 0.010000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 868.541237 seconds.
-  path: Assets/Maps/Materials
-  artifactKey: Guid(ee0e9c7626b723041a9777eb0f67543f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Materials using Guid(ee0e9c7626b723041a9777eb0f67543f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb8b5d4edc7fa02bbf7696300b42cca') in 0.021102 seconds
-  Import took 0.023528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.089854 seconds.
-  path: Assets/Maps/Materials/BlackMaterial.mat
-  artifactKey: Guid(4137aa21f774a5d4bb98e17459c56189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Materials/BlackMaterial.mat using Guid(4137aa21f774a5d4bb98e17459c56189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd0e1fa47bce23b6bca0de730ebdaa0') in 0.099778 seconds
-  Import took 0.103597 seconds .
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1708.
+Total: 1.768400 ms (FindLiveObjects: 0.141100 ms CreateObjectMapping: 0.038100 ms MarkObjects: 1.569200 ms  DeleteObjects: 0.018500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000765 seconds.
+Registered in 0.001384 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000014F8F0754D0 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8EC320E0 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8C51E010 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8D476010 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB1D60D10 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8D427040 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB1666040 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8D476010 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F87AAB010 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8ED23070 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB1A46CE0 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.617 seconds
+- Completed reload, in  0.759 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1204 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.6 MB.
-System memory in use after: 76.7 MB.
+System memory in use before: 72.6 MB.
+System memory in use after: 72.7 MB.
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1756.
-Total: 1.307400 ms (FindLiveObjects: 0.151300 ms CreateObjectMapping: 0.039500 ms MarkObjects: 1.107600 ms  DeleteObjects: 0.008300 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1710.
+Total: 1.421400 ms (FindLiveObjects: 0.134300 ms CreateObjectMapping: 0.031600 ms MarkObjects: 1.241300 ms  DeleteObjects: 0.013500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000854 seconds.
+Registered in 0.001784 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000014FB17A3B00 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F87524B70 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8C51E010 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB2BCD010 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB2107050 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8E630020 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8E81B030 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8EA00CD0 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014FB1EA2010 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8ED23070 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014F8ED3F0C0 doesn't match image C:\Users\김근남\Desktop\UnityProject\Kronos2\Kronos\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.601 seconds
+- Completed reload, in  0.861 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1204 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.6 MB.
-System memory in use after: 76.7 MB.
+System memory in use before: 72.6 MB.
+System memory in use after: 72.7 MB.
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1758.
-Total: 1.465800 ms (FindLiveObjects: 0.170600 ms CreateObjectMapping: 0.040200 ms MarkObjects: 1.244400 ms  DeleteObjects: 0.009300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 161.047758 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8c4d48b1d3f919763e0024697ad91f') in 0.055198 seconds
-  Import took 0.057840 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000778 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.614 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1204 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.6 MB.
-System memory in use after: 76.7 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1761.
-Total: 1.700100 ms (FindLiveObjects: 0.149900 ms CreateObjectMapping: 0.049600 ms MarkObjects: 1.487900 ms  DeleteObjects: 0.011800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.206820 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75051141a2d5d58adfc10d17c2626b81') in 0.055441 seconds
-  Import took 0.057779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.227434 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c372968b81a623279826ab734c3988') in 0.020534 seconds
-  Import took 0.022905 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.933501 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd02a363073edc6b82169e5c4c0e1c76') in 0.016037 seconds
-  Import took 0.018287 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.047211 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df8cf0ce02110b51b0fc9af9082964c') in 0.015449 seconds
-  Import took 0.017629 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.010713 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6303b8bcb14d01a309143f52f184299e') in 0.020279 seconds
-  Import took 0.023084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.435703 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d74c10d4061d265ca8cd6006542fdf0') in 0.024679 seconds
-  Import took 0.027437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.430553 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233eaaabb8334a8854f8342ddde1de46') in 0.021350 seconds
-  Import took 0.024695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.292222 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2b243350d24800a6375760490c7474') in 0.012258 seconds
-  Import took 0.014767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.951936 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404add0b3a00a6060cabb92db905fb58') in 0.017728 seconds
-  Import took 0.020796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 111.319952 seconds.
-  path: Assets/Scenes/Fire_00.unity
-  artifactKey: Guid(5550ba2c376ab954cb9d1fd930605116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fire_00.unity using Guid(5550ba2c376ab954cb9d1fd930605116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fafd84274571eff47683a0c3988137b9') in 0.007983 seconds
-  Import took 0.010748 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 92.946499 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3928d9626824ddb1d87f40c0b8aa50e') in 0.041060 seconds
-  Import took 0.044766 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.099362 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86de08bd04296593f2eddcae32e4dda0') in 0.017241 seconds
-  Import took 0.019589 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.888062 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b157a457413687ddd8e639cd79d61d96') in 0.018544 seconds
-  Import took 0.021116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.095393 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d3a3c333b4cb042005b496afa7f7aa') in 0.016083 seconds
-  Import took 0.018458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.273416 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9bd112ca603270ca8ddcca6ff8be89') in 0.016775 seconds
-  Import took 0.019194 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.784953 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02e703e5b0f3fdf14f02270e08e0830') in 0.016110 seconds
-  Import took 0.018750 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.695412 seconds.
-  path: Assets/Maps/Prefabs/Stairs_normal.prefab
-  artifactKey: Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Prefabs/Stairs_normal.prefab using Guid(a77db52daa02d2b4bb617feb87933ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8426f810391f064798240cb8ed71f4') in 0.015586 seconds
-  Import took 0.017877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.144567 seconds.
-  path: Assets/Scenes/TestScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395167c893fb42303fd591be8900ab61') in 0.008760 seconds
-  Import took 0.011095 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000642 seconds.
-  path: Assets/Scenes/TestScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395167c893fb42303fd591be8900ab61') in 0.003549 seconds
-  Import took 0.005747 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001035 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.696 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1204 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.7 MB.
-System memory in use after: 76.8 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1764.
-Total: 1.439600 ms (FindLiveObjects: 0.183800 ms CreateObjectMapping: 0.041100 ms MarkObjects: 1.201800 ms  DeleteObjects: 0.011500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 7516.047333 seconds.
-  path: Assets/Scenes/Fire_00.unity
-  artifactKey: Guid(5550ba2c376ab954cb9d1fd930605116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fire_00.unity using Guid(5550ba2c376ab954cb9d1fd930605116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a46aa4b7943086b82ebb5a7fd65e76') in 0.020442 seconds
-  Import took 0.025190 seconds .
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1712.
+Total: 2.147200 ms (FindLiveObjects: 0.145400 ms CreateObjectMapping: 0.042600 ms MarkObjects: 1.940400 ms  DeleteObjects: 0.017600 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
