@@ -9,6 +9,10 @@ public class GreenSlime : MonoBehaviour
     public float MoveSpeed = 1;
     public float DetectRange=5f;
     public float AttackRange=1.2f;
+    [SerializeField] float m_angle = 0f;
+    [SerializeField] float m_distance = 0f;
+    [SerializeField] LayerMask m_layerMask = 0;
+
     GameObject player;
 
     // patrol 방향 정하는 bool
@@ -93,18 +97,39 @@ public class GreenSlime : MonoBehaviour
             /*
              * 몬스터 시야 전방 탐지범위안에 들어오면 탐지완료
              */
-            RaycastHit hit;
-            Vector3 obj = transform.position + Vector3.up;
-            if (Physics.Raycast(obj, transform.forward, out hit, DetectRange))
+            //RaycastHit hit;
+            //Vector3 obj = transform.position + Vector3.up;
+            //if (Physics.Raycast(obj, transform.forward, out hit, DetectRange))
+            //{
+            //    if (hit.collider.gameObject == player)
+            //    {
+            //        Debug.Log("Detect");
+            //        Detect = true;
+            //        return true;
+            //    }
+            //}
+
+            Collider[] t_cols = Physics.OverlapSphere(transform.position, m_distance, m_layerMask);
+            Debug.Log(t_cols+" / "+m_angle+" / "+m_distance);
+            if (t_cols.Length > 0)
             {
-                if (hit.collider.gameObject == player)
+                Transform t_tfPlayer = t_cols[0].transform;
+
+                Vector3 t_direcrion = (t_tfPlayer.position - transform.position).normalized;
+                float t_angle = Vector3.Angle(t_direcrion, transform.forward);
+                if(t_angle <m_angle * 0.5f)
                 {
-                    Debug.Log("Detect");
-                    Detect = true;
-                    return true;
+                    if(Physics.Raycast(transform.forward,t_direcrion,out RaycastHit t_hit, m_distance))
+                    {
+                        if (t_hit.transform.CompareTag("Player"))
+                        {
+                            Debug.Log("Detect");
+                            Detect = true;
+                            return true;
+                        }
+                    }
                 }
             }
-
             /*
              * 몬스터에게 너무 가까이 있어도 탐지// 거리는 DectectRange의 1/2
              */
