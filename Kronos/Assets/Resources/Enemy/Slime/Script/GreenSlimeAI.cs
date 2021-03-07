@@ -30,7 +30,7 @@ public class GreenSlimeAI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("슬라임");
+        Debug.Log("생성");
         m_Slime = gameObject.GetComponent<GreenSlime>();
         root.AddChild(selector);
         selector.AddChild(seqDead);
@@ -64,9 +64,9 @@ public class GreenSlimeAI : MonoBehaviour
         {
             yield return new WaitForEndOfFrame();
         }
-        gameObject.GetComponentInChildren<MeshCollider>().isTrigger = true;
+        gameObject.GetComponentInParent<CapsuleCollider>().isTrigger = true;
         Destroy(gameObject, 5f);
-        Debug.Log("슬라임 쥬금");
+        Debug.Log("쥬금");
     }
 
     // Update is called once per frame

@@ -32,11 +32,15 @@ public class Enemy : MonoBehaviour
             // 플레이어에 역경직 적용
             StartCoroutine(GameObject.Find("Player").GetComponent<PlayerMove>().AttackRigidy(0.05f));
 
-            // 피격 모션
-            gameObject.GetComponent<Animator>().Play("GetHit");
-            //gameObject.GetComponent<GreenSlime>()._enemyState = GreenSlime.EnemyState.GetHit; // 에네미 상태변경
-            // 피격 이펙트
-            _playerEffect.HitEffect(other.ClosestPoint(gameObject.transform.position));
+            if (MonsterHP > 0)
+            {
+                // 피격 모션
+                gameObject.GetComponent<Animator>().Play("GetHit", -1, 0);
+                //gameObject.GetComponent<GreenSlime>()._enemyState = GreenSlime.EnemyState.GetHit; // 에네미 상태변경
+                // 피격 이펙트
+                _playerEffect.HitEffect(other.ClosestPoint(gameObject.transform.position));
+            }
+            
 
             // 피격 사운드
             // 뭐가있지?...

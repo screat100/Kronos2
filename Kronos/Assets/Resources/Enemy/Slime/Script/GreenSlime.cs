@@ -78,7 +78,7 @@ public class GreenSlime : MonoBehaviour
     }
     private void Animation()
     {
-        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("GetHit"))
+        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("GetHit")||_enemyState==EnemyState.Die)
         {
             animator.SetInteger("Status", (int)_enemyState);
         }
@@ -199,6 +199,7 @@ public class GreenSlime : MonoBehaviour
         {
             //죽음 status: 3
             _enemyState = EnemyState.Die;
+            animator.Play("Die");
             return false;
         }
         return true;
@@ -206,9 +207,9 @@ public class GreenSlime : MonoBehaviour
   
     public bool GetHit()
     {
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("GetHit"))
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("GetHit")&& MonsterHP>0)
         {
-            StartCoroutine(GetHitdelay(0.2f));
+            //StartCoroutine(GetHitdelay(0.2f));
             Detect = true;
             return true;
         }
