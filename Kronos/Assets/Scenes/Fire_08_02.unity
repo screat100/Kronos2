@@ -338,7 +338,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 45, y: 225, z: 45}
 --- !u!1001 &105525925
 PrefabInstance:
@@ -1239,6 +1239,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1756146576842630081, guid: f6b74757397b97d4e811ec33a9914cf8, type: 3}
   m_PrefabInstance: {fileID: 602060503}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &660591107
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 432050691068338403}
+    m_Modifications:
+    - target: {fileID: 844007800744450601, guid: 3fb80b94e89da10469a4b3023841ed52, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 844007800744450601, guid: 3fb80b94e89da10469a4b3023841ed52, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 844007800744450601, guid: 3fb80b94e89da10469a4b3023841ed52, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.145
+      objectReference: {fileID: 0}
+    - target: {fileID: 844007800744450601, guid: 3fb80b94e89da10469a4b3023841ed52, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 844007800744450601, guid: 3fb80b94e89da10469a4b3023841ed52, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 844007800744450601, guid: 3fb80b94e89da10469a4b3023841ed52, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 844007800744450601, guid: 3fb80b94e89da10469a4b3023841ed52, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 844007800744450601, guid: 3fb80b94e89da10469a4b3023841ed52, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 844007800744450601, guid: 3fb80b94e89da10469a4b3023841ed52, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 844007800744450601, guid: 3fb80b94e89da10469a4b3023841ed52, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 844007800744450601, guid: 3fb80b94e89da10469a4b3023841ed52, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1865986147708682590, guid: 3fb80b94e89da10469a4b3023841ed52, type: 3}
+      propertyPath: m_Name
+      value: BlackPortal
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3fb80b94e89da10469a4b3023841ed52, type: 3}
+--- !u!4 &660591108 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 844007800744450601, guid: 3fb80b94e89da10469a4b3023841ed52, type: 3}
+  m_PrefabInstance: {fileID: 660591107}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &680479070
 PrefabInstance:
@@ -2307,7 +2369,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 132719043540291485, guid: da9f90ac9d94a8649aa9479c8b62b155, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 132719043540291485, guid: da9f90ac9d94a8649aa9479c8b62b155, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4243,7 +4305,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 660591108}
   m_Father: {fileID: 4421662666079456611}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7925,7 +7988,7 @@ Transform:
   - {fileID: 2072802107105214777}
   - {fileID: 2079060746236260593}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &2079441854044265803
 Transform:
@@ -8345,109 +8408,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage: '
-
-    Transform ''index_03_l'' has been deleted
-
-    Transform
-    ''index_02_l'' has been deleted
-
-    Transform ''index_01_l'' has been deleted
-
-    Transform
-    ''ring_03_l'' has been deleted
-
-    Transform ''ring_02_l'' has been deleted
-
-    Transform
-    ''ring_01_l'' has been deleted
-
-    Transform ''thumb_03_l'' has been deleted
-
-    Transform
-    ''thumb_02_l'' has been deleted
-
-    Transform ''thumb_01_l'' has been deleted
-
-    Transform
-    ''hand_l'' has been deleted
-
-    Transform ''lowerarm_l'' has been deleted
-
-    Transform
-    ''upperarm_l'' has been deleted
-
-    Transform ''clavicle_l'' has been deleted
-
-    Transform
-    ''index_03_r'' has been deleted
-
-    Transform ''index_02_r'' has been deleted
-
-    Transform
-    ''index_01_r'' has been deleted
-
-    Transform ''ring_03_r'' has been deleted
-
-    Transform
-    ''ring_02_r'' has been deleted
-
-    Transform ''ring_01_r'' has been deleted
-
-    Transform
-    ''thumb_03_r'' has been deleted
-
-    Transform ''thumb_02_r'' has been deleted
-
-    Transform
-    ''thumb_01_r'' has been deleted
-
-    Transform ''hand_r'' has been deleted
-
-    Transform
-    ''lowerarm_r'' has been deleted
-
-    Transform ''upperarm_r'' has been deleted
-
-    Transform
-    ''clavicle_r'' has been deleted
-
-    Transform ''head'' has been deleted
-
-    Transform
-    ''neck_01'' has been deleted
-
-    Transform ''spine_03'' has been deleted
-
-    Transform
-    ''spine_02'' has been deleted
-
-    Transform ''spine_01'' has been deleted
-
-    Transform
-    ''ball_l'' has been deleted
-
-    Transform ''foot_l'' has been deleted
-
-    Transform
-    ''calf_l'' has been deleted
-
-    Transform ''thigh_l'' has been deleted
-
-    Transform
-    ''ball_r'' has been deleted
-
-    Transform ''foot_r'' has been deleted
-
-    Transform
-    ''calf_r'' has been deleted
-
-    Transform ''thigh_r'' has been deleted
-
-    Transform
-    ''pelvis'' has been deleted
-
-    Transform ''root'' has been deleted'
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -8548,7 +8509,7 @@ Transform:
   - {fileID: 5322289907204632584}
   - {fileID: 432050691068338403}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4881372041578564469
 Transform:
@@ -8602,13 +8563,27 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8904879425563572919}
+  - component: {fileID: 5301015999730885107}
   m_Layer: 0
   m_Name: Ground(Colider)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &5301015999730885107
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5301015999730885106}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 12, y: 0.001, z: 20}
+  m_Center: {x: 0, y: 0, z: 8}
 --- !u!4 &5322289907204632584
 Transform:
   m_ObjectHideFlags: 0
