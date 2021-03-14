@@ -13,9 +13,9 @@ public class GreenSlime : MonoBehaviour
     [SerializeField] LayerMask m_layerMask = 0;
 
     GameObject player;
-
+    Rigidbody rigidbody;
     // patrol 방향 정하는 bool
-    bool L_dir = true;
+    bool Dir_forward = true;
     bool dir_lock = false;
 
     //Status -> 0:Patrol, 1:Chase, 2:Attack, 3:Dead, 4:GetHit
@@ -31,7 +31,7 @@ public class GreenSlime : MonoBehaviour
     public EnemyState _enemyState;
     bool Detect = false;
 
-    Animator animator;
+    private Animator animator;
 
     // 이펙트
     [SerializeField]
@@ -39,11 +39,12 @@ public class GreenSlime : MonoBehaviour
 
     void Awake()
     {
+        animator = gameObject.GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player");
     }
     void Start()
     {
-        animator = gameObject.GetComponent<Animator>();
+        rigidbody = gameObject.GetComponent<Rigidbody>();
         _enemyState = EnemyState.Patrol; //기본 상태 idle
         MonsterHP = gameObject.GetComponent<Enemy>().MonsterHP; //hp 설정
     }
@@ -64,11 +65,11 @@ public class GreenSlime : MonoBehaviour
             int r = Random.Range(1, 3);
             if (r % 2 == 0)
             {
-                L_dir = true;
+                Dir_forward = true;
             }
             else
             {
-                L_dir = false;
+                Dir_forward = false;
             }
             animator.SetBool("Sense", false);
             yield return new WaitForSeconds(4f);
@@ -137,25 +138,19 @@ public class GreenSlime : MonoBehaviour
             if(Physics.Raycast(transform.position + Vector3.up, transform.forward, out RaycastHit hit, 2f))
             {
                 Debug.Log("빠꾸");
-                L_dir = !L_dir;
+                Dir_forward = !Dir_forward;
             }
 
-            if (L_dir)
+            _enemyState = EnemyState.Patrol;
+            
+            if(!Dir_forward)
             {
-                _enemyState = EnemyState.Patrol;
-                Vector3 target = gameObject.transform.position + Vector3.left;
-                gameObject.transform.LookAt(target);
-                transform.position = Vector3.MoveTowards(gameObject.transform.position, target, MoveSpeed * Time.deltaTime);
+                transform.Rotate(Vector3.up * 180);
+                Dir_forward = !Dir_forward;
             }
-            else
-            {
-                _enemyState = EnemyState.Patrol;
-                Vector3 target = gameObject.transform.position + Vector3.right;
-
-                gameObject.transform.LookAt(target);
-                transform.position = Vector3.MoveTowards(gameObject.transform.position, target, MoveSpeed * Time.deltaTime);
-            }
-
+            Vector3 target = gameObject.transform.position + transform.forward;
+            gameObject.transform.LookAt(target);
+            transform.position = Vector3.MoveTowards(gameObject.transform.position, target, MoveSpeed * Time.deltaTime);
 
             return true;
         }
