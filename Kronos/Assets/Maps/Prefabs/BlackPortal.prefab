@@ -12,7 +12,9 @@ GameObject:
   - component: {fileID: 5537804678931605495}
   - component: {fileID: 7825870161381787034}
   - component: {fileID: 5645967824661237425}
-  m_Layer: 0
+  - component: {fileID: 1040790087460585759}
+  - component: {fileID: 6368167897042514707}
+  m_Layer: 6
   m_Name: BlackPortal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,3 +97,31 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &1040790087460585759
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865986147708682590}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 0.99999994, z: 0.25}
+  m_Center: {x: 0, y: 0, z: -0.625}
+--- !u!114 &6368167897042514707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865986147708682590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f3cedee2f80eba4a8e5ec68ca26cbe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactPopupMessage: "\uC774\uB3D9\uD558\uAE30"
+  destScene: 
+  destPos: {x: 0, y: 0, z: 0}

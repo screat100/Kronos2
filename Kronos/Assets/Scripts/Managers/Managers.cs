@@ -11,9 +11,22 @@ public class Managers : MonoBehaviour
     InputManager _input = new InputManager();
     public static InputManager Input { get { return Instance._input; } }
 
+    [SerializeField]
+    List<GameObject> dontDestroyObj;
+
     void Start()
     {
         Init();
+
+        // 마우스 커서 숨김 
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+
+        // Serialize로 가져온 오브젝트들
+        for (int i=0; i<dontDestroyObj.Count; i++)
+        {
+            DontDestroyOnLoad(dontDestroyObj[i]);
+        }
     }
 
     void Update()
