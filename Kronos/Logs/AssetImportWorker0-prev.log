@@ -15,11 +15,11 @@ C:/Users/김근남/Desktop/UnityProject/Kronos2/Kronos
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49394
+56966
 Successfully changed project path to: C:/Users/김근남/Desktop/UnityProject/Kronos2/Kronos
 C:/Users/김근남/Desktop/UnityProject/Kronos2/Kronos
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 40.66 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 37.02 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,81 +35,1417 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004247 seconds.
+Registered in 0.003254 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.66 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 39.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.224 seconds
+- Completed reload, in  1.097 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001314 seconds.
+Registered in 0.001264 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.778 seconds
+- Completed reload, in  0.748 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1244 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.5 MB.
+System memory in use before: 74.4 MB.
 System memory in use after: 74.5 MB.
 
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1699.
-Total: 1.503900 ms (FindLiveObjects: 0.124500 ms CreateObjectMapping: 0.042700 ms MarkObjects: 1.271100 ms  DeleteObjects: 0.064800 ms)
+Total: 1.410500 ms (FindLiveObjects: 0.135000 ms CreateObjectMapping: 0.040900 ms MarkObjects: 1.173600 ms  DeleteObjects: 0.060200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Resources/Enemy/Skeleton
-  artifactKey: Guid(8764207de0421c1489e1f73f3e57ba4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Enemy/Skeleton using Guid(8764207de0421c1489e1f73f3e57ba4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93aa0581fe0be8ed8f2600decf0a834b') in 0.010077 seconds
-  Import took 0.012512 seconds .
+  path: Assets/Resources/Enemy/Mage/Fire/Mage.prefab
+  artifactKey: Guid(33135ab5b27fa51409399d6a9d98bc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Mage/Fire/Mage.prefab using Guid(33135ab5b27fa51409399d6a9d98bc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5219186fc2fc15f163e4944ab6cd85') in 0.213738 seconds
+  Import took 0.221724 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000401 seconds.
-  path: Assets/Resources/Enemy/Asset_Monster
-  artifactKey: Guid(8129709894d571b4a9995687c0892269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Enemy/Asset_Monster using Guid(8129709894d571b4a9995687c0892269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6397e176d68fa6a3c97f16599f75f689') in 0.008761 seconds
-  Import took 0.010916 seconds .
+  Time since last request: 267.135865 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(4a71bd7f4d7b6fe42ab3fdc1b6f806e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(4a71bd7f4d7b6fe42ab3fdc1b6f806e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0121d83aba7e0a4fb2d50107306179') in 0.007269 seconds
+  Import took 0.009851 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.950417 seconds.
+  Time since last request: 0.048203 seconds.
+  path: Assets/Resources/HSBombaram3.0_Regular.ttf
+  artifactKey: Guid(d637c2e77b8c73a4db94a80ad838ce85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/HSBombaram3.0_Regular.ttf using Guid(d637c2e77b8c73a4db94a80ad838ce85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15cc091d3b0e0a0aaf7583c0717a119') in 0.058917 seconds
+  Import took 0.060945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
   path: Assets/Resources/SDSwaggerTTF.ttf
   artifactKey: Guid(3a36b1efce09c8949bc6f8ffe79645b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/SDSwaggerTTF.ttf using Guid(3a36b1efce09c8949bc6f8ffe79645b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716a63c38190e5f5b2f72ad3029493d8') in 0.143429 seconds
-  Import took 0.145902 seconds .
+Start importing Assets/Resources/SDSwaggerTTF.ttf using Guid(3a36b1efce09c8949bc6f8ffe79645b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e35d3f7a88bab444ef30a3a468a61e') in 0.014623 seconds
+  Import took 0.016644 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.840419 seconds.
-  path: Assets/Scenes/TestScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6361495f1f50983fbdc9debf55ac78df') in 0.008772 seconds
-  Import took 0.010875 seconds .
+  Time since last request: 7.932830 seconds.
+  path: Assets/Resources/Effect
+  artifactKey: Guid(00e759b83ebdcb04fa634811ed4363c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect using Guid(00e759b83ebdcb04fa634811ed4363c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ca20c40a1a16acc5144dbe2f0cdbca') in 0.007001 seconds
+  Import took 0.009173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.613003 seconds.
+  path: Assets/Resources/Effect/GreenSlime
+  artifactKey: Guid(8edf564b656e3a24884a4f48aee140e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/GreenSlime using Guid(8edf564b656e3a24884a4f48aee140e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814a1db31b62ea61ac3cc6e8f6e2c421') in 0.008522 seconds
+  Import took 0.010647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004471 seconds.
+  path: Assets/Resources/Effect/GreenSlime/CartoonyPunchLight.prefab
+  artifactKey: Guid(8335da8b1de56f94e9a4cd8f7d21cfb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/GreenSlime/CartoonyPunchLight.prefab using Guid(8335da8b1de56f94e9a4cd8f7d21cfb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac131f41d552d327146c56de13b4813') in 0.013500 seconds
+  Import took 0.016803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Resources/Effect/GreenSlime/SwordHitRed.prefab
+  artifactKey: Guid(eda9b5264cc332b47b007b2507b49f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/GreenSlime/SwordHitRed.prefab using Guid(eda9b5264cc332b47b007b2507b49f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5028c88231bb4f9cfe7aedacabb7e47e') in 0.009402 seconds
+  Import took 0.011752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015350 seconds.
+  path: Assets/Resources/Effect/GreenSlime/SwordHitRed.prefab
+  artifactKey: Guid(eda9b5264cc332b47b007b2507b49f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/GreenSlime/SwordHitRed.prefab using Guid(eda9b5264cc332b47b007b2507b49f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5028c88231bb4f9cfe7aedacabb7e47e') in 0.005816 seconds
+  Import took 0.008715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.086831 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX
+  artifactKey: Guid(3e6dbfad45353ab4caf03321a428c979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX using Guid(3e6dbfad45353ab4caf03321a428c979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d5aaa30a428234042214cf2fb97395') in 0.008017 seconds
+  Import took 0.010072 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001640 seconds.
+Registered in 0.001161 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.695 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1746.
+Total: 1.357900 ms (FindLiveObjects: 0.123000 ms CreateObjectMapping: 0.034000 ms MarkObjects: 1.189700 ms  DeleteObjects: 0.010600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.494286 seconds.
+  path: Assets/Resources/Effect/Monster
+  artifactKey: Guid(f81eb5f976278044883a7dd3ce1951bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Monster using Guid(f81eb5f976278044883a7dd3ce1951bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4787fe14a428c9b41d415a89f2d3301') in 0.008519 seconds
+  Import took 0.010616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.079184 seconds.
+  path: Assets/Resources/Effect/Monster/Mage
+  artifactKey: Guid(91b13614d348d8649b5bef0f2d3b7581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Monster/Mage using Guid(91b13614d348d8649b5bef0f2d3b7581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907ac9d921e3e1b56ec4ca3d12c8f4e9') in 0.007500 seconds
+  Import took 0.009905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.298211 seconds.
+  path: Assets/Resources/Effect/Monster/Skeleton
+  artifactKey: Guid(7a4a41b4f1eaf134bb58c1abdcdf509a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Monster/Skeleton using Guid(7a4a41b4f1eaf134bb58c1abdcdf509a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96a9a3af515a48935a7fa2fb78abb3a') in 0.008004 seconds
+  Import took 0.010115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.930401 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Prefabs
+  artifactKey: Guid(6542b3763b8eb5045989be480649636b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Prefabs using Guid(6542b3763b8eb5045989be480649636b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1821bac41e896403f3513347546d04c1') in 0.008674 seconds
+  Import took 0.010751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.612597 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat
+  artifactKey: Guid(f1114f7879a34a342b616b575eb5ce0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat using Guid(f1114f7879a34a342b616b575eb5ce0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b72a3dc22346b519a7376395e27ac3c') in 0.008344 seconds
+  Import took 0.010410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.128078 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles
+  artifactKey: Guid(c900b0d7b64ee3845809603597ddffad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles using Guid(c900b0d7b64ee3845809603597ddffad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0485ac33789be8734e43ce5fa9c57ac6') in 0.008340 seconds
+  Import took 0.010495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.336224 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Models
+  artifactKey: Guid(44409221bfdcca942ab36de17ef087bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Models using Guid(44409221bfdcca942ab36de17ef087bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9071d8bd8ddf62fb44d424c49e15eb') in 0.007205 seconds
+  Import took 0.009326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.095655 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Models/aura_flat.FBX
+  artifactKey: Guid(7c1f2c550f9a24a4dbe4d6b240dd836c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Models/aura_flat.FBX using Guid(7c1f2c550f9a24a4dbe4d6b240dd836c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e937daabbfc1ef373c442b9d73df39e6') in 0.181109 seconds
+  Import took 0.183160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Models/ETFX_Shield.FBX
+  artifactKey: Guid(ceb86a32224dc234d8c721b83a2c6821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Models/ETFX_Shield.FBX using Guid(ceb86a32224dc234d8c721b83a2c6821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a99c329fcb0a7648bf1dacf6ec92e7') in 0.022413 seconds
+  Import took 0.024325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Models/toon_shield.FBX
+  artifactKey: Guid(3e34ed5de12890343a2700cd46e57d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Models/toon_shield.FBX using Guid(3e34ed5de12890343a2700cd46e57d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a8725a1646017cf0b8125cbd2446ae') in 0.153852 seconds
+  Import took 0.155703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Models/ETFX_AuraVertical.FBX
+  artifactKey: Guid(6499342c3ae53104780ba528bc51f4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Models/ETFX_AuraVertical.FBX using Guid(6499342c3ae53104780ba528bc51f4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146a042be4c0eb668d823417d9c88234') in 0.083635 seconds
+  Import took 0.086167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Models/ETFX_AuraVerticalCentered.FBX
+  artifactKey: Guid(e0e726a0fdbabcf4e9f96b91ac0b43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Models/ETFX_AuraVerticalCentered.FBX using Guid(e0e726a0fdbabcf4e9f96b91ac0b43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0777368b222192cc07278c13e9d1f1') in 0.015907 seconds
+  Import took 0.018009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Models/ETFX_MagicWall.FBX
+  artifactKey: Guid(8081d52aaf7f4654ba506eb043914cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Models/ETFX_MagicWall.FBX using Guid(8081d52aaf7f4654ba506eb043914cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72c70d5b79713fbef8d9fe7809e05ac') in 0.022664 seconds
+  Import took 0.025022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Models/aura_inward.FBX
+  artifactKey: Guid(910606942ccdb814c90b90013b553ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Models/aura_inward.FBX using Guid(910606942ccdb814c90b90013b553ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88de557fce757353ed76041b082d735') in 0.020374 seconds
+  Import took 0.022489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Models/aura_straight.FBX
+  artifactKey: Guid(cdd7228b39c07dc48a7a8667d55dcb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Models/aura_straight.FBX using Guid(cdd7228b39c07dc48a7a8667d55dcb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbeabe63fd982d752f884e7770153d31') in 0.022407 seconds
+  Import took 0.025226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.447306 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo
+  artifactKey: Guid(fa8d254bca8dc964e97a2cf3ccb98dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo using Guid(fa8d254bca8dc964e97a2cf3ccb98dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e50adda84a8e4ceca94e6adda162d5') in 0.007303 seconds
+  Import took 0.009439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.633307 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Missile Prefabs
+  artifactKey: Guid(c43736d9d2bb6b940a7ac38cc6e889c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Missile Prefabs using Guid(c43736d9d2bb6b940a7ac38cc6e889c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54724441b3ff25ddf794487b5190c54d') in 0.009298 seconds
+  Import took 0.011647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.688267 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Missile Prefabs/Rocket
+  artifactKey: Guid(af28606dbd455604eb2848651aec2ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Missile Prefabs/Rocket using Guid(af28606dbd455604eb2848651aec2ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4a77a9799e3cd7b3108f94309f1f28') in 0.008133 seconds
+  Import took 0.010379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052833 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Missile Prefabs/Rocket/RocketBlueOBJ.prefab
+  artifactKey: Guid(6de3984542d819c49996fdf80b25e412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Missile Prefabs/Rocket/RocketBlueOBJ.prefab using Guid(6de3984542d819c49996fdf80b25e412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12c49e64205dbd5483cc35de8a714fd') in 0.015607 seconds
+  Import took 0.018832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Missile Prefabs/Rocket/RocketGreenOBJ.prefab
+  artifactKey: Guid(70772aa6880c0d24b82c6e5d01283073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Missile Prefabs/Rocket/RocketGreenOBJ.prefab using Guid(70772aa6880c0d24b82c6e5d01283073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb161aa6137ef2134d4c9edfe18abfd') in 0.013346 seconds
+  Import took 0.016620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Missile Prefabs/Rocket/RocketFireOBJ.prefab
+  artifactKey: Guid(24d83fc5abc3e4c419faeea215137384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Missile Prefabs/Rocket/RocketFireOBJ.prefab using Guid(24d83fc5abc3e4c419faeea215137384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5eda5122e82ff962644369533ece6b9') in 0.013613 seconds
+  Import took 0.017402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Missile Prefabs/Rocket/RocketPinkOBJ.prefab
+  artifactKey: Guid(7039aaef1e59e3f4aa54e6d2ef8ff424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Missile Prefabs/Rocket/RocketPinkOBJ.prefab using Guid(7039aaef1e59e3f4aa54e6d2ef8ff424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4d29516ad83bbf364b2432c0b18537') in 0.015523 seconds
+  Import took 0.018983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000700 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Missile Prefabs/Rocket/RocketPinkOBJ.prefab
+  artifactKey: Guid(7039aaef1e59e3f4aa54e6d2ef8ff424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Missile Prefabs/Rocket/RocketPinkOBJ.prefab using Guid(7039aaef1e59e3f4aa54e6d2ef8ff424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4d29516ad83bbf364b2432c0b18537') in 0.010677 seconds
+  Import took 0.014007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.227143 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Prefabs/Environment
+  artifactKey: Guid(5cd26f130e92bf54bb8869788d71cff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Prefabs/Environment using Guid(5cd26f130e92bf54bb8869788d71cff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d9abcf093c4e2505cc12d3ff5d81ec') in 0.007284 seconds
+  Import took 0.009355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.512063 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Prefabs/Environment/Confetti
+  artifactKey: Guid(fa49c0d2b79af2b4ea93d3d5258040e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Prefabs/Environment/Confetti using Guid(fa49c0d2b79af2b4ea93d3d5258040e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5733cc5fd5156c5861e681bdabad0244') in 0.007383 seconds
+  Import took 0.009369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.727731 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles/Bullet
+  artifactKey: Guid(51d0e83f2d7e92c4abbacf06473b5828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles/Bullet using Guid(51d0e83f2d7e92c4abbacf06473b5828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad2049f2f4e95739b1e8fec65140ea4') in 0.008423 seconds
+  Import took 0.010655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038525 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles/Bullet/BulletSmallBlue.prefab
+  artifactKey: Guid(b79841d82f4b1f6499d7f44697afdcbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles/Bullet/BulletSmallBlue.prefab using Guid(b79841d82f4b1f6499d7f44697afdcbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5794c0716a0f4533f15990309effe3ff') in 0.008736 seconds
+  Import took 0.011000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles/Bullet/BulletSmallPink.prefab
+  artifactKey: Guid(985812ee18738f5498883b84d92bd41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles/Bullet/BulletSmallPink.prefab using Guid(985812ee18738f5498883b84d92bd41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c2820e33b18b1ffafcf52398256b88') in 0.009767 seconds
+  Import took 0.011977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles/Bullet/BulletSmallFire.prefab
+  artifactKey: Guid(ed28e53c93fc7d2449d7c68bb8409223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles/Bullet/BulletSmallFire.prefab using Guid(ed28e53c93fc7d2449d7c68bb8409223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1c35a9df95c6853d2d69faf4750d43') in 0.011683 seconds
+  Import took 0.014183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles/Bullet/BulletSmallGreen.prefab
+  artifactKey: Guid(727e4ea27328a6e46bcd171a935685d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles/Bullet/BulletSmallGreen.prefab using Guid(727e4ea27328a6e46bcd171a935685d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50f042221653e8badffed2e0e5f550b') in 0.011068 seconds
+  Import took 0.013370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.918341 seconds.
+  path: Assets/Resources/ModularAnimalKnightsPBR
+  artifactKey: Guid(8250a302637d8454f87e92fc287aa39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ModularAnimalKnightsPBR using Guid(8250a302637d8454f87e92fc287aa39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d22c201c4d04532b2c93bdf9718d1a6') in 0.008898 seconds
+  Import took 0.011465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.393871 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Scripts
+  artifactKey: Guid(be3072923cbec2047a76f0a0a2936f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Scripts using Guid(be3072923cbec2047a76f0a0a2936f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b67d87289be17d844e1f6bb9869b122') in 0.007195 seconds
+  Import took 0.009287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.840058 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/ETFX Readme.txt
+  artifactKey: Guid(d76f7fbe8ae093444a7a0dd3f0dd0ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/ETFX Readme.txt using Guid(d76f7fbe8ae093444a7a0dd3f0dd0ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b39f444876a538c9a0b26f11b03bc6') in 0.016143 seconds
+  Import took 0.018638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010426 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/ETFX Readme.txt
+  artifactKey: Guid(d76f7fbe8ae093444a7a0dd3f0dd0ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/ETFX Readme.txt using Guid(d76f7fbe8ae093444a7a0dd3f0dd0ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b39f444876a538c9a0b26f11b03bc6') in 0.003705 seconds
+  Import took 0.005716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.355221 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Missile Prefabs/Storm
+  artifactKey: Guid(7a6d070c30b089b41a159dcbad5658ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Missile Prefabs/Storm using Guid(7a6d070c30b089b41a159dcbad5658ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2f5e1a4e956efe112a5e58a9b6d7e2') in 0.007793 seconds
+  Import took 0.010025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047926 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Missile Prefabs/Storm/StormMissileOBJ.prefab
+  artifactKey: Guid(8c3305606afa83045b2292425281767a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Missile Prefabs/Storm/StormMissileOBJ.prefab using Guid(8c3305606afa83045b2292425281767a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbc8be2fd18bc1af2e381303d351da7') in 0.015086 seconds
+  Import took 0.018376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.521417 seconds.
+  path: Assets/Scenes/Fire
+  artifactKey: Guid(359391d3514f4c446a9f6eeb9ec28748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Fire using Guid(359391d3514f4c446a9f6eeb9ec28748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d2f5e4eb1fe6c26da50287b4235d15') in 0.008693 seconds
+  Import took 0.010774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.471467 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Demo Prefabs/GUI Prefabs/CanvasSceneSelect.prefab
+  artifactKey: Guid(696a93e0e2eb398428d7b5be3f360be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Demo Prefabs/GUI Prefabs/CanvasSceneSelect.prefab using Guid(696a93e0e2eb398428d7b5be3f360be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a326770fb4ab3b5e4745c0ea94cf13d2') in 0.024881 seconds
+  Import took 0.027616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Demo Prefabs/GUI Prefabs/SceneSelect.prefab
+  artifactKey: Guid(ec6a92a5e83387044be62692220b3eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Demo Prefabs/GUI Prefabs/SceneSelect.prefab using Guid(ec6a92a5e83387044be62692220b3eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8afd37242de469b439c3dc4741b11fe3') in 0.009842 seconds
+  Import took 0.011717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.987853 seconds.
+  path: Assets/Resources/ModularAnimalKnightsPBR/Scene/MaskTintScene.unity
+  artifactKey: Guid(3c9bdcf3eb2c59840be7f72ec744107c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ModularAnimalKnightsPBR/Scene/MaskTintScene.unity using Guid(3c9bdcf3eb2c59840be7f72ec744107c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b756cafe55cbd37f58f921e0dc118461') in 0.007662 seconds
+  Import took 0.009832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.900200 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/ParticleEffectsShowcase/Scenes/PEDemoScene.unity
+  artifactKey: Guid(6a7c5d3545436854ab5331b1b5deaaf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/ParticleEffectsShowcase/Scenes/PEDemoScene.unity using Guid(6a7c5d3545436854ab5331b1b5deaaf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16699e3f1912d1398f4e7c55ebb15c05') in 0.007715 seconds
+  Import took 0.009955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.298364 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(a7d9ac9d0315f2742a55275151a42bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(a7d9ac9d0315f2742a55275151a42bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ce6508413e9a121eb05f47694c05cb') in 0.008181 seconds
+  Import took 0.010370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.522079 seconds.
+  path: Assets/Resources/Enemy
+  artifactKey: Guid(049809d0f61bb324d85739803fb7c24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy using Guid(049809d0f61bb324d85739803fb7c24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa93f166caadf10dc745038621d7530') in 0.007947 seconds
+  Import took 0.009945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.479373 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles/Magic
+  artifactKey: Guid(947cb6fb010e09c4187dc54718b1efc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles/Magic using Guid(947cb6fb010e09c4187dc54718b1efc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ae90b76fbdb4a0acfb1de0422b35d3') in 0.008329 seconds
+  Import took 0.010502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles/Magic
+  artifactKey: Guid(947cb6fb010e09c4187dc54718b1efc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles/Magic using Guid(947cb6fb010e09c4187dc54718b1efc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ae90b76fbdb4a0acfb1de0422b35d3') in 0.003304 seconds
+  Import took 0.005225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051075 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles/Magic/MagicMissileBlue.prefab
+  artifactKey: Guid(e85f4a610ef9e5b4aa9cedce76136489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles/Magic/MagicMissileBlue.prefab using Guid(e85f4a610ef9e5b4aa9cedce76136489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008df85347893f1ef5f047a35011215e') in 0.010124 seconds
+  Import took 0.012578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles/Magic/MagicMissileGreen.prefab
+  artifactKey: Guid(41fc6e40715949e47aa61f8001df94fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles/Magic/MagicMissileGreen.prefab using Guid(41fc6e40715949e47aa61f8001df94fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e605ccf9915ecf6254383b7bf781ed7') in 0.009664 seconds
+  Import took 0.011757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles/Magic/MagicMissileFire.prefab
+  artifactKey: Guid(07f89bdb820892e49bcd5c32bf299006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles/Magic/MagicMissileFire.prefab using Guid(07f89bdb820892e49bcd5c32bf299006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b77a8efb9c9ae106ce2c79f4772458') in 0.011613 seconds
+  Import took 0.013901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles/Magic/MagicMissilePink.prefab
+  artifactKey: Guid(b73366db2a2695c46a59adb7555604e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles/Magic/MagicMissilePink.prefab using Guid(b73366db2a2695c46a59adb7555604e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c314f1255b019f685f1c439615416b9') in 0.010555 seconds
+  Import took 0.013250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005240 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles/Magic/MagicMissilePink.prefab
+  artifactKey: Guid(b73366db2a2695c46a59adb7555604e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Prefabs/Combat/Missiles/Magic/MagicMissilePink.prefab using Guid(b73366db2a2695c46a59adb7555604e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c314f1255b019f685f1c439615416b9') in 0.005939 seconds
+  Import took 0.008644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.931226 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Materials/Geometric/circle.mat
+  artifactKey: Guid(150aee38b5d848b42b75593618992bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Materials/Geometric/circle.mat using Guid(150aee38b5d848b42b75593618992bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51334e67c034fa8f7f24849395f3b189') in 0.038536 seconds
+  Import took 0.040878 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001270 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.696 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1754.
+Total: 1.359800 ms (FindLiveObjects: 0.137300 ms CreateObjectMapping: 0.031600 ms MarkObjects: 1.174600 ms  DeleteObjects: 0.015500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.843735 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Demo Prefabs/CameraRig.prefab
+  artifactKey: Guid(0fc2dd08d13acab428cf8f7ef9e9ef90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Demo Prefabs/CameraRig.prefab using Guid(0fc2dd08d13acab428cf8f7ef9e9ef90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b9b1a0309302b95b57b687ad575eba') in 0.027499 seconds
+  Import took 0.030010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.990103 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Demo Prefabs/GUI Prefabs
+  artifactKey: Guid(c8c4068e8d0e1e4448ba76e2c69d7595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Demo Prefabs/GUI Prefabs using Guid(c8c4068e8d0e1e4448ba76e2c69d7595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0cc6640b0baf89996d56b6ff4f7524') in 0.007927 seconds
+  Import took 0.010085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001051 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Demo Prefabs/GUI Prefabs
+  artifactKey: Guid(c8c4068e8d0e1e4448ba76e2c69d7595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Demo Prefabs/GUI Prefabs using Guid(c8c4068e8d0e1e4448ba76e2c69d7595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0cc6640b0baf89996d56b6ff4f7524') in 0.003503 seconds
+  Import took 0.005919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.521712 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Materials/dev.mat
+  artifactKey: Guid(5f96383263013ab439e00cec0f0d2255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Materials/dev.mat using Guid(5f96383263013ab439e00cec0f0d2255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0bb243dba26cd3bf8b88ee5c49b0ea') in 0.050013 seconds
+  Import took 0.052266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Materials/devcrate.mat
+  artifactKey: Guid(d1b64f020fe63804093ef05cc53dd7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Materials/devcrate.mat using Guid(d1b64f020fe63804093ef05cc53dd7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c561e14bebb036c621be0df168254a2') in 0.016918 seconds
+  Import took 0.018846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Materials/dev_small.mat
+  artifactKey: Guid(f4cd3578e21421c498c0e983cab2e02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Materials/dev_small.mat using Guid(f4cd3578e21421c498c0e983cab2e02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e30ad76ea47cf12a8e0545be82b80d') in 0.020111 seconds
+  Import took 0.022338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Materials/dev_half.mat
+  artifactKey: Guid(71ad8ec8c8649bc47bb009bf8f6acd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Materials/dev_half.mat using Guid(71ad8ec8c8649bc47bb009bf8f6acd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa00920beaab14715325f53f0c4c96ca') in 0.019561 seconds
+  Import took 0.022235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Materials/dev2.mat
+  artifactKey: Guid(207691d913319fa408633bc6df8080c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Materials/dev2.mat using Guid(207691d913319fa408633bc6df8080c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b23f873abc25e9ac7df0bce63e30835') in 0.018356 seconds
+  Import took 0.020731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.157588 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Demo Prefabs/GUI Prefabs/Main Camera.prefab
+  artifactKey: Guid(77d38801dbb007243b22f0a8695c8e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Demo Prefabs/GUI Prefabs/Main Camera.prefab using Guid(77d38801dbb007243b22f0a8695c8e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4b54727a1f5a2e6884892424e578fa') in 0.008457 seconds
+  Import took 0.011089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Demo Prefabs/GUI Prefabs/Slider.prefab
+  artifactKey: Guid(cc1826c2066264f46aea349ff93b806d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Demo Prefabs/GUI Prefabs/Slider.prefab using Guid(cc1826c2066264f46aea349ff93b806d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e27d79998553e7486db7e75c5109ac') in 0.018961 seconds
+  Import took 0.021578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Demo Prefabs/GUI Prefabs/Speed.prefab
+  artifactKey: Guid(529b9acb6b6ea8443abb0ced1c63c9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Demo Prefabs/GUI Prefabs/Speed.prefab using Guid(529b9acb6b6ea8443abb0ced1c63c9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabe5580f550a62b408d3ca71e041af0') in 0.016412 seconds
+  Import took 0.018501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.899556 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Scenes
+  artifactKey: Guid(ed778f5da234f754799a14d29278b200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Scenes using Guid(ed778f5da234f754799a14d29278b200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd310dfb69873d79870d96023e53f5153') in 0.003697 seconds
+  Import took 0.005801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.265759 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Scenes/etfx_2ddemo.unity
+  artifactKey: Guid(0ef9b490e5d6bad4ea1935d07d1c2ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Scenes/etfx_2ddemo.unity using Guid(0ef9b490e5d6bad4ea1935d07d1c2ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc190769a40135740eb1b95b10df234e') in 0.007501 seconds
+  Import took 0.009549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.286188 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Scenes/etfx_combat.unity
+  artifactKey: Guid(49c44520099ebe541a86e958bb498f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Scenes/etfx_combat.unity using Guid(49c44520099ebe541a86e958bb498f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744dc2cc259e5bcdabc70aa0012afa88') in 0.007451 seconds
+  Import took 0.009658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.313691 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Scenes/etfx_emojis.unity
+  artifactKey: Guid(b0de468b5dc93da4d8ee716d4782d2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Scenes/etfx_emojis.unity using Guid(b0de468b5dc93da4d8ee716d4782d2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f1945ab9d22cc5c9e74235a9b17f27') in 0.007439 seconds
+  Import took 0.009510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.368422 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Scenes/etfx_explosions.unity
+  artifactKey: Guid(f91c322868183cc4a96eb6242e73deac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Scenes/etfx_explosions.unity using Guid(f91c322868183cc4a96eb6242e73deac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46a1618b5324215a2f1d8233f8c9116') in 0.007432 seconds
+  Import took 0.009464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001812 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Scenes/etfx_explosions.unity
+  artifactKey: Guid(f91c322868183cc4a96eb6242e73deac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Scenes/etfx_explosions.unity using Guid(f91c322868183cc4a96eb6242e73deac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46a1618b5324215a2f1d8233f8c9116') in 0.003398 seconds
+  Import took 0.005425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.469797 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Scenes/etfx_missiles.unity
+  artifactKey: Guid(b1d44d13576492049bc14b200e0d90cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Scenes/etfx_missiles.unity using Guid(b1d44d13576492049bc14b200e0d90cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec974af7b385258426466a041287a49c') in 0.007639 seconds
+  Import took 0.009638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.415272 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Scenes/etfx_maindemo.unity
+  artifactKey: Guid(8bd1bda334a6f2440817b9493f9d7703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Scenes/etfx_maindemo.unity using Guid(8bd1bda334a6f2440817b9493f9d7703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccc29ebd974c6a6b66c80198af59f9a') in 0.008732 seconds
+  Import took 0.011029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Demo/Scenes/etfx_maindemo.unity
+  artifactKey: Guid(8bd1bda334a6f2440817b9493f9d7703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Demo/Scenes/etfx_maindemo.unity using Guid(8bd1bda334a6f2440817b9493f9d7703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccc29ebd974c6a6b66c80198af59f9a') in 0.003805 seconds
+  Import took 0.006151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.462149 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Prefabs/Interactive
+  artifactKey: Guid(c124bc3761df6b645b13327710905460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Prefabs/Interactive using Guid(c124bc3761df6b645b13327710905460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91da6625768038d2fd952f9742417759') in 0.027834 seconds
+  Import took 0.032131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.317856 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Prefabs/Misc
+  artifactKey: Guid(c20c7437ae8bfe84b9c37f135aa3f898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Prefabs/Misc using Guid(c20c7437ae8bfe84b9c37f135aa3f898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feca02b2ae2dcb3f255362488f986d91') in 0.020478 seconds
+  Import took 0.024408 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001588 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.711 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1757.
+Total: 1.388200 ms (FindLiveObjects: 0.133500 ms CreateObjectMapping: 0.039400 ms MarkObjects: 1.195000 ms  DeleteObjects: 0.019500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.351995 seconds.
+  path: Assets/Resources/Effect/Monster/Mage/MagicMissileFire.prefab
+  artifactKey: Guid(135260ac7031b9441ba87ffbd4c44303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Monster/Mage/MagicMissileFire.prefab using Guid(135260ac7031b9441ba87ffbd4c44303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0034c3078000885be7c7e9ebff34e749') in 0.026785 seconds
+  Import took 0.029487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.818279 seconds.
+  path: Assets/Scenes/TestScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c060b7f501894d323cabc0399e6d10b') in 0.008321 seconds
+  Import took 0.010872 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001634 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.787 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1759.
+Total: 1.317200 ms (FindLiveObjects: 0.118800 ms CreateObjectMapping: 0.028400 ms MarkObjects: 1.159500 ms  DeleteObjects: 0.009600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.528302 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/Slime/Attack01_Slime_Anim.fbx
+  artifactKey: Guid(438236b1bb4dc03468cb3f2d12fa922c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/Slime/Attack01_Slime_Anim.fbx using Guid(438236b1bb4dc03468cb3f2d12fa922c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d6738fb3c96eac2e7427afe4cb5870') in 0.097893 seconds
+  Import took 0.100529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003248 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/Slime/Attack01_Slime_Anim.fbx
+  artifactKey: Guid(438236b1bb4dc03468cb3f2d12fa922c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/Slime/Attack01_Slime_Anim.fbx using Guid(438236b1bb4dc03468cb3f2d12fa922c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d6738fb3c96eac2e7427afe4cb5870') in 0.047172 seconds
+  Import took 0.050284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/Slime/WalkLeft_Slime_Anim.fbx
+  artifactKey: Guid(89d2cadc7addca64c8849fb4c8d0928d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/Slime/WalkLeft_Slime_Anim.fbx using Guid(89d2cadc7addca64c8849fb4c8d0928d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1137ed3de647d3ebab59c9781579d44') in 0.030199 seconds
+  Import took 0.032981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/Slime/Walk_Slime_Anim.fbx
+  artifactKey: Guid(f5d4d1a7dadc5a84d910c492d947ca4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/Slime/Walk_Slime_Anim.fbx using Guid(f5d4d1a7dadc5a84d910c492d947ca4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71ccf9bc5d1528e9ce50defc76d8b74') in 0.027563 seconds
+  Import took 0.030051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/Slime/IdleNormal_Slime_Anim.fbx
+  artifactKey: Guid(21b5bb1519e484148aa30042c43904c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/Slime/IdleNormal_Slime_Anim.fbx using Guid(21b5bb1519e484148aa30042c43904c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362bcbf17ca511cefdc06f60aaa8a378') in 0.027544 seconds
+  Import took 0.030072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/Slime/Run_Slime_Anim.fbx
+  artifactKey: Guid(dbf4e442d523220489ca9531ab20161f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/Slime/Run_Slime_Anim.fbx using Guid(dbf4e442d523220489ca9531ab20161f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de4671b15da7b15855c2737a9c6cbd2') in 0.031043 seconds
+  Import took 0.034222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/Slime/SenseSomethingStart_Slime_Anim.fbx
+  artifactKey: Guid(81c4fe76ddb8c314087afd9c59b831b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/Slime/SenseSomethingStart_Slime_Anim.fbx using Guid(81c4fe76ddb8c314087afd9c59b831b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd5c33e073225ecd2ec10af475c4ddd') in 0.031770 seconds
+  Import took 0.034616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/Slime/SenseSomethingRoutine_Slime_Anim.fbx
+  artifactKey: Guid(7598b72533d77114287ffbe12e3f9178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/Slime/SenseSomethingRoutine_Slime_Anim.fbx using Guid(7598b72533d77114287ffbe12e3f9178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a6faac40d19cdc08b87816928421ea') in 0.033673 seconds
+  Import took 0.037174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/Slime/GetHit_Slime_Anim.fbx
+  artifactKey: Guid(a4dd2805a4cbc5b428b746ff8cf375c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/Slime/GetHit_Slime_Anim.fbx using Guid(a4dd2805a4cbc5b428b746ff8cf375c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662288b289de6b975c5b9cbc3ff5c40f') in 0.027888 seconds
+  Import took 0.030529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/Slime/WalkRight_Slime_Anim.fbx
+  artifactKey: Guid(e701e62680e5836438f67a3da2bdc71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/Slime/WalkRight_Slime_Anim.fbx using Guid(e701e62680e5836438f67a3da2bdc71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e2070deb4cb8502fb6574adc32f7c7') in 0.031332 seconds
+  Import took 0.034013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/Slime/IdleBattle_Slime_Anim.fbx
+  artifactKey: Guid(2bfd6fdaf6b23874ca93fca2e578b931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/Slime/IdleBattle_Slime_Anim.fbx using Guid(2bfd6fdaf6b23874ca93fca2e578b931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1fef555d4d246ff3ed1e00b8c40f35') in 0.031132 seconds
+  Import took 0.034287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/Slime/Attack02_Slime_Anim.fbx
+  artifactKey: Guid(8254c95c1caa1da4cb1d22972c413dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/Slime/Attack02_Slime_Anim.fbx using Guid(8254c95c1caa1da4cb1d22972c413dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36c2d25c3ef74681a0c69b9645b1bf1') in 0.031672 seconds
+  Import took 0.034798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/Slime/WalkBack_Slime_Anim.fbx
+  artifactKey: Guid(34094b5c4dd5cd9438870be57749bf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/Slime/WalkBack_Slime_Anim.fbx using Guid(34094b5c4dd5cd9438870be57749bf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56bda20e8c41b41cd2dfe7deacec66d') in 0.032668 seconds
+  Import took 0.036211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/Slime/Taunt_Slime_Anim.fbx
+  artifactKey: Guid(4633f9c0f50bbb548a176fd4c0f5a0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/Slime/Taunt_Slime_Anim.fbx using Guid(4633f9c0f50bbb548a176fd4c0f5a0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d422455607dc7cc61b96483d1da218') in 0.032280 seconds
+  Import took 0.035165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/Slime/Victory_Slime_Anim.fbx
+  artifactKey: Guid(6f262ec4363c1e54baf17c27c26b0bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/Slime/Victory_Slime_Anim.fbx using Guid(6f262ec4363c1e54baf17c27c26b0bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad42fe442b52b33c689a84dcc8981d4c') in 0.033764 seconds
+  Import took 0.036835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/Slime/Dizzy_Slime_Anim.fbx
+  artifactKey: Guid(08a0ee10a8d761e41bf8bc9b832040d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/Slime/Dizzy_Slime_Anim.fbx using Guid(08a0ee10a8d761e41bf8bc9b832040d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16244b4fbf8206bb921168b3bcfa5138') in 0.033050 seconds
+  Import took 0.035708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/Slime/Die_Slime_Anim.fbx
+  artifactKey: Guid(f76b9b823f2fc9a469d0c2c780514380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/Slime/Die_Slime_Anim.fbx using Guid(f76b9b823f2fc9a469d0c2c780514380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c11fdaaad955d3cb7d070dc739c9c8') in 0.028781 seconds
+  Import took 0.032646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.638094 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/Attack02_EvilMage_Anim.fbx
+  artifactKey: Guid(c46c546c41ae5f342a3b47e052a74bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/Attack02_EvilMage_Anim.fbx using Guid(c46c546c41ae5f342a3b47e052a74bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdeb454016739cdb16b38cb77deded69') in 0.046322 seconds
+  Import took 0.049110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/Victory_EvilMage_Anim.fbx
+  artifactKey: Guid(591ed82e56fd6b147b0d438db182a5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/Victory_EvilMage_Anim.fbx using Guid(591ed82e56fd6b147b0d438db182a5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f8688fb495de97d6b2e295b49739e0') in 0.064821 seconds
+  Import took 0.068455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/RunFWD_EvilMage_Anim.fbx
+  artifactKey: Guid(e454dd987e005184eadd514d95bdc0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/RunFWD_EvilMage_Anim.fbx using Guid(e454dd987e005184eadd514d95bdc0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874c20b0aa35383777bfe4d9852071b1') in 0.040764 seconds
+  Import took 0.044227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/Die_EvilMage_Anim.fbx
+  artifactKey: Guid(e8a18c9aac1ec5d42960d575c6aefc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/Die_EvilMage_Anim.fbx using Guid(e8a18c9aac1ec5d42960d575c6aefc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd70d88c5ce79402149c34f34afa567') in 0.040720 seconds
+  Import took 0.043812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/SenseSomethingST_EvilMage_Anim.fbx
+  artifactKey: Guid(27e9298adf47e424a86ef2f4f2f816e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/SenseSomethingST_EvilMage_Anim.fbx using Guid(27e9298adf47e424a86ef2f4f2f816e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e478fbcf19b40512c0ae7efd10fcdee') in 0.039016 seconds
+  Import took 0.042082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/GetHit_EvilMage_Anim.fbx
+  artifactKey: Guid(b3ee717ea04088948a1e6e5dbb202fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/GetHit_EvilMage_Anim.fbx using Guid(b3ee717ea04088948a1e6e5dbb202fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf67994c34789573123ac0560b609d9') in 0.039165 seconds
+  Import took 0.041843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/IdleNormal_EvilMage_Anim.fbx
+  artifactKey: Guid(4f4bfd41f4d27be46ae48ae5ec3ae3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/IdleNormal_EvilMage_Anim.fbx using Guid(4f4bfd41f4d27be46ae48ae5ec3ae3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea92799db88229dad5f9daabd600ad7') in 0.040224 seconds
+  Import took 0.043165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/WalkBWD_EvilMage_Anim.fbx
+  artifactKey: Guid(b81e15845045e6a4190b4e2a0295bbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/WalkBWD_EvilMage_Anim.fbx using Guid(b81e15845045e6a4190b4e2a0295bbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11dd9f3b02960a588e5b1471a0099246') in 0.035964 seconds
+  Import took 0.038497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/WalkFWD_EvilMage_Anim.fbx
+  artifactKey: Guid(2fa54e30941144d4a9ca36a60b654b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/WalkFWD_EvilMage_Anim.fbx using Guid(2fa54e30941144d4a9ca36a60b654b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703d9ce4dca3ff382fd527d9b79da3af') in 0.037149 seconds
+  Import took 0.039507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/IdleBattle_EvilMage_Anim.fbx
+  artifactKey: Guid(02bfda779af980449abe2ecb5debcfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/IdleBattle_EvilMage_Anim.fbx using Guid(02bfda779af980449abe2ecb5debcfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01dd20fe825e587312d35a0ecbe39b3d') in 0.037836 seconds
+  Import took 0.040806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/Dizzy_EvilMage_Anim.fbx
+  artifactKey: Guid(adf204618ec12934ba301ad871683b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/Dizzy_EvilMage_Anim.fbx using Guid(adf204618ec12934ba301ad871683b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e79fbb7aa1650b27011da0a3946dc9') in 0.036687 seconds
+  Import took 0.039747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/Attack01_EvilMage_Anim.fbx
+  artifactKey: Guid(9078b40d437984148b9ac2b2ae1b8d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/Attack01_EvilMage_Anim.fbx using Guid(9078b40d437984148b9ac2b2ae1b8d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297770278724d7aa4f8cbee82d293070') in 0.039798 seconds
+  Import took 0.042579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/SenseSomethingRPT_EvilMage_Anim.fbx
+  artifactKey: Guid(8d88f68698bb6df47b88aabf86759eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/SenseSomethingRPT_EvilMage_Anim.fbx using Guid(8d88f68698bb6df47b88aabf86759eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087299a3dab670c6e61417be75e03d3f') in 0.041142 seconds
+  Import took 0.044337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/WalkLeft_EvilMage_Anim.fbx
+  artifactKey: Guid(a3ed2b7955adcbc41a021c135ceeea34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/WalkLeft_EvilMage_Anim.fbx using Guid(a3ed2b7955adcbc41a021c135ceeea34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3db680c8c87f979d29d036a9afd2dbc') in 0.036623 seconds
+  Import took 0.040009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/Taunting_EvilMage_Anim.fbx
+  artifactKey: Guid(25308647038f75e47a6b204a03588fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/Taunting_EvilMage_Anim.fbx using Guid(25308647038f75e47a6b204a03588fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68da8da8d38dca76dd951bea6c46c9c') in 0.039526 seconds
+  Import took 0.042860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/WalkRight_EvilMage_Anim.fbx
+  artifactKey: Guid(5843795249ad4b24ebf147256e15d71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/WalkRight_EvilMage_Anim.fbx using Guid(5843795249ad4b24ebf147256e15d71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4cba13ba8bfefaee024b93412584087') in 0.035314 seconds
+  Import took 0.037842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.345046 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/Attack02_EvilMage_Anim.fbx
+  artifactKey: Guid(c46c546c41ae5f342a3b47e052a74bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Animations/EvilMage/Attack02_EvilMage_Anim.fbx using Guid(c46c546c41ae5f342a3b47e052a74bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16268acb215d414ca0e57e2d5c413126') in 0.032578 seconds
+  Import took 0.035516 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001671 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.814 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1762.
+Total: 1.478200 ms (FindLiveObjects: 0.117400 ms CreateObjectMapping: 0.034300 ms MarkObjects: 1.311200 ms  DeleteObjects: 0.014600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001339 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.717 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1764.
+Total: 2.059400 ms (FindLiveObjects: 0.149800 ms CreateObjectMapping: 0.042600 ms MarkObjects: 1.848600 ms  DeleteObjects: 0.017400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001145 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.750 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1766.
+Total: 2.679600 ms (FindLiveObjects: 0.325300 ms CreateObjectMapping: 0.216000 ms MarkObjects: 2.124600 ms  DeleteObjects: 0.011800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001154 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.748 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1768.
+Total: 1.413400 ms (FindLiveObjects: 0.129100 ms CreateObjectMapping: 0.039300 ms MarkObjects: 1.232100 ms  DeleteObjects: 0.012000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001221 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.713 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1770.
+Total: 1.780200 ms (FindLiveObjects: 0.212800 ms CreateObjectMapping: 0.067800 ms MarkObjects: 1.482200 ms  DeleteObjects: 0.016300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001214 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.818 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1772.
+Total: 1.311200 ms (FindLiveObjects: 0.123200 ms CreateObjectMapping: 0.037800 ms MarkObjects: 1.138900 ms  DeleteObjects: 0.010400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001169 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.792 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1774.
+Total: 2.502900 ms (FindLiveObjects: 0.284100 ms CreateObjectMapping: 0.096900 ms MarkObjects: 2.099900 ms  DeleteObjects: 0.019900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001331 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.762 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1776.
+Total: 1.660700 ms (FindLiveObjects: 0.200600 ms CreateObjectMapping: 0.058100 ms MarkObjects: 1.388700 ms  DeleteObjects: 0.012400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001281 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.718 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1778.
+Total: 1.479400 ms (FindLiveObjects: 0.136500 ms CreateObjectMapping: 0.041600 ms MarkObjects: 1.289000 ms  DeleteObjects: 0.011700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001206 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.793 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1780.
+Total: 1.667300 ms (FindLiveObjects: 0.199000 ms CreateObjectMapping: 0.066900 ms MarkObjects: 1.388400 ms  DeleteObjects: 0.012200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3394.184453 seconds.
+  path: Assets/Resources/Effect/Epic Toon FX/Materials/Magic/magic_orb2.mat
+  artifactKey: Guid(1bafc7aca6a15ce4a92553883cdf5612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Epic Toon FX/Materials/Magic/magic_orb2.mat using Guid(1bafc7aca6a15ce4a92553883cdf5612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e4a94b6b62e5c12764d8202f750a27') in 0.069830 seconds
+  Import took 0.072793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.897005 seconds.
+  path: Assets/Maps/Map.prefab
+  artifactKey: Guid(4b32a6624c9dbf14c9800f0ebf8dd0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Map.prefab using Guid(4b32a6624c9dbf14c9800f0ebf8dd0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252990bb1cd97c6646f63879dfb6f492') in 0.014778 seconds
+  Import took 0.017508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Maps/WallMaterial.physicMaterial
+  artifactKey: Guid(bc8eed1b4e00c6e4bae81bdba2b2cd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/WallMaterial.physicMaterial using Guid(bc8eed1b4e00c6e4bae81bdba2b2cd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75938361dadab5a5d3b912ee731bf2f') in 0.014016 seconds
+  Import took 0.016134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.254214 seconds.
+  path: Assets/Scenes/TestScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f784120acc435865ba1dfcb34f4cef1b') in 0.009635 seconds
+  Import took 0.012062 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001217 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.834 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1783.
+Total: 1.336100 ms (FindLiveObjects: 0.132600 ms CreateObjectMapping: 0.037900 ms MarkObjects: 1.154400 ms  DeleteObjects: 0.010400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001185 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.802 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1785.
+Total: 1.689000 ms (FindLiveObjects: 0.173500 ms CreateObjectMapping: 0.053100 ms MarkObjects: 1.446900 ms  DeleteObjects: 0.014200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001249 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
@@ -119,53 +1455,181 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.913 seconds
+- Completed reload, in  0.726 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.5 MB.
-System memory in use after: 76.6 MB.
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1745.
-Total: 1.727900 ms (FindLiveObjects: 0.240500 ms CreateObjectMapping: 0.051500 ms MarkObjects: 1.421900 ms  DeleteObjects: 0.012600 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1787.
+Total: 1.631800 ms (FindLiveObjects: 0.136800 ms CreateObjectMapping: 0.045600 ms MarkObjects: 1.437500 ms  DeleteObjects: 0.011100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001258 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.787 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1789.
+Total: 1.419000 ms (FindLiveObjects: 0.145200 ms CreateObjectMapping: 0.044400 ms MarkObjects: 1.217600 ms  DeleteObjects: 0.011000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001197 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.884 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1791.
+Total: 1.430900 ms (FindLiveObjects: 0.144400 ms CreateObjectMapping: 0.047400 ms MarkObjects: 1.225800 ms  DeleteObjects: 0.012300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001174 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.772 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1793.
+Total: 1.552000 ms (FindLiveObjects: 0.164200 ms CreateObjectMapping: 0.041200 ms MarkObjects: 1.333400 ms  DeleteObjects: 0.012300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001722 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.810 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1795.
+Total: 2.289100 ms (FindLiveObjects: 0.165100 ms CreateObjectMapping: 0.046000 ms MarkObjects: 2.058500 ms  DeleteObjects: 0.018100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001651 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.805 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1797.
+Total: 1.685900 ms (FindLiveObjects: 0.151400 ms CreateObjectMapping: 0.042900 ms MarkObjects: 1.478000 ms  DeleteObjects: 0.012900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001907 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.745 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1799.
+Total: 1.381100 ms (FindLiveObjects: 0.138400 ms CreateObjectMapping: 0.036200 ms MarkObjects: 1.195500 ms  DeleteObjects: 0.010200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 85.579953 seconds.
-  path: Assets/Resources/Enemy/Skeleton/Animator/Skeleton.controller
-  artifactKey: Guid(426292b3bc69e2b4d98214735d52bdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Enemy/Skeleton/Animator/Skeleton.controller using Guid(426292b3bc69e2b4d98214735d52bdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473a69a2625938c81839fd82301c69f6') in 0.045852 seconds
-  Import took 0.049212 seconds .
+  Time since last request: 1385.478262 seconds.
+  path: Assets/Resources/Effect/Monster/Mage/MagicMissileFire.prefab
+  artifactKey: Guid(135260ac7031b9441ba87ffbd4c44303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Monster/Mage/MagicMissileFire.prefab using Guid(135260ac7031b9441ba87ffbd4c44303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94223d247735f34ebb89fc66922c1f8b') in 0.035639 seconds
+  Import took 0.039474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.902577 seconds.
+  path: Assets/Resources/Effect/Monster/Mage/MagicMissileFire.prefab
+  artifactKey: Guid(135260ac7031b9441ba87ffbd4c44303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Monster/Mage/MagicMissileFire.prefab using Guid(135260ac7031b9441ba87ffbd4c44303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe181c4fef82e7198ea5df53910eb72d') in 0.008826 seconds
+  Import took 0.011942 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001671 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.025 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.6 MB.
-System memory in use after: 76.7 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1747.
-Total: 1.749000 ms (FindLiveObjects: 0.167400 ms CreateObjectMapping: 0.040000 ms MarkObjects: 1.527700 ms  DeleteObjects: 0.012800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001681 seconds.
+Registered in 0.001336 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
@@ -175,87 +1639,127 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.943 seconds
+- Completed reload, in  0.881 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.6 MB.
-System memory in use after: 76.7 MB.
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1749.
-Total: 2.055100 ms (FindLiveObjects: 0.238800 ms CreateObjectMapping: 0.069200 ms MarkObjects: 1.731700 ms  DeleteObjects: 0.013500 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1801.
+Total: 1.603000 ms (FindLiveObjects: 0.142700 ms CreateObjectMapping: 0.041100 ms MarkObjects: 1.407200 ms  DeleteObjects: 0.011100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001777 seconds.
+Registered in 0.001312 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.932 seconds
+- Completed reload, in  0.798 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.6 MB.
-System memory in use after: 76.7 MB.
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1751.
-Total: 1.717900 ms (FindLiveObjects: 0.164200 ms CreateObjectMapping: 0.053800 ms MarkObjects: 1.480500 ms  DeleteObjects: 0.018300 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1803.
+Total: 1.364700 ms (FindLiveObjects: 0.140600 ms CreateObjectMapping: 0.039900 ms MarkObjects: 1.172800 ms  DeleteObjects: 0.010200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002078 seconds.
+Registered in 0.001859 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.935 seconds
+- Completed reload, in  0.772 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.6 MB.
-System memory in use after: 76.7 MB.
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1753.
-Total: 1.607100 ms (FindLiveObjects: 0.240200 ms CreateObjectMapping: 0.058100 ms MarkObjects: 1.295000 ms  DeleteObjects: 0.012800 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1805.
+Total: 1.606200 ms (FindLiveObjects: 0.142700 ms CreateObjectMapping: 0.035700 ms MarkObjects: 1.415200 ms  DeleteObjects: 0.011700 ms)
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001919 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.976 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.6 MB.
-System memory in use after: 76.7 MB.
+Received Import Request.
+  Time since last request: 212.302378 seconds.
+  path: Assets/Resources/Enemy/Mage/Animator/Mage.controller
+  artifactKey: Guid(671c7ef62e6ca3343a552f120325f7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Mage/Animator/Mage.controller using Guid(671c7ef62e6ca3343a552f120325f7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97039369effa16a5c65d7b571885428') in 0.036927 seconds
+  Import took 0.040320 seconds .
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1755.
-Total: 2.339100 ms (FindLiveObjects: 0.177800 ms CreateObjectMapping: 0.048900 ms MarkObjects: 2.096700 ms  DeleteObjects: 0.014400 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 12.952653 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Meshes/EvilMageMesh.fbx
+  artifactKey: Guid(c494d9eff8644a94683dfd34b29171e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Meshes/EvilMageMesh.fbx using Guid(c494d9eff8644a94683dfd34b29171e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afee9ff01ef9bf7f9e6511d4b56c5fb1') in 0.095332 seconds
+  Import took 0.097857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Meshes/OrcMesh.fbx
+  artifactKey: Guid(73d2f4319473c3948940539f22e8ae4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Meshes/OrcMesh.fbx using Guid(73d2f4319473c3948940539f22e8ae4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc427b526ab813015797189449bcfecd') in 0.059076 seconds
+  Import took 0.061665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Meshes/GolemMesh.fbx
+  artifactKey: Guid(fdd223089abef8e4d919be1b750e3dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Meshes/GolemMesh.fbx using Guid(fdd223089abef8e4d919be1b750e3dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3765ed5de9f9848416be6e9ed288b3') in 0.035218 seconds
+  Import took 0.038166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Meshes/EvilMageMesh.fbx
+  artifactKey: Guid(c494d9eff8644a94683dfd34b29171e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Meshes/EvilMageMesh.fbx using Guid(c494d9eff8644a94683dfd34b29171e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afee9ff01ef9bf7f9e6511d4b56c5fb1') in 0.032674 seconds
+  Import took 0.035468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Meshes/MonsterPlantMesh.fbx
+  artifactKey: Guid(4310b6865af0c6d4585f67cd7554d443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Meshes/MonsterPlantMesh.fbx using Guid(4310b6865af0c6d4585f67cd7554d443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49bdf4b5dc2486893ec46526c68a5c3') in 0.033653 seconds
+  Import took 0.037358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Meshes/SkeletonMesh.fbx
+  artifactKey: Guid(981abb089aed35b47ba9c72dde91f1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Meshes/SkeletonMesh.fbx using Guid(981abb089aed35b47ba9c72dde91f1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8f034ae680750c2e8dd33d57a0d50d') in 0.047614 seconds
+  Import took 0.050190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003668 seconds.
+  path: Assets/Resources/Enemy/Asset_Monster/Meshes/SkeletonMesh.fbx
+  artifactKey: Guid(981abb089aed35b47ba9c72dde91f1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemy/Asset_Monster/Meshes/SkeletonMesh.fbx using Guid(981abb089aed35b47ba9c72dde91f1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8f034ae680750c2e8dd33d57a0d50d') in 0.044523 seconds
+  Import took 0.047080 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

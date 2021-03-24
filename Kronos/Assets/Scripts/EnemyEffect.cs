@@ -25,11 +25,15 @@ public class EnemyEffect : MonoBehaviour
         * Player.cs 의 "OnTriggerEnter"에서 실행
         */
     {
-        GameObject _hitSwordEffect = GameObject.Instantiate(hitEffect);
-        _hitSwordEffect.transform.position = collisionPos;
-        _hitSwordEffect.transform.rotation = gameObject.transform.rotation;
-        _hitSwordEffect.transform.parent = GameObject.Find("@Effect").transform;
+        if (hitEffect != null)
+        {
+            GameObject _hitSwordEffect = GameObject.Instantiate(hitEffect);
+            _hitSwordEffect.transform.position = collisionPos;
+            _hitSwordEffect.transform.rotation = gameObject.transform.rotation;
+            _hitSwordEffect.transform.parent = GameObject.Find("@Effect").transform;
 
-        Destroy(_hitSwordEffect, _hitSwordEffect.GetComponent<ParticleSystem>().main.duration);
+            Destroy(_hitSwordEffect, _hitSwordEffect.GetComponent<ParticleSystem>().main.duration);
+        }
+        
     }
 }

@@ -5,12 +5,25 @@ using UnityEngine;
 public class GreenSlime : MonoBehaviour
 {
     private float MonsterHP;
-    
+    [Header ("EnemyCommons")]
     public float MoveSpeed = 1;
     public float AttackRange=1.2f;
+    [Header ("Sight")]
     [SerializeField] float m_SightAngle = 0f;
     [SerializeField] float m_DetectDistance = 0f;
+    [Header("TargetLayer")]
     [SerializeField] LayerMask m_layerMask = 0;
+
+    [Header("원거리 몬스터")]
+    public bool IsLongMonster;
+
+    [System.Serializable]
+    public struct Long_AttackStats
+    {
+        public Transform EffectPos;
+        public float projectileSpeed; //투사체 속도
+    }
+    public Long_AttackStats Long_Attack;
 
     GameObject player;
     Rigidbody rigidbody;
@@ -217,19 +230,30 @@ public class GreenSlime : MonoBehaviour
     }
     void OnSlimeAttackEvent()
     {
-        // 공격 이펙트
-        GameObject _GreenSlimeAttackEffect = GameObject.Instantiate(attackEffect);
-        _GreenSlimeAttackEffect.transform.parent = GameObject.Find("@Effect").transform;
+        //원거리 몬스터
+        if (IsLongMonster)
+        {
+           Transform EffectPos = transform.Find("Staff").transform.Find("EventPos").transform;
+           GameObject projectile = Instantiate(attackEffect, EffectPos.position, Quaternion.identity) as GameObject; //Spawns the selected projectile
+           projectile.transform.LookAt(player.transform.position+Vector3.up); //Sets the projectiles rotation to look at the point clicked
+           projectile.GetComponent<Rigidbody>().AddForce(projectile.transform.forward *Long_Attack.projectileSpeed); ; //Set the speed of the projectile by applying force to the rigidbody
+        }
+        //근거리 몬스터
+        else
+        {
+            // 공격 이펙트
+            GameObject _GreenSlimeAttackEffect = GameObject.Instantiate(attackEffect);
+            _GreenSlimeAttackEffect.transform.parent = GameObject.Find("@Effect").transform;
 
-        Vector3 effectPos = gameObject.transform.position + gameObject.transform.up * 0.33f + gameObject.transform.forward * 0.25f;
-        _GreenSlimeAttackEffect.transform.position = effectPos;
+            Vector3 effectPos = gameObject.transform.position + gameObject.transform.up * 0.33f + gameObject.transform.forward * 0.25f;
+            _GreenSlimeAttackEffect.transform.position = effectPos;
 
 
-        _GreenSlimeAttackEffect.transform.rotation = gameObject.transform.rotation;
-        _GreenSlimeAttackEffect.transform.Rotate(0, 180, 0);
-
-
-        Destroy(_GreenSlimeAttackEffect, _GreenSlimeAttackEffect.GetComponent<ParticleSystem>().main.duration);
+            _GreenSlimeAttackEffect.transform.rotation = gameObject.transform.rotation;
+            _GreenSlimeAttackEffect.transform.Rotate(0, 180, 0);
+            Destroy(_GreenSlimeAttackEffect, _GreenSlimeAttackEffect.GetComponent<ParticleSystem>().main.duration);
+        }
+        
 
         // 공격 사운드
 

@@ -10805,6 +10805,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenSlime
       objectReference: {fileID: 0}
+    - target: {fileID: 4207036415216242820, guid: fa8d779dde1afc84ca813034c602d2dc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4212995581981791188, guid: fa8d779dde1afc84ca813034c602d2dc, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -12574,6 +12578,10 @@ PrefabInstance:
     - target: {fileID: 1660913145580450, guid: 12c1149f5870da543b5316c92c13eb45, type: 3}
       propertyPath: m_Name
       value: Skeleton (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1660913145580450, guid: 12c1149f5870da543b5316c92c13eb45, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4336231399882526, guid: 12c1149f5870da543b5316c92c13eb45, type: 3}
       propertyPath: m_RootOrder

@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1502603936589070385
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3126606836246046533}
+  m_Layer: 0
+  m_Name: EventPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3126606836246046533
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502603936589070385}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.08, y: -1.98, z: 0.74}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4965151943192466158}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &4965617535549102864
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56,12 +86,33 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 872856049002705256, guid: 811751be1d786084b9873353df4d23ab, type: 3}
+      propertyPath: attackEffect
+      value: 
+      objectReference: {fileID: 128572, guid: c5841e1249e6b16458f85229d0df31ce, type: 3}
+    - target: {fileID: 872856049002705256, guid: 811751be1d786084b9873353df4d23ab, type: 3}
       propertyPath: m_SightAngle
       value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 872856049002705256, guid: 811751be1d786084b9873353df4d23ab, type: 3}
+      propertyPath: IsLongMonster
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 872856049002705256, guid: 811751be1d786084b9873353df4d23ab, type: 3}
       propertyPath: m_DetectDistance
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 872856049002705256, guid: 811751be1d786084b9873353df4d23ab, type: 3}
+      propertyPath: Long_Attack.EffectPos
+      value: 
+      objectReference: {fileID: 3126606836246046533}
+    - target: {fileID: 872856049002705256, guid: 811751be1d786084b9873353df4d23ab, type: 3}
+      propertyPath: Long_Attack.projectileSpeed
+      value: 300
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 811751be1d786084b9873353df4d23ab, type: 3}
+--- !u!4 &4965151943192466158 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4127241122941438, guid: 811751be1d786084b9873353df4d23ab, type: 3}
+  m_PrefabInstance: {fileID: 4965617535549102864}
+  m_PrefabAsset: {fileID: 0}
