@@ -58,7 +58,7 @@ public abstract class PlayerInteract : MonoBehaviour
 
     // 하위(자식) 클래스에서 구현
 
-    // 상호작용 내용 변경
+    // 상호작용 ui의 텍스트 변경 (예: 문열기, 아이템줍기, ... 등)
     public abstract void InteractPopup();
 
     // 상호작용 키 입력 시 실행

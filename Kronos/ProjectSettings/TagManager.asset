@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - PlayerEffect
   - EnemyEffect
+  - puzzle
   layers:
   - Default
   - TransparentFX

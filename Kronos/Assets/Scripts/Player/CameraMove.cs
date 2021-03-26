@@ -5,68 +5,78 @@ using UnityEngine;
 public class CameraMove : MonoBehaviour
 {
     public GameObject Player;
-
+    
 
     [SerializeField]
     float radius = 6f;
 
-    float angleY = 90f;
+    float angleY = 15f;
+
+    [SerializeField]
+    [Range(1f, 10f)]
+    float mouseSensitive = 1f;
 
     void Start()
     {
+        angleY = 15f;
+
     }
 
     private void LateUpdate()
     {
+        if(Player.GetComponent<PlayerMove>()._playerState.ToString() ==  "Die")
+        {
+            return;
+        }
 
-        // 상하 각도
-        angleY -= 15f*Input.GetAxis("Mouse Y");
+        // X, Y축 마우스 입력에 따라 AngleX, AngleY 조정
+        // X축 움직임은 플레이어 캐릭터의 회전에도 적용
+        float MouseXInput = Input.GetAxis("Mouse X") * Time.deltaTime * mouseSensitive * 100f;
+        angleY -= Input.GetAxis("Mouse Y") * Time.deltaTime * mouseSensitive * 100f;
 
-        // 상하각도 제한
-        if (angleY > 165f)
-            angleY = 165f;
-        else if (angleY < 10f)
-            angleY = 10f;
-
-        // 캐릭터가 바라보는 방향의 반대편에 카메라를 위치
-        Vector3 playerForward = Player.transform.forward;
-        playerForward.y = 0;
-        playerForward = playerForward.normalized; // (x, 0, z), x^2 +z^2 = 1
+        Player.transform.Rotate(Vector3.up, MouseXInput);
 
 
-        // 캐릭터와 카메라 사이에 물체가 위치하면 반지름 조정
+        // 각도 제한
+        if (angleY > 80)
+            angleY = 80;
+
+        else if (angleY < 0)
+            angleY = 0;
+
+
+
+        // 타겟좌표는 플레이어 좌표에서 Y축으로 +1 (땅바닥을 바라보는 현상 방지)
+        Vector3 TargetPos = new Vector3(Player.transform.position.x,
+            Player.transform.position.y + 1f,
+            Player.transform.position.z);
+
+
+        // 결정된 angleX, angleY에 따라 카메라 위치 조정
+        float CamPosBack = radius * Mathf.Cos(angleY / 180 * 3.14f);
+        float CamPosUp = radius * Mathf.Sin(angleY / 180 * 3.14f);
+        Vector3 resultPos = TargetPos
+            - Player.transform.forward * CamPosBack
+            + Player.transform.up * CamPosUp;
+
+        // 카메라와 플레이어 사이에 벽이 있으면 거리 조절
+        Vector3 rayDir = (resultPos - TargetPos).normalized;
         RaycastHit hit;
-        if(Physics.Raycast(Player.transform.position, transform.position, out hit, radius, LayerMask.GetMask("Wall")))
+        if (Physics.Raycast(TargetPos, rayDir, out hit, radius, LayerMask.GetMask("Wall")))
         {
-            float dist = (hit.point - Player.transform.position).magnitude * 0.8f;
+            float distance = (hit.point - Player.transform.position).magnitude * 0.8f;
 
-            float planeRange = Mathf.Cos(angleY / 180f) * dist;
-            transform.position = new Vector3(
-                Player.transform.position.x - playerForward.x * planeRange,
-                Player.transform.position.y + Mathf.Sin(angleY / 180f) * dist,
-                Player.transform.position.z - playerForward.z * planeRange
-                );
+            CamPosBack = distance * Mathf.Cos(angleY / 180 * 3.14f);
+            CamPosUp = distance * Mathf.Sin(angleY / 180 * 3.14f);
+
+            resultPos = TargetPos
+                - Player.transform.forward * CamPosBack
+                + Player.transform.up * CamPosUp;
         }
 
-        else
-        {
-            float planeRange = Mathf.Cos(angleY / 180f) * radius;
-            transform.position = new Vector3(
-                Player.transform.position.x - playerForward.x * planeRange,
-                Player.transform.position.y + Mathf.Sin(angleY / 180f) * radius,
-                Player.transform.position.z - playerForward.z * planeRange
-                );
-        }
-
-        // 플레이어의 발 위치에서 y축으로 +1만큼의 위치를 쳐다본다.
-        Vector3 LookTaregt = Player.transform.position;
-        LookTaregt.y += 1f;
-        transform.LookAt(LookTaregt);
+        gameObject.transform.position = resultPos;
+        gameObject.transform.LookAt(TargetPos);
 
     }
 
-    void Update()
-    {
-        
-    }
 }

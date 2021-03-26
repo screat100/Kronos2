@@ -29,7 +29,7 @@ public class PlayerMove : MonoBehaviour
     float parryingTime;
     float jumpCool;
 
-    enum PlayerState
+    public enum PlayerState
     {
         Die,
         Idle,
@@ -42,8 +42,7 @@ public class PlayerMove : MonoBehaviour
         Hit,
     }
 
-    [SerializeField]
-    PlayerState _playerState;
+    public PlayerState _playerState;
 
     // 쿨타임 관련
     float rollCoolTime = 1.5f;
@@ -76,8 +75,6 @@ public class PlayerMove : MonoBehaviour
         QSkill();
         ESkill();
 
-
-        MouseRotation();
         PlayerMoveBase();
 
         jumpCool -= Time.deltaTime;
@@ -100,7 +97,7 @@ public class PlayerMove : MonoBehaviour
         if (_playerState == PlayerState.Die)
             return;
 
-
+        // 이펙트에 이 함수와 같은 기능을 달도록 옮겨주세요,,,
         if(other.transform.tag == "EnemyEffect")
         {
             // 이펙트에 달려있는 스크립트
@@ -114,14 +111,11 @@ public class PlayerMove : MonoBehaviour
 
         }
 
+        // 트랩 폭발에 맞으면 밀려남,,, 이것도 이펙트로 옮겨주세요
         else if (other.transform.name == "TrapExplosion")
         {
-            Debug.Log("trap exp hit~");
-
             rigidbody.AddForce(
             other.GetComponent<TrapExplosion>().pushDir * other.GetComponentInParent<TrapExplosion>().pushPower);
-
-
         }
     }
 
@@ -135,17 +129,6 @@ public class PlayerMove : MonoBehaviour
             rigidbody.velocity.z * 0.95f);
     }
 
-    void MouseRotation()
-        /*
-         * 마우스 수평 움직임으로 캐릭터 회전
-         */
-    {
-        if (_playerState == PlayerState.Die)
-            return;
-
-        float MouseX = Input.GetAxis("Mouse X");
-        transform.Rotate(Vector3.up * MouseX);
-    }
 
     void KeyboardMove()
         /*
