@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMove : MonoBehaviour
+public class PlayerMove : CharacterMove
 {
     float speedRate = 1.0f;
 
     private Rigidbody rigidbody;
     float maxSpeed = 5f;
+    PlayerStatus m_PlayerStatus;
+    Animator animator;
 
     [SerializeField]
     GameObject attack1Effect;
@@ -54,12 +56,12 @@ public class PlayerMove : MonoBehaviour
     //공격 관련
     [System.NonSerialized]
     public bool SwordSlashAttack;
-    Animator animator;
 
     void Start()
     {
         rigidbody = gameObject.GetComponent<Rigidbody>();
         animator = gameObject.GetComponent<Animator>();
+        m_PlayerStatus = gameObject.GetComponent<PlayerStatus>();
 
         _playerState = PlayerState.Idle;
         jumpCool = 0f;
@@ -456,34 +458,34 @@ public class PlayerMove : MonoBehaviour
         // 우클릭 시작
         if (Input.GetMouseButtonDown(1)
             && animator.GetInteger("Input") >= 0 && animator.GetInteger("Input") <=5 
-            && PlayerStatus.Stamina > 10)
+            && m_PlayerStatus.Stamina > 10)
         {
             animator.SetInteger("Input", 30);
             _playerState = PlayerState.Defend;
-            gameObject.GetComponent<PlayerStatusManager>().isDefending = true;
-            gameObject.GetComponent<PlayerStatusManager>().noDefendTime = 0f;
+            m_PlayerStatus.isDefending = true;
+            m_PlayerStatus.noDefendTime = 0f;
 
-            PlayerStatus.Stamina -= 10;
+            m_PlayerStatus.Stamina -= 10;
             parryingTime = 0.5f;
         }
         
         // 우클릭 유지 종료
-        if((animator.GetInteger("Input") == 30 && !Input.GetMouseButton(1)) || PlayerStatus.Stamina <= 0)
+        if((animator.GetInteger("Input") == 30 && !Input.GetMouseButton(1)) || m_PlayerStatus.Stamina <= 0)
         {
-            gameObject.GetComponent<PlayerStatusManager>().isDefending = false;
+            m_PlayerStatus.isDefending = false;
             animator.SetInteger("Input", 0);
             _playerState = PlayerState.Idle;
             animator.Play("Idle_Battle");
             parryingTime = 0f;
-            if(PlayerStatus.Stamina <= 0)
-                PlayerStatus.Stamina = 0f;
+            if(m_PlayerStatus.Stamina <= 0)
+                m_PlayerStatus.Stamina = 0f;
         }
 
         // 우클릭 유지
         else if (animator.GetInteger("Input") == 30)
         {
             parryingTime -= Time.deltaTime;
-            PlayerStatus.Stamina -= Time.deltaTime * 20;
+            m_PlayerStatus.Stamina -= Time.deltaTime * 20;
         }
     }
 
@@ -707,7 +709,7 @@ public class PlayerMove : MonoBehaviour
 
         // 회피율
         int avoidance = Random.Range(0, 100);
-        if (avoidance < PlayerStatus.avoidanceRate)
+        if (avoidance < m_PlayerStatus.avoidanceRate)
         {
             Debug.Log("회피!");
             return;
@@ -715,19 +717,19 @@ public class PlayerMove : MonoBehaviour
 
         // 방어율
         float damage = _enemyEffect.CalculatedDamage();
-        float guardRate = 50f * Mathf.Log(PlayerStatus.shield + 10) - 50f;
+        float guardRate = 50f * Mathf.Log(m_PlayerStatus.shield + 10) - 50f;
         damage *= (guardRate / 100);
 
         // 경직 적용
         StartCoroutine(DamagedRigidy(time));
 
-       
+
         // 체력 감소 적용
-        PlayerStatus.HP -= (int)damage;
-        Debug.Log($"PlayerHP = {PlayerStatus.HP}");
+        m_PlayerStatus.HP -= (int)damage;
+        Debug.Log($"PlayerHP = {m_PlayerStatus.HP}");
 
         // 사망판정 검사
-        if(PlayerStatus.HP <= 0)
+        if(m_PlayerStatus.HP <= 0)
         {
             Debug.Log("You Die");
             _playerState = PlayerState.Die;

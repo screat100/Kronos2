@@ -14568,20 +14568,6 @@ Transform:
   m_Father: {fileID: 502001895}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &725652280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1300090899964298}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72606fd024f2c7c4dbaa64f22fb23daa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isDefending: 0
-  noDefendTime: 0
 --- !u!114 &725652281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42147,8 +42133,8 @@ GameObject:
   - component: {fileID: 95523266843819490}
   - component: {fileID: 136591148546730304}
   - component: {fileID: 725652282}
-  - component: {fileID: 725652280}
   - component: {fileID: 725652281}
+  - component: {fileID: 1300090899964299}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -42156,6 +42142,38 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1300090899964299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300090899964298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95000e40140dce748bbbbb4a6497a759, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HPMax: 0
+  HP: 0
+  StaminaMax: 0
+  Stamina: 0
+  attack: 0
+  shield: 0
+  attackSpeed: 0
+  moveSpeed: 0
+  criticalProb: 0
+  criticalDamage: 0
+  avoidanceRate: 0
+  coolTimeDecreaseRate: 0
+  timeMax: 0
+  timeRemain: 0
+  level: 0
+  remainPoint: 0
+  exp: 0
+  expMax: 0
+  isDefending: 0
+  noDefendTime: 0
 --- !u!1 &1313640030485526
 GameObject:
   m_ObjectHideFlags: 0

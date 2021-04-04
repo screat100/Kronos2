@@ -7,22 +7,20 @@ using UnityEngine;
 
 public class PlayerStatus : Status
 {
-    static public float timeMax;
-    static public float timeRemain;
+    public float timeMax;
+    public float timeRemain;
 
-    
 
     // 모래시계 시스템
-    static public int level;
-    static public int remainPoint;
-    static public float exp;
-    static public float expMax;
+    public int level;
+    public int remainPoint;
+    public float exp;
+    public float expMax;
 
 
     // 시간 흐름 on
     bool timeFlowOn;
 
-    
     public bool isDefending; // 방어 상태인지
     public float noDefendTime; // 패링 관련 판단을 위한 
 
@@ -40,7 +38,7 @@ public class PlayerStatus : Status
     private void Update()
     {
         if (timeFlowOn)
-            PlayerStatus.timeRemain -= Time.deltaTime;
+            timeRemain -= Time.deltaTime;
 
         if (!isDefending)
         {
