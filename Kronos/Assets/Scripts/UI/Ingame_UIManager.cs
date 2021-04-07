@@ -16,27 +16,27 @@ public class Ingame_UIManager : MonoBehaviour
     public GameObject SandGlass_Slider;
     public GameObject SandGlass_text;
 
-    PlayerStatus m_PlayerStatus;
+    Player m_Player;
 
 
     void Start()
     {
-        m_PlayerStatus = GameObject.Find("Player").GetComponent<PlayerStatus>();
+        m_Player = GameObject.Find("Player").GetComponent<Player>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        int remainTime = (int)(m_PlayerStatus.timeRemain);
-        RemainTime_Slider.GetComponent<Image>().fillAmount = m_PlayerStatus.timeRemain / m_PlayerStatus.timeMax;
+        int remainTime = (int)(m_Player.time_p);
+        RemainTime_Slider.GetComponent<Image>().fillAmount = m_Player.time_p / m_Player.time;
         RemainTime_text.GetComponent<Text>().text = remainTime.ToString();
 
-        HP_Slider.GetComponent<Image>().fillAmount = (float)m_PlayerStatus.HP / (float)m_PlayerStatus.HPMax;
+        HP_Slider.GetComponent<Image>().fillAmount = (float)m_Player.HP_p / (float)m_Player.HP;
 
-        Stamina_Slider.GetComponent<Image>().fillAmount = m_PlayerStatus.Stamina / m_PlayerStatus.StaminaMax;
+        Stamina_Slider.GetComponent<Image>().fillAmount = m_Player.stamina_p / m_Player.stamina;
 
-        SandGlass_Slider.GetComponent<Image>().fillAmount = m_PlayerStatus.exp / m_PlayerStatus.expMax;
-        SandGlass_text.GetComponent<Text>().text = ((int)m_PlayerStatus.level).ToString();
+        SandGlass_Slider.GetComponent<Image>().fillAmount = m_Player.exp / m_Player.expMax;
+        SandGlass_text.GetComponent<Text>().text = ((int)m_Player.level).ToString();
     }
 
 

@@ -30,7 +30,7 @@ public class Enemy : MonoBehaviour
             ApplyDamage(damage);
 
             // 플레이어에 역경직 적용
-            StartCoroutine(GameObject.Find("Player").GetComponent<PlayerMove>().AttackRigidy(0.05f));
+            StartCoroutine(GameObject.Find("Player").GetComponent<Player>().AttackRigidy(0.05f));
 
             if (MonsterHP > 0)
             {

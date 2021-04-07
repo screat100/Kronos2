@@ -28,13 +28,13 @@ public class MyInformation : UIManager
     Button[] taps; //탭 버튼
     Button closer;
 
-    PlayerStatus m_PlayerStatus;
+    Player m_Player;
 
     private void Start()
     {
         tapToSandglass = true;
 
-        m_PlayerStatus = GameObject.Find("Player").GetComponent<PlayerStatus>();
+        m_Player = GameObject.Find("Player").GetComponent<Player>();
 
         remain = GameObject.Find("MyInformation_remain_text").GetComponent<Text>();
         numbers = GameObject.Find("MyInformation_ability_number").transform.GetComponentsInChildren<Text>();
@@ -69,17 +69,17 @@ public class MyInformation : UIManager
     public void RefreshInformation()
     {
         // (남은 포인트)/(레벨)
-        remain.text = m_PlayerStatus.remainPoint.ToString() + " / " + m_PlayerStatus.level.ToString();
+        remain.text = m_Player.remainPoint.ToString() + " / " + m_Player.level.ToString();
 
-        numbers[0].text = m_PlayerStatus.timeMax.ToString();
-        numbers[1].text = m_PlayerStatus.attack.ToString();
-        numbers[2].text = m_PlayerStatus.shield.ToString();
-        numbers[3].text = m_PlayerStatus.attackSpeed.ToString();
-        numbers[4].text = m_PlayerStatus.moveSpeed.ToString();
-        numbers[5].text = m_PlayerStatus.criticalProb.ToString();
-        numbers[6].text = m_PlayerStatus.criticalDamage.ToString();
-        numbers[7].text = m_PlayerStatus.avoidanceRate.ToString();
-        numbers[8].text = m_PlayerStatus.coolTimeDecreaseRate.ToString();
+        numbers[0].text = m_Player.time.ToString();
+        numbers[1].text = m_Player.attack.ToString();
+        numbers[2].text = m_Player.shield.ToString();
+        numbers[3].text = m_Player.attackSpeed.ToString();
+        numbers[4].text = m_Player.moveSpeed.ToString();
+        numbers[5].text = m_Player.criticalProb.ToString();
+        numbers[6].text = m_Player.criticalDamage.ToString();
+        numbers[7].text = m_Player.avoidanceRate.ToString();
+        numbers[8].text = m_Player.coolTimeDecreaseRate.ToString();
     }
 
     void OnClickTap(string tap)

@@ -11,10 +11,6 @@ class Skill
     public string details;
     public string function;
 
-    public Skill()
-    {
-
-    }
 }
 
 public class PlayerSkill : MonoBehaviour

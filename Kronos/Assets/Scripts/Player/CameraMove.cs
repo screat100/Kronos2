@@ -24,7 +24,7 @@ public class CameraMove : MonoBehaviour
 
     private void LateUpdate()
     {
-        if(Player.GetComponent<PlayerMove>()._playerState.ToString() ==  "Die")
+        if(Player.GetComponent<Player>().state.ToString() ==  "Die")
         {
             return;
         }

@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 4660243928936503724}
   - component: {fileID: 4660243928950685150}
   - component: {fileID: 4660243928950743832}
-  - component: {fileID: 4475410393973507922}
   - component: {fileID: 6990156674243260984}
+  - component: {fileID: -4343664705641971769}
   m_Layer: 0
   m_Name: SwordSlash3
   m_TagString: PlayerEffect
@@ -4808,20 +4808,6 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!114 &4475410393973507922
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4660243928936211008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72a14aad1195fed4cae6ad4784d9466c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageRate: 150
-  hitEffect: {fileID: 3106826520198292710, guid: b625833af7fed164bbcbedc8c09c356c, type: 3}
 --- !u!65 &6990156674243260984
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4835,6 +4821,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 2.5}
   m_Center: {x: 0, y: 0, z: 0.5}
+--- !u!114 &-4343664705641971769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4660243928936211008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37970af9f9aefe1498d4e985b3c062da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitEffect: {fileID: 3106826520198292710, guid: b625833af7fed164bbcbedc8c09c356c, type: 3}
 --- !u!1 &4660243928936253216
 GameObject:
   m_ObjectHideFlags: 0

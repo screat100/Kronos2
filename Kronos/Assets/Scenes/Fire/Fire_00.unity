@@ -28427,6 +28427,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arena_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1736516978, guid: b236219772623334297e0540b4983177, type: 3}
+      propertyPath: m_TagString
+      value: ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5992807665290849765, guid: b236219772623334297e0540b4983177, type: 3}
       propertyPath: m_RootOrder
       value: 48

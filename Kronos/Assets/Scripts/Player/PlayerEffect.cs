@@ -10,12 +10,12 @@ public class PlayerEffect : MonoBehaviour
     [SerializeField]
     GameObject hitEffect;
 
-    PlayerStatus m_PlayerStatus;
+    Player m_Player;
 
 
     private void Start()
     {
-        m_PlayerStatus = gameObject.GetComponent<PlayerStatus>();
+        m_Player = gameObject.GetComponent<Player>();
     }
 
     public float CalculatedDamage()
@@ -24,13 +24,13 @@ public class PlayerEffect : MonoBehaviour
          * 현재 '기타 데미지 증가' 반영 안됨
          */
     {
-        float damage = m_PlayerStatus.attack * (damageRate / 100f);
+        float damage = m_Player.attack * (damageRate / 100f);
 
         int critical = Random.Range(0, 100);
         // 크리티컬 발생
-        if(critical < m_PlayerStatus.criticalProb)
+        if(critical < m_Player.criticalProb)
         {
-            damage *= (m_PlayerStatus.criticalDamage / 100);
+            damage *= (m_Player.criticalDamage / 100);
             Debug.Log("Critical Hit!");
         }
 

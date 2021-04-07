@@ -11,14 +11,14 @@ public class SandGlassManager : PlayerSandGlass
     [SerializeField]
     GameObject ScrollViewContent;
 
-    PlayerStatus m_PlayerStatus;
+    Player m_Player;
 
 
 
     void Start()
     {
-        m_PlayerStatus = GameObject.Find("Player").GetComponent<PlayerStatus>();
-        Debug.Log(m_PlayerStatus.remainPoint);
+        m_Player = GameObject.Find("Player").GetComponent<Player>();
+        Debug.Log(m_Player.remainPoint);
         InitList();
     }
 
@@ -122,7 +122,7 @@ public class SandGlassManager : PlayerSandGlass
             bool masterCheck = false;
 
             // 4. 비용조건 체크
-            if(m_PlayerStatus.remainPoint >= int.Parse(abilities[i]["cost"].ToString()))
+            if(m_Player.remainPoint >= int.Parse(abilities[i]["cost"].ToString()))
                 costCheck = true;
             
             // 5. 티어 조건 체크
@@ -189,8 +189,8 @@ public class SandGlassManager : PlayerSandGlass
         Debug.Log($"index = {index}");
 
         int cost = int.Parse(abilities[index]["cost"].ToString());
-        m_PlayerStatus.remainPoint -= cost;
-        Debug.Log(m_PlayerStatus.remainPoint);
+        m_Player.remainPoint -= cost;
+        Debug.Log(m_Player.remainPoint);
 
         int level = int.Parse(abilities[index]["level"].ToString());
         level++;

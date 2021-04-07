@@ -9615,8 +9615,8 @@ GameObject:
   - component: {fileID: 3385446754327997753}
   - component: {fileID: 3385446754308614217}
   - component: {fileID: 3385446754308706153}
-  - component: {fileID: 3193868496942303349}
   - component: {fileID: 6643877441132690872}
+  - component: {fileID: 4815043255303535850}
   m_Layer: 0
   m_Name: CartoonyPunchLight
   m_TagString: EnemyEffect
@@ -14411,20 +14411,6 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!114 &3193868496942303349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3385446754328267631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1c7a239348dc4049877b3592ba45dcd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageRate: 100
-  hitEffect: {fileID: 6238812738396118995, guid: eda9b5264cc332b47b007b2507b49f2d, type: 3}
 --- !u!65 &6643877441132690872
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14438,6 +14424,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5, z: 1}
   m_Center: {x: 0.25, y: 0, z: 0}
+--- !u!114 &4815043255303535850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3385446754328267631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37970af9f9aefe1498d4e985b3c062da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitEffect: {fileID: 6238812738396118995, guid: eda9b5264cc332b47b007b2507b49f2d, type: 3}
 --- !u!1 &3385446754328496041
 GameObject:
   m_ObjectHideFlags: 0
