@@ -1,15 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+public enum EquipmentType
+{
+    Weapon,
+    Armor,
+    Shield,
+}
 
 public class Equipment : MonoBehaviour
 {
-    public enum EquipmentType
-    {
-        Weapon,
-        Armor,
-        Shield,
-    }
+    
 
     [Header("Equipment Status")]
     public int HP;
@@ -25,21 +26,7 @@ public class Equipment : MonoBehaviour
     public float stamina;
     public float time;
 
-    public class Weapon : MonoBehaviour
-    {
-        
-    }
-
-    public class Armor : MonoBehaviour
-    {
-
-    }
-
-    public class Shield : MonoBehaviour
-    {
-
-    }
-
+   
     public EquipmentType equipmentType;
 
 

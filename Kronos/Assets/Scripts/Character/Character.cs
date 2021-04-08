@@ -44,26 +44,11 @@ public abstract class Character : MonoBehaviour
     protected float speedRate = 1.0f;
     protected float maxSpeed = 5f;
 
-    public enum State
-    {
-        Die, // 사망
-        Idle, 
-        Walk,
-        Jump,
-        Fall, // y축 속도가 음수(=떨어지는)인 상태
-        Roll, // 구르기(플레이어 전용)
-        Attack, // 공격
-        Defend, // 방어
-        Hit, // 피격
-    }
-
-    public State state;
 
     private void Start()
     {
         sturnTime = 0f;
         canMove = true;
-        state = State.Idle;
 
         // Status Initialization
         StatusInit();
@@ -97,36 +82,9 @@ public abstract class Character : MonoBehaviour
     }
     protected abstract void PlayingStatusInit_abs();
 
-    public virtual void Damaged(float damageNumber, float stiffenTime, Vector3 hitPoint)
-    {
-        if (state == State.Die || invincibility)
-            return;
+    public abstract void Damaged(float damageNumber, float stiffenTime, Vector3 hitPoint);
 
-        // 방어율 공식을 사용해 실제 피해량을 hp에 적용
-        float shieldRate = 50 * Mathf.Log(shield_p + 10) - 50;
-        HP_p -= (int)(damageNumber * shieldRate / 100);
 
-        // 사망판정 검사
-        if(HP_p <= 0)
-        {
-            HP_p = 0;
-            Die();
-            return;
-        }
-
-        // 경직시간
-        if(!superArmor)
-        {
-            sturnTime = stiffenTime;
-            state = State.Hit;
-        }
-
-    }
-
-    public void Die()
-    {
-        state = State.Die;
-    }
-
+    public abstract void Die();
 
 }

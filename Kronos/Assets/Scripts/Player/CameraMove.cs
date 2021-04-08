@@ -31,10 +31,20 @@ public class CameraMove : MonoBehaviour
 
         // X, Y축 마우스 입력에 따라 AngleX, AngleY 조정
         // X축 움직임은 플레이어 캐릭터의 회전에도 적용
+
+        string playerState = Player.GetComponent<Player>().state.ToString();
+
         float MouseXInput = Input.GetAxis("Mouse X") * Time.deltaTime * mouseSensitive * 100f;
+
+        if (playerState != "RollForward" && playerState != "RollForwardLeft" && playerState != "RollForwardRight"
+            && playerState != "RollLeft" && playerState != "RollRight"
+            && playerState != "RollBackward" && playerState != "RollBackwardLeft" && playerState != "RollBackwardRight")
+        {
+            Player.transform.Rotate(Vector3.up, MouseXInput);
+        }
+
         angleY -= Input.GetAxis("Mouse Y") * Time.deltaTime * mouseSensitive * 100f;
 
-        Player.transform.Rotate(Vector3.up, MouseXInput);
 
 
         // 각도 제한
@@ -52,7 +62,7 @@ public class CameraMove : MonoBehaviour
             Player.transform.position.z);
 
 
-        // 결정된 angleX, angleY에 따라 카메라 위치 조정
+        // 결정된 angleY에 따라 카메라 위치 조정
         float CamPosBack = radius * Mathf.Cos(angleY / 180 * 3.14f);
         float CamPosUp = radius * Mathf.Sin(angleY / 180 * 3.14f);
         Vector3 resultPos = TargetPos

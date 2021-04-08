@@ -4,6 +4,26 @@ using UnityEngine;
 
 public partial class Player : Character
 {
+    public enum State
+    {
+        Die = -999, // 사망
+        Sturn = -99,
+        Hit = -9,
+        Idle = 0,
+        WalkForwardBattle = 1, WalkLeftBattle = 2, WalkRightBattle = 3, WalkBackwardBattle = 4, 
+        JumpUp=10, JumpDown=11, JumpEnd=12,
+        Defend=20, // 방어
+
+        //기본공격
+        Attack, // 공격
+
+        //회피기(Shift)
+        RollForward=41, RollLeft=44, RollRight=49, RollBackward=56, RollForwardLeft=45, RollForwardRight=50, RollBackwardLeft=60, RollBackwardRight=65,
+        
+    }
+
+    public State state;
+
 
     private void Start()
     {
@@ -16,16 +36,23 @@ public partial class Player : Character
         animator = gameObject.GetComponent<Animator>();
 
         remainJumpCoolTime = 0f;
-        remainRollCoolTime = 0f;
+        remainShiftCoolTime = 0f;
 
         sturnTime = 0f;
         canMove = true;
         state = State.Idle;
 
+        // 기본공격, 회피기, 스킬구성 설정
+        basicAttack = BasicAttack.Valkyrie;
+        shiftSkill = global::ShiftSkill.Rolling;
+        weaponSkillSet = WeaponSkillSet.Valkyrie;
+
         // Status Initialization
         StatusInit();
         PlayingStatusInit_base();
         PlayingStatusInit_abs();
+
+
     }
 
     private void Update()
@@ -34,10 +61,7 @@ public partial class Player : Character
         TimeFlow();
         DefendTimeFlow();
         remainJumpCoolTime -= Time.deltaTime;
-        remainRollCoolTime -= Time.deltaTime;
-
-        // NoInput
-        Deceleration();
+        remainShiftCoolTime -= Time.deltaTime;
 
         if (!canMove)
             return;
@@ -47,10 +71,14 @@ public partial class Player : Character
         Jump();
         Attack();
         Defend();
-        Roll();
+        ShiftSkill();
         QSkill();
         ESkill();
+
+        animator.SetInteger("Input", (int)state);
+        Debug.Log(state);
     }
+
 }
 
 /*
@@ -210,10 +238,10 @@ public partial class Player : Character
 
     [Header("Player Behavior Factor")]
     float jumpCoolTime = 0.5f;
-    float rollCoolTime = 1.5f;
+    float shiftCoolTime = 1.5f;
 
     float remainJumpCoolTime = 0f;
-    float remainRollCoolTime = 0f;
+    float remainShiftCoolTime = 0f;
     float remainQSkillCool = 0f;
     float remainESkillCool = 0f;
 
@@ -228,26 +256,18 @@ public partial class Player : Character
         if (collision.gameObject.tag == "ground")
         {
             // 착지 애니메이션
-            if (animator.GetInteger("Input") == 10)
+            if (animator.GetInteger("Input") == (int)State.JumpUp || animator.GetInteger("Input") == (int)State.JumpDown)
             {
-                animator.SetInteger("Input", 11);
-            }
-            else if (animator.GetInteger("Input") == 11)
-            {
-                animator.SetInteger("Input", 12);
+                state = State.JumpEnd;
             }
         }
     }
 
-
-
-    void Deceleration()
+    public override void Die()
     {
-        // 입력 없으면 속도 감소
-        rigidbody.velocity = new Vector3(rigidbody.velocity.x * 0.95f,
-            rigidbody.velocity.y,
-            rigidbody.velocity.z * 0.95f);
+        state = State.Die;
     }
+
 
 
     void KeyboardMove()
@@ -259,28 +279,10 @@ public partial class Player : Character
      */
     {
         if ((state != State.Idle
-            && state != State.Walk
-            && state != State.Jump
-            && state != State.Fall)
-            || (state == State.Die))
+            && ( state != State.WalkForwardBattle && state != State.WalkBackwardBattle && state != State.WalkLeftBattle && state != State.WalkRightBattle )
+            && ( state != State.JumpUp && state != State.JumpDown && state != State.JumpEnd)
+            || (state == State.Die)))
             return;
-
-
-        // 전후 이동에 관한...
-        float forceForward = 0f;
-
-        if (Input.GetKey(KeyCode.W))
-        {
-            forceForward = 50000f;
-            if (animator.GetInteger("Input") <= 5)
-                animator.SetInteger("Input", 1);
-        }
-        else if (Input.GetKey(KeyCode.S))
-        {
-            forceForward = -50000f;
-            if (animator.GetInteger("Input") <= 5)
-                animator.SetInteger("Input", 4);
-        }
 
 
         // 좌우 이동에 관한 변수
@@ -289,14 +291,39 @@ public partial class Player : Character
         if (Input.GetKey(KeyCode.A))
         {
             forceRight = -50000f;
-            if (animator.GetInteger("Input") <= 5)
-                animator.SetInteger("Input", 2);
+            if ((int)state >= (int)State.Idle && (int)state <= (int)State.WalkBackwardBattle)
+            {
+                state = State.WalkLeftBattle;
+            }
         }
         else if (Input.GetKey(KeyCode.D))
         {
             forceRight = 50000f;
-            if (animator.GetInteger("Input") <= 5)
-                animator.SetInteger("Input", 3);
+            if ((int)state >= (int)State.Idle && (int)state <= (int)State.WalkBackwardBattle)
+            {
+                state = State.WalkRightBattle;
+            }
+        }
+
+
+        // 전후 이동에 관한...
+        float forceForward = 0f;
+
+        if (Input.GetKey(KeyCode.W))
+        {
+            forceForward = 50000f;
+            if ((int)state >= (int)State.Idle && (int)state <= (int)State.WalkBackwardBattle)
+            {
+                state = State.WalkForwardBattle;
+            }
+        }
+        else if (Input.GetKey(KeyCode.S))
+        {
+            forceForward = -50000f;
+            if ((int)state >= (int)State.Idle && (int)state <= (int)State.WalkBackwardBattle)
+            {
+                state = State.WalkBackwardBattle;
+            }
         }
 
         // 대각선 경우를 고려하여, 모든 방향으로 동일한 속도를 내도록 한다.
@@ -306,23 +333,19 @@ public partial class Player : Character
             forceRight = forceRight / Mathf.Sqrt(2);
         }
 
-        else if (forceForward == 0 && forceRight == 0 && animator.GetInteger("Input") <= 4)
+        // 입력이 없다면, Idle 상태로 전환
+        else if (forceForward == 0 && forceRight == 0 && ((int)state >= (int)State.WalkForwardBattle && (int)state <= (int)State.WalkBackwardBattle))
         {
             state = State.Idle;
-            animator.SetInteger("Input", 0);
         }
 
-        float backMovingCorrectionValue = 1.0f;
 
         // 뒤로 걷을 때 이동속도 25% 감소
+        float backMovingCorrectionValue = 1.0f;
         if (forceForward < 0)
-        {
             backMovingCorrectionValue = 0.75f;
-        }
-
-
-        // 최대속도 제한 & 물리에 적용
-        // : 최대속도를 넘지 않을 경우에만 addForce 적용
+        
+        // 물리에 적용
         Vector3 playerForward = gameObject.transform.forward;
         playerForward.y = 0;
         playerForward = playerForward.normalized;
@@ -331,13 +354,9 @@ public partial class Player : Character
         playerRight.y = 0;
         playerRight = playerRight.normalized;
 
-        float horizontalSpeed = new Vector2(rigidbody.velocity.x, rigidbody.velocity.z).magnitude;
-        if (horizontalSpeed < maxSpeed * backMovingCorrectionValue)
-        {
-            rigidbody.AddForce(playerForward * speedRate * forceForward * backMovingCorrectionValue * Time.deltaTime);
-            rigidbody.AddForce(playerRight * speedRate * forceRight * Time.deltaTime);
-        }
-
+        rigidbody.velocity = new Vector3(0, rigidbody.velocity.y, 0);
+        rigidbody.velocity += playerForward * moveSpeed / 100 * forceForward / 10000 * backMovingCorrectionValue;
+        rigidbody.velocity += playerRight * moveSpeed / 100 * forceRight / 10000;
     }
 
     void OnWalkEvent()
@@ -364,34 +383,30 @@ public partial class Player : Character
         // 추락
         if (rigidbody.velocity.y < -0.99f)
         {
-            animator.SetInteger("Input", 11);
-            state = State.Fall;
+            state = State.JumpDown;
         }
 
         if (state != State.Idle
-            && state != State.Walk
-            && state != State.Jump
-            && state != State.Fall)
+            && (state != State.WalkForwardBattle && state != State.WalkBackwardBattle && state != State.WalkLeftBattle && state != State.WalkRightBattle)
+            && (state != State.JumpUp && state != State.JumpDown && state != State.JumpEnd))
             return;
 
         // 점프
         if (Input.GetKeyDown(KeyCode.Space)
-            && (state == State.Idle || state == State.Walk)
+            && (state == State.Idle || state == State.WalkForwardBattle || state == State.WalkBackwardBattle || state==State.WalkRightBattle || state==State.WalkLeftBattle)
             && remainJumpCoolTime <= 0f)
         {
-            rigidbody.AddForce(new Vector3(0, 1, 0) * 5000f);
-            animator.SetInteger("Input", 10);
-            state = State.Jump;
+            rigidbody.AddForce(new Vector3(0, 1, 0) * 10000f);
+            state = State.JumpUp;
 
             remainJumpCoolTime = jumpCoolTime;
         }
 
-        if (animator.GetInteger("Input") == 12
+        if (animator.GetInteger("Input") == (int)State.JumpEnd
             && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.8f
             && animator.GetCurrentAnimatorStateInfo(0).IsName("JumpEnd")
             )
         {
-            animator.SetInteger("Input", 0);
             state = State.Idle;
         }
 
@@ -419,26 +434,26 @@ public partial class Player : Character
      * Input 20~22 : 각각 기본공격 1타~3타
      */
     {
+        return;
 
         if ((state != State.Idle
-            && state != State.Walk
+            && (state != State.WalkForwardBattle && state != State.WalkBackwardBattle && state != State.WalkLeftBattle && state != State.WalkRightBattle)
             && state != State.Attack) || state == State.Die)
             return;
 
-
-        if (animator.GetInteger("Input") >= 20 && animator.GetInteger("Input") <= 22 && animator.GetCurrentAnimatorStateInfo(0).normalizedTime < 1f)
-        {
-            rigidbody.velocity *= 0.97f;
-        }
+        //조건문 : 공격중이라면
+        //if (animator.GetInteger("Input") >= 20 && animator.GetInteger("Input") <= 22 && animator.GetCurrentAnimatorStateInfo(0).normalizedTime < 1f)
+        //{
+        //    rigidbody.velocity *= 0.97f;
+        //}
 
 
         if (Input.GetMouseButtonDown(0))
         {
             rigidbody.velocity = new Vector3(0, 0, 0);
 
-            if (animator.GetInteger("Input") <= 5)
+            if ((int)state >= (int)State.Idle && (int)state <= (int)State.WalkBackwardBattle)
             {
-                animator.SetInteger("Input", 20);
                 state = State.Attack;
             }
 
@@ -446,7 +461,6 @@ public partial class Player : Character
             && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.6f
             && animator.GetCurrentAnimatorStateInfo(0).IsName("Attack01"))
             {
-                animator.SetInteger("Input", 21);
                 state = State.Attack;
             }
 
@@ -454,7 +468,6 @@ public partial class Player : Character
             && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.6f
             && animator.GetCurrentAnimatorStateInfo(0).IsName("Attack02"))
             {
-                animator.SetInteger("Input", 22);
                 state = State.Attack;
             }
 
@@ -464,7 +477,6 @@ public partial class Player : Character
             && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1f
             && animator.GetCurrentAnimatorStateInfo(0).IsName("Attack01"))
         {
-            animator.SetInteger("Input", 0);
             state = State.Idle;
         }
 
@@ -472,7 +484,6 @@ public partial class Player : Character
             && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1f
             && animator.GetCurrentAnimatorStateInfo(0).IsName("Attack02"))
         {
-            animator.SetInteger("Input", 0);
             state = State.Idle;
         }
 
@@ -480,7 +491,6 @@ public partial class Player : Character
             && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1f
             && animator.GetCurrentAnimatorStateInfo(0).IsName("Attack03"))
         {
-            animator.SetInteger("Input", 0);
             state = State.Idle;
         }
     }
@@ -571,16 +581,19 @@ public partial class Player : Character
      */
     {
         if ((state != State.Idle
-            && state != State.Walk
+            && (state != State.WalkForwardBattle && state != State.WalkBackwardBattle && state != State.WalkLeftBattle && state != State.WalkRightBattle)
             && state != State.Defend) || state == State.Die)
             return;
 
+        
+
         // 우클릭 시작
         if (Input.GetMouseButtonDown(1)
-            && animator.GetInteger("Input") >= 0 && animator.GetInteger("Input") <= 5
+            && (int)state >= (int)State.Idle && (int)state <= (int)State.WalkBackwardBattle
             && stamina_p > 10)
         {
-            animator.SetInteger("Input", 30);
+            rigidbody.velocity = new Vector3(0, rigidbody.velocity.y, 0);
+            
             state = State.Defend;
             noDefendTime = 0f;
 
@@ -589,18 +602,16 @@ public partial class Player : Character
         }
 
         // 우클릭 유지 종료
-        if ((animator.GetInteger("Input") == 30 && !Input.GetMouseButton(1)) || stamina_p <= 0)
+        if ((state == State.Defend && !Input.GetMouseButton(1)) || stamina_p <= 0)
         {
-            animator.SetInteger("Input", 0);
             state = State.Idle;
-            animator.Play("Idle_Battle");
             parryingTime = 0f;
             if (stamina_p <= 0)
                 stamina_p = 0f;
         }
 
         // 우클릭 유지
-        else if (animator.GetInteger("Input") == 30)
+        else if (state == State.Defend)
         {
             parryingTime -= Time.deltaTime;
             stamina_p -= Time.deltaTime * 20;
@@ -610,7 +621,7 @@ public partial class Player : Character
 
 
 
-    void Roll()
+    void ShiftSkill()
     /*
      * Shift로 구르기
      * 40 이상 70 미만
@@ -619,67 +630,20 @@ public partial class Player : Character
      */
     {
         if (state != State.Idle
-            && state != State.Walk
-            && state != State.Roll)
+            && (state != State.WalkForwardBattle && state != State.WalkBackwardBattle && state != State.WalkLeftBattle && state != State.WalkRightBattle))
             return;
 
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && remainRollCoolTime <= 0f)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && remainShiftCoolTime <= 0f)
         {
-            Vector3 playerFront = gameObject.transform.forward;
-            Vector3 playerRight = gameObject.transform.right;
-            playerFront.y = 0;
-            playerRight.y = 0;
-            playerFront = playerFront.normalized;
-            playerRight = playerRight.normalized;
-
-            rigidbody.velocity = new Vector3(0, 0, 0);
-            float frontForce = 0;
-            float rightForce = 0;
-
-            int rollDir = 0;
-
-            // 입력에 따른 방향 계산
-            // 좌우
-            if (Input.GetKey(KeyCode.A))
+            switch(shiftSkill)
             {
-                rollDir += 4;
-                rightForce = -30000;
-            }
-            else if (Input.GetKey(KeyCode.D))
-            {
-                rollDir += 9;
+                case global::ShiftSkill.Rolling:
+                    ShiftSkill_Roll();
+                    break;
 
-                rightForce = 30000;
-            }
-            // 전후
-            if (Input.GetKey(KeyCode.S))
-            {
-                rollDir += 16;
-                frontForce = -30000;
-            }
-            else if (Input.GetKey(KeyCode.W))
-            {
-                rollDir += 1;
-                frontForce = 30000;
-            }
 
-            if (frontForce != 0 && rightForce != 0)
-            {
-                frontForce /= Mathf.Sqrt(2);
-                rightForce /= Mathf.Sqrt(2);
-            }
 
-            // 애니메이션 및 물리 적용
-            if (!(frontForce == 0 && rightForce == 0))
-            {
-                state = State.Roll;
-
-                animator.SetInteger("Input", 40 + rollDir);
-                rigidbody.AddForce(playerFront * frontForce);
-                rigidbody.AddForce(playerRight * rightForce);
-
-                remainRollCoolTime = rollCoolTime;
             }
 
         }
@@ -698,7 +662,6 @@ public partial class Player : Character
      */
     {
         state = State.Idle;
-        animator.SetInteger("Input", 0);
     }
 
 
@@ -753,7 +716,6 @@ public partial class Player : Character
 
         // 경직 모션 적용
         state = State.Hit;
-        animator.SetInteger("Input", 100);
 
         // 경직 적용 및 회복
         yield return new WaitForSeconds(time);
@@ -762,7 +724,6 @@ public partial class Player : Character
             yield break;
 
         state = State.Idle;
-        animator.SetInteger("Input", 0);
     }
 
     public override void Damaged(float damageAmount, float stiffenTime, Vector3 hitPoint)
@@ -773,8 +734,7 @@ public partial class Player : Character
      */
     {
         // 구르기 중 피격하지 않음
-        if (state == State.Roll
-            || state == State.Die
+        if (state == State.Die
             || invincibility)
             return;
 
@@ -845,7 +805,6 @@ public partial class Player : Character
         {
             Debug.Log("You Die");
             state = State.Die;
-            animator.SetInteger("Input", -999);
             return;
         }
 
@@ -862,5 +821,141 @@ public partial class Player : Character
 
 
     }
+
+}
+
+
+public enum BasicAttack
+{
+    Valkyrie,
+    Rapier,
+    Infinity,
+    MagicBall,
+    Berserker,
+}
+
+public enum ShiftSkill
+{
+    Rolling,
+    Dash,
+    Teleporting,
+}
+
+public enum WeaponSkillSet
+{
+    Valkyrie,
+    Rapier,
+    Bastard,
+    Katana,
+    Staff,
+    Gladius,
+    ShortSword,
+    LongSword,
+}
+
+public enum Parrying
+{
+    Basic,
+}
+
+/*
+ * 기본공격, 회피기, 스킬
+ */
+public partial class Player : Character
+{
+    public BasicAttack basicAttack;
+    public WeaponSkillSet weaponSkillSet;
+    public ShiftSkill shiftSkill;
+
+    void BasicAttack_Valkyrie()
+    {
+
+    }
+
+    void ShiftSkill_Roll()
+    {
+        Vector3 playerFront = gameObject.transform.forward;
+        Vector3 playerRight = gameObject.transform.right;
+        playerFront.y = 0;
+        playerRight.y = 0;
+        playerFront = playerFront.normalized;
+        playerRight = playerRight.normalized;
+
+        rigidbody.velocity = new Vector3(0, 0, 0);
+        float frontForce = 0;
+        float rightForce = 0;
+
+        int rollDir = 0;
+
+        // 입력에 따른 방향 계산
+        // 좌우
+        if (Input.GetKey(KeyCode.A))
+        {
+            rollDir += 4;
+            rightForce = -20000;
+        }
+        else if (Input.GetKey(KeyCode.D))
+        {
+            rollDir += 9;
+
+            rightForce = 20000;
+        }
+        // 전후
+        if (Input.GetKey(KeyCode.S))
+        {
+            rollDir += 16;
+            frontForce = -20000;
+        }
+        else if (Input.GetKey(KeyCode.W))
+        {
+            rollDir += 1;
+            frontForce = 20000;
+        }
+
+        if (frontForce != 0 && rightForce != 0)
+        {
+            frontForce /= Mathf.Sqrt(2);
+            rightForce /= Mathf.Sqrt(2);
+        }
+
+        // 애니메이션 및 물리 적용
+        if (!(frontForce == 0 && rightForce == 0))
+        {
+            switch(rollDir)
+            {
+                case 1:
+                    state = State.RollForward;
+                    break;
+                case 4:
+                    state = State.RollLeft;
+                    break;
+                case 5:
+                    state = State.RollForwardLeft;
+                    break;
+                case 9:
+                    state = State.RollRight;
+                    break;
+                case 10:
+                    state = State.RollForwardRight;
+                    break;
+                case 16:
+                    state = State.RollBackward;
+                    break;
+                case 20:
+                    state = State.RollBackwardLeft;
+                    break;
+                case 25:
+                    state = State.RollBackwardRight;
+                    break;
+            }
+
+            rigidbody.AddForce(playerFront * frontForce);
+            rigidbody.AddForce(playerRight * rightForce);
+
+            remainShiftCoolTime = shiftCoolTime;
+        }
+    }
+
+    
 
 }
