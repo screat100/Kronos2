@@ -11,8 +11,18 @@ public enum EquipmentType
 public class Equipment : MonoBehaviour
 {
     
+    [Header("Equipment Type")]
+    public EquipmentType equipmentType;
+    public BasicAttack basicAttack;
+    public ShiftSkill shiftSkill;
+    public WeaponSkillSet weaponSkillSet;
+    public Parrying parrying;
 
-    [Header("Equipment Status")]
+    [Header("Equipment Level")]
+    public int level;
+    public float playtime;
+    public float accumulatedPlaytime;
+
     public int HP;
     public int attack;
     public int shield;
@@ -27,7 +37,5 @@ public class Equipment : MonoBehaviour
     public float time;
 
    
-    public EquipmentType equipmentType;
-
 
 }

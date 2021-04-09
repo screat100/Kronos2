@@ -15,10 +15,10 @@ public partial class Player : Character
         Defend=20, // 방어
 
         //기본공격
-        Attack, // 공격
+        ValkyrieAtk01=10001, ValkyrieAtk02=10002, ValkyrieAtk03=10003,
 
         //회피기(Shift)
-        RollForward=41, RollLeft=44, RollRight=49, RollBackward=56, RollForwardLeft=45, RollForwardRight=50, RollBackwardLeft=60, RollBackwardRight=65,
+        RollForward =1001, RollLeft=1004, RollRight= 1009, RollBackward= 1006, RollForwardLeft= 1005, RollForwardRight= 1010, RollBackwardLeft= 1020, RollBackwardRight= 1025,
         
     }
 
@@ -431,14 +431,16 @@ public partial class Player : Character
     void Attack()
     /*
      * 좌클릭 입력을 감지해 기본공격 애니메이션 및 움직임 재생
-     * Input 20~22 : 각각 기본공격 1타~3타
      */
     {
-        return;
-
-        if ((state != State.Idle
+        if (
+            (
+            state != State.Idle
             && (state != State.WalkForwardBattle && state != State.WalkBackwardBattle && state != State.WalkLeftBattle && state != State.WalkRightBattle)
-            && state != State.Attack) || state == State.Die)
+            && (state != State.ValkyrieAtk01 && state!= State.ValkyrieAtk02 && state != State.ValkyrieAtk03)
+            ) 
+            || state == State.Die)
+
             return;
 
         //조건문 : 공격중이라면
@@ -450,7 +452,15 @@ public partial class Player : Character
 
         if (Input.GetMouseButtonDown(0))
         {
-            rigidbody.velocity = new Vector3(0, 0, 0);
+            rigidbody.velocity = new Vector3(0, rigidbody.velocity.y, 0);
+
+            switch(basicAttack)
+            {
+                case BasicAttack.Valkyrie:
+                    BasicAttack_Valkyrie();
+                    break;
+            }
+
 
             if ((int)state >= (int)State.Idle && (int)state <= (int)State.WalkBackwardBattle)
             {
@@ -623,10 +633,7 @@ public partial class Player : Character
 
     void ShiftSkill()
     /*
-     * Shift로 구르기
-     * 40 이상 70 미만
-     * (+1) : 앞으로, (+4) 왼쪽으로, (+9) 오른쪽으로, (+16) 뒤로
-     * 대각선은 두 숫자의 합
+     * 회피기
      */
     {
         if (state != State.Idle
@@ -642,27 +649,15 @@ public partial class Player : Character
                     ShiftSkill_Roll();
                     break;
 
+                case global::ShiftSkill.Dash:
+                    break;
 
-
+                case global::ShiftSkill.Teleporting:
+                    break;
             }
-
         }
-
-
     }
 
-    void OnRoll()
-    {
-
-    }
-
-    void RollEnd()
-    /*
-     * 구르기가 끝나면 애니메이션에서 호출하는 함수
-     */
-    {
-        state = State.Idle;
-    }
 
 
 
@@ -956,6 +951,18 @@ public partial class Player : Character
         }
     }
 
-    
+
+    // 구르기 애니메이션에서 호출하는 함수, 구르기 사운드 재생
+    void OnRoll()
+    {
+
+    }
+
+    //구르기가 끝나면 애니메이션에서 호출하는 함수
+    void RollEnd()
+    {
+        state = State.Idle;
+    }
+
 
 }
